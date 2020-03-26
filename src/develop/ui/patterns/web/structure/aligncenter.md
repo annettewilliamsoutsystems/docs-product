@@ -3,76 +3,55 @@ tags: runtime-traditionalweb;
 summary: AlignCenter places content horizontally or vertically within a container.
 ---
 
-# AlignCenter
+# Align Center
 
-Place content to horizontally or vertically align to the center of the container.
 
-Use AlignCenter to center content horizontally or vertically within a container and to align many elements with different heights or widths.  
 
-**How to use**
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Add two or more elements inside the placeholder and they will be centered according to the selected orientation.
+You can use Align Center UI pattern to center content horizontally or vertically on the screen. 
 
-1. Drag AlignCenter pattern into the preview.
 
-1. Drag the UserInitials pattern into AlignCenter placeholder.
 
-1. In the Name input parameter, type "Scott Ritchie" (for instance).
+**How to Use the Align Center**
+
+1. In Service Studio, select the **Interface** tab.
+
+2. On the left side of the screen, in the **Search** field, enter **Align Center**. 
+    
+    The Align Center block is displayed. 
+
+     ![](<images/aligncenter-image-9.png>)
+
+3. From the Toolbox, drag the Align Center block onto your application's screen.  
+
+ 5. Drag the User Initials pattern into Align Center placeholder.
+
+ 1. In the Name property, enter a name, for example **Scott Ritchie**.
 
     ![](<images/aligncenter-image-1.png>)
 
-1. Drag the Text widget into AlignCenter placeholder and type "Scott Ritchie".
+1. Drag the Text widget into the Align Center placeholder and enter  **Scott Ritchie**.
 
     ![](<images/aligncenter-image-2.png>)
 
-1. Publish and test.
+    When publshed, the user initials and text appears center aligned.
 
-![](<images/aligncenter-image-3.png>)
+    ![](<images/aligncenter-image-3.png>)
 
-## Input Parameters
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+After following these steps and publishing the module, you can test the pattern in your app.
+
+## Properties
+
+| **Property** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| Orientation  |  Set the orientation of the content inside. | Orientation Identifier | False | Entities.Orientation.Horizontal |
-| ExtendedClass  |  Add custom style classes to this Block. | Text | False | none |
+| Orientation (Orientation Identifier): False  |  Set the orientation of the content inside. | 
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
-## Layout and Classes
 
-![](<images/aligncenter-image-4.png>)
+## See Also
 
-## CSS Selectors
+* OutSystems UI Live Style Guide: [Align Center](https://outsystemsui.outsystems.com/WebStyleGuidePreview/AlignCenter.aspx)
+* OutSystems UI Pattern Page: [Align Center](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=4)
 
-| **Element** |  **CSS Class** |  **Description**  |
-| --- | --- | --- |
-| .center-align | .center-align.flex-direction-row | When Orientation parameter is Horizontal |
-| .center-align | .center-align.flex-direction-column | When Orientation parameter is Vertical |
-
-## Advanced Use Case
-
-### Set vertical align with custom content
-
-1. Drag the AlignCenter pattern into the preview.
-
-1. Set the Orientation parameter to Vertical.
-
-    ![](<images/aligncenter-image-5.png>)
-
-1. Drag an image into the AlignCenter placeholder and add the `border-radius-circle` class.
-
-1. Drag a container into AlignCenter placeholder and set the horizontal alignment to Center.
-
-1. In the container, add a Text widget with the text "Scott Ritchie" and have its Style Class set to `heading-4`.
-
-1. Add another Text widget with the text "Marketing Communications Manager" and enclose it in a container.
-    
-    ![](<images/aligncenter-image-6.png>)
-
-1. Drag a container into the AlignCenter placeholder and add a Text widget.
-
-1. Type the text "02 Jan" and have its Style Class set to `font-size-xs text-neutral-6`.
-
-    ![](<images/aligncenter-image-7.png>)
-
-1. Publish and test.
-
-    ![](<images/aligncenter-image-8.png>)

@@ -4,63 +4,44 @@ summary: Columns split content into multiple columns with responsive capabilitie
 ---
 
 # Columns
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Split content into multiple columns with responsive capabilities to improve the way information is displayed.
+You can use the Columns pattern to split content into multiple columns with responsive capabilities, improving the way information is displayed on screen.
 
-**How to use**
+ ![](<images/columns-image-4.png>)
 
-Place this pattern on your Web Screen and simply add content to each placeholder.
 
-1. Drag the Columns pattern into the preview.
-1. Set the content you need on the placeholders.
+**How to Use the Columns UI Pattern**
+
+
+1. In Service Studio, select the **Interface** tab.
+
+1. On the left side of the screen, in the **Search** field, enter **Column**. 
+    
+    The various Column blocks are displayed. 
+
+    ![](<images/columns-image-5.png>)
+
+1. From the Toolbox, drag the relevant Column block onto your application’s screen.
+1. Add the required content to the Column block, for example, counters.
 
     ![](<images/columns-image-1.png>)
 
-1. Set the Input Parameters to extend the default values.
-
+1. On the **Properties** tab, set the relevant properties for the Column block.
     ![](<images/columns-image-2.png>)
 
-## Input Parameters
+After following these steps and publishing the module, you can test the pattern in your app.
+  
+## Properties
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Property** |  **Description** |
 |---|---|---|---|---|
-| GutterSize | Set the gutter size. | GutterSize Identifier | False | Entities.GutterSize.Gutter_L |
-| TabletBehavior | Responsive behavior for tablet. | BreakColumns Identifier | False | Entities.BreakColumns.None |
-| PhoneBehavior | Responsive behavior for phone. | BreakColumns Identifier | False | Entities.BreakColumns.All |
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | None |
+| GutterSize (GutterSize Identifier): Optional | Set the gutter size. | 
+| TabletBehavior (BreakColumns Identifier): Optional | Responsive behavior for tablets. 
+| PhoneBehavior (BreakColumns Identifier): Optional | Responsive behavior for phones. | 
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
-## Layout and Classes
 
-![](<images/columns-image-3.png>)
-
-## CSS Selectors
-
-| **Element** |  **CSS Class** |  **Description**  |
-| ---|---|---
-| .columns | .columns2 |  When is the Columns2 Pattern  |
-| .columns | .columns3 |  When is the Columns3 Pattern  |
-| .columns | .columns4 |  When is the Columns4 Pattern  |
-| .columns | .columns5 |  When is the Columns5 Pattern  |
-| .columns | .columns6 |  When is the Columns6 Pattern  |
-| .columns | .columns-medium-left |  When is the ColumnsMediumLeft Pattern  |
-| .columns | .columns-medium-right |  When is the ColumnsMediumRight Pattern  |
-| .columns | .columns-small-left |  When is the ColumnsSmallLeft Pattern  |
-| .columns | .columns-small-right |  When is the ColumnsSmallRight Pattern  |
-| .columns | .gutter-none | When Columns have no Gutter between column item |
-| .columns | .gutter-xs | When Columns have 4px Gutter between column items |
-| .columns | .gutter-s | When Columns have 8px Gutter between column items |
-| .columns | .gutter-base | When Columns have 16px Gutter between column items |
-| .columns | .gutter-m | When Columns have 24px Gutter between column items |
-| .columns | .gutter-l | When Columns have 32px Gutter between column items |
-| .columns | .gutter-xl | When Columns have 40px Gutter between column items |
-| .columns | .gutter-xxl | When Columns have 48px Gutter between column items |
-| .columns | .tablet-break-all | When Columns will break all column items in tablet |
-| .columns | .tablet-break-first | When Columns will break the first column item in tablet |
-| .columns | .tablet-break-last | When Columns will break the last column item in tablet |
-| .columns | .tablet-break-middle | When Columns will break in the middle of column item in tablet |
-| .columns | .tablet-break-none | When Columns will not break in tablet |
-| .columns | .phone-break-all | When Columns will break all column items in phone |
-| .columns | .phone-break-first | When Columns will break the first column item in phone |
-| .columns | .phone-break-last | When Columns will break the last column item in phone |
-| .columns | .phone-break-middle | When Columns will break in the middle of column item in phone |
-| .columns | .phone-break-none | When Columns will not break in phone |
+## See Also
+* OutSystems UI Live Style Guide: [Columns](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Columns2.aspx)
+* OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=21)

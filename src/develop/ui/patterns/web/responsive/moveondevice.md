@@ -3,28 +3,37 @@ tags: runtime-traditionalweb;
 summary: MoveOnDevice defines where information is displayed thereby improving the display on different devices.
 ---
 
-# MoveOnDevice 
+# Move on Device
 
-Defines the target container for several elements in different devices without duplicating them.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use Move on Device to define where information is displayed thereby improving the display on different devices.
+You can use the Move on Device UI pattern to define the target container for several elements in different devices without duplicating them. Depending on the device, for example, a tablet or mobile phone, this UI pattern defines where information is displayed on the screen, thereby improving the display on the specified device.
 
-**How to use**
 
-1. Drag the MoveOnDevice pattern into the preview.
+**How to Use the Move on Device UI Pattern**
+**Prerequisite**: Your application must have containers. 
 
-    ![](<images/moveondevice-image-1.png>)
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Move on Device**. 
 
-1. Set the required content in the placeholder.
-1. Set the Ids of the target containers you want to move the content to.
+    The Move on Load on Visible block is displayed.
+
+
+3. From the Toolbox, drag the Move on Device block onto your application’s screen.
+4. Add the required content to the placeholder, for example, menu items or images. 
+5. Set the target container IDs you want to move the content to.
+
 
     ![](<images/moveondevice-image-2.png>)
 
-1. Publish and test.
+After following these steps and publishing the module, you can test the pattern in your app.
+## Properties
 
-## Input Parameters
-
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Properties** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| PhoneWidgetId | Target container that will receive this block on phones. | Text | No | none |
-| TabletWidgetId | Target container that will receive this block on tablets. | Text | No | none |
+| PhoneWidgetId (Text): Optional  | Target container receives this block on phones. |
+| TabletWidgetId (Text): Optional | Target container that receives this block on tablets. |
+
+
+## See Also
+* OutSystems UI Live Style Guide: [Move on Device](https://outsystemsui.outsystems.com/WebStyleGuidePreview/MoveOnDevice.aspx)

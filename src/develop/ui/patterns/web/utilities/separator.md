@@ -5,58 +5,38 @@ summary: Separator distributes content into clear groups and ease visual organiz
 
 # Separator
 
-Separate content clearly to help visual organization.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use the Separator to distribute content into clear groups and ease visual organization.
+You can use the Separator UI pattern to separate content clearly which eases visual organization.
 
-**How to use**
 
-To use the vertical separator, the parent element needs to have a defined height.
+  ![](<images/separator-image-1.png>)
 
-1. Drag Separator pattern into the preview.
+**How to Use the Separator UI Pattern**
 
-1. Publish and test.
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Separator**. 
 
-    ![](<images/separator-image-1.png>)
+    The Separator block is displayed.
 
-## Input Parameters
+      ![](<images/separator-image-4.png>)
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+  
+After following these steps and publishing the module, you can test the pattern in your app.
+
+## Properties
+
+| **Property** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| Color  | Set the color. | Color Identifier | False | Entities.Color.Neutral4 |
-| Space  | Set the space around the Separator line. | Space Identifier | False | Entities.Space.Base |
-| IsVertical  | If set as true, then the Separator becomes vertical. | Boolean | False | False |
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | none |
+| Color (Color Identifier): Optional  | Set the color. |
+| Space (Space Identifier): Optional |Set the space around the separator line. | 
+| IsVertical (Boolean): Optional |If set to True, the separator line is vertical. |
+| ExtendedClass (Text): Optional |  Adds custom style classes to the block.|
 
 
-## Layout and Classes
 
-![](<images/separator-image-2.png>)
 
-## CSS Selectors
 
-| **Element** |  **CSS Class** |  **Description**  |
-| --- | --- | --- |
-| .separator | .separator-horizontal |  When IsVertical parameter is False  |
-| .separator | .separator-vertical |  When IsVertical parameter is True  |
-
-## Advanced Use Case
-
-### Use the vertical separator
-
-1. Drag a container into the preview.
-
-1. Create a class called "separator-height".
-
-    ```css
-    .separator-height {
-        height: 100px;
-    }
-    ```
-1. Drag the Separator pattern into the container.
-
-1. Set the IsVertical parameter to True.
-
-1. Publish and test.
-
-    ![](<images/separator-image-3.png>)
+## See Also
+* OutSystems UI Live Style Guide: [Separator](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Separator.aspx)
+* OutSystems UI Pattern Page: [Separator](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=66)

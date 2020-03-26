@@ -3,24 +3,30 @@ tags: runtime-traditionalweb;
 summary: LoadOnVisible improves both the actual and perceived speed of your application.
 ---
 
-# LoadOnVisible 
+# Load on Visible 
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Uses the viewport position for lazy loading content.
+You can use the Load on Visible UI pattern to enhance the speed of your application as well as improve  user experience. Using this UI pattern,  information is loaded onto the page only when it is visible. For example, instead of loading all text and images onto a page at once, they only appear when the user scrolls down the page and the information/image becomes visible.
 
-Use Load on Visible to improve both the actual and perceived speed of your application. Usually response time should be as fast as possible, but sometimes the system reacts so quickly that the end user cannot keep up with the feedback. 
+**How to Use the Load on Display UI Pattern**
 
-**How to use**
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Load on Visibl**e. 
 
-1. Drag the LoadOnVisible pattern into the preview.
+    The Load on Visible block is displayed.
 
-    ![](<images/loadonvisible-image-1.png>)
+3. From the Toolbox, drag the Load on Visible block onto your application's screen.
+4. Add the relevant content to the placeholders, for example, images.
 
-1. Set the required content in the placeholders.
+After following these steps and publishing the module, you can test the pattern in your app.
 
-1. Publish and test.
+
+
 
 ## Layout and Classes
 
 ![](<images/loadonvisible-image-2.png>)
 
 
+## See Also
+* OutSystems UI Live Style Guide: [Load on Visible](https://outsystemsui.outsystems.com/WebStyleGuidePreview/LoadOnVisible.aspx)

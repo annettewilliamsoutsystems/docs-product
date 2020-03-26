@@ -3,26 +3,33 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# Columns Pattern
+# Columns 
 
-The Columns pattern 
-enables you to split content into multiple columns. You can configure the
-behavior using the input parameters. They will define how columns will stack
-in different devices. This is ideal to improve the way information is
-displayed across different devices. You can use this pattern to display a list
-of elements side by side, with a different number of items per row on
-different devices.
+**_Note:_**  _Applicable to Reactive Web Apps Only_.
 
-Here's the preview , in Service Studio, of the different ways columns can be split into:
+You can use the Columns UI pattern to split content into multiple columns. Additionally, you can configure the columns' behavior and define how they display on different devices. Splitting content into columns improves how information is displayed and enhances the overall user experience.
+
+<!---You can split the columns as follows:
 
 ![](images/Column_Gutter.png)
 
-![](images/Column_columns.png)
+![](images/Column_columns.png)--->
 
-## How to Use the Columns Pattern
+## How to Use the Columns UI Pattern
 
-Configure the behavior using the input parameters to define how columns will
-stack in different devices.
+1. In Service Studio, select the **Interface** tab.
+
+1. On the left side of the screen, in the **Search** field, enter **Columns**. 
+    
+    The various Column blocks are displayed. 
+
+     ![](<images/columns-image-1.png>)
+
+1. From the Toolbox, drag the relevant Columns block onto your application's screen. 
+
+1. On the **Properties** tab, configure the column behavior to define how the columns will display on different devices.
+
+After following these steps and publishing the module, you can test the pattern in your app.
 
 For an uneven number of columns, the following splits apply:
 
@@ -42,22 +49,24 @@ For an uneven number of columns, the following splits apply:
 
 ![](images/Column_break_first.png)
 
-## Input Parameters
+## Properties
 
-**Input Name** |  **Description** |  **Default Value**  
+**Property** |  **Description** |  **Default Value**  
 ---|---|---  
 ![](images/input.png) UseGutter  |  Creates a space between columns.  | True  
-![](images/input.png) PhonePortraitBreak  |  Behavior of the columns in a Phone with Portrait orientation.  |  BreakNone  
-![](images/input.png) PhoneLandscapeBreak  |  Behavior of the columns in a Phone with Landscape orientation.  |  BreakNone  
-![](images/input.png) TabletPortraitBreak  |  Behavior of the columns in a Tablet with Portrait orientation.  |  BreakNone  
-![](images/input.png) TabletLandscapeBreak  |  Behavior of the columns in a Tablet with Landscape orientation.  |  BreakNone  
+![](images/input.png) PhonePortraitBreak  |  Behavior of the columns on a phone with portrait orientation.  |  BreakNone  
+![](images/input.png) PhoneLandscapeBreak  |  Behavior of the columns on a phone with landscape orientation.  |  BreakNone  
+![](images/input.png) TabletPortraitBreak  |  Behavior of the columns on a tablet with portrait orientation.  |  BreakNone  
+![](images/input.png) TabletLandscapeBreak  |  Behavior of the columns on a tablet with landscape orientation.  |  BreakNone  
   
-## Layout and Classes
-
-![](images/Column_layout.png)
-
 ## Samples
 
 See how the [Account Dashboard sample](https://silkui.outsystems.com/Samples_Mobile.aspx#Mobile_Details-Samples_AccountDashboard) uses the Columns pattern:
 
 ![](images/Sample_Account_Dashboard.png)
+
+## See Also
+
+* OutSystems UI Live Style Guide: [Columns](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Columns6.aspx)
+* OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=25)
+

@@ -3,29 +3,40 @@ tags: runtime-traditionalweb;
 summary: DisplayOnDevice improves the way information is displayed on different devices.
 ---
 
-# DisplayOnDevice 
+# Display on Device 
 
-Use to select if an element should be loaded in a specific device.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use DisplayOnDevice to improve the way information is displayed on different devices. Choose the elements you don't want to show on mobile devices and avoid loading excess data.
+You can use the Display on Device UI pattern to select what elements are displayed on which devices. The Display on Device UI pattern improves the way information is displayed on different devices. 
 
-**How to use**
 
-1. Drag the DisplayOnDevice pattern into the preview.
+**How to Use the Display on Device UI Pattern**
 
-    ![](<images/displayondevice-image-1.png>)
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Display on Device**. 
 
-1. Set the content you need in the placeholders.
+    The Display on Device block is displayed. 
+    
+    ![](<images/displayondevice-image-3.png>)
 
-1. Choose the Behavior from the dropdown list.
+3. From the Toolbox, drag the Display on Device block onto your application's screen. 
+
+4. Add the relevant content to the placeholders, for example, images or counters.
+
+5. On the **Properties** tab, from the Behavior dropdown list, choose the behavior you want to apply to the content.
 
     ![](<images/displayondevice-image-2.png>)
 
-1. Publish and test.
 
-## Input Parameters
+After following these steps and publishing the module, you can test the pattern in your app.
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+## Properties
+
+| **Property** |  **Description** | **Usage** |
 |---|---|---|---|---|
-| Behavior | Use to select if an element should be loaded in a specific device. Especially helpful to avoid too much data being loaded in mobile devices. Set up the content of the pattern and then change the devices where it will be displayed. | DeviceResponsive Identifier | Yes | none |
+| Behavior (DeviceResponsive Identifier): Mandatory | Select the device upon which the content is displayed. |
+
+## See Also
+* OutSystems UI Live Style Guide : [Display on Device](https://outsystemsui.outsystems.com/WebStyleGuidePreview/DisplayOnDevice.aspx)
+* OutSystems UI Pattern Page: [Display on Device](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=32)
 

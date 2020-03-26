@@ -3,7 +3,7 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# LightBoxImage Pattern
+# Lightbox Image Pattern
 
 The LightBoxImage pattern is a block with one single placeholder for a thumbnail image. You can use either local images or an external URL, using the ImageURL parameter on the block. To open items, you need to drag the **Utilities\LightboxImage** block to the screen. Use this pattern when you want to highlight and view in detail images in a higher resolution.
 

@@ -5,38 +5,44 @@ summary:
 
 # Carousel Pattern
 
-The Carousel Pattern
-enables you to display multiple items in a horizontal slide. Elements inside
-the placeholder will be split into different items. For dynamic content, use a
-List directly inside the placeholder. The Carousel block is ideal to create
-horizontal slides in smaller screens.
+**_Note:_**  _Applicable to Reactive Web Apps Only_.
 
-Here's the preview in Service Studio:
+You can use the Carousel UI pattern
+to display multiple items in a horizontal slide. This pattern is ideal for creating
+horizontal slides in smaller screens. You can also use this pattern for dynamic content, by placing a
+List directly inside the placeholder. 
+
 
 ![](images/Carousel_studio_preview.png)
 
-## How to Use the Carousel Pattern
+## How to Use the Carousel UI Pattern
 
-Drag the elements into the placeholder to split them into different items. For
-dynamic content, use a List directly inside the placeholder, disable
-virtualization and set the **Animated** items to _False_ . The List Items will
-be Carousel Items, by default.
+1. In Service Studio, select the **Interface** tab.
 
-1\. Drag the Carousel Pattern into your screen.
+1. On the left side of the screen, in the **Search** field, enter **Carousel**. 
+    
+    The Carousel block is displayed. 
 
-![](images/Carousel_drag_pattern.png)
+   ![](images/carousel-ui-icon.png)
 
-2\. Place your content into the **CarouselItems** placeholder. To use a List,
-drag it into **CarouseItems** placeholder (disable virtualization and set
-**Animated items** to _False_ ).
+1. From the Toolbox, drag the Carousel block onto your application's screen. 
 
-![](images/Carousel_items.png)
+    ![](images/Carousel_drag_pattern.png)
 
-3\. All available options have default parameters, but you can change them.
 
-![](images/Carousel_parameters.png)
+1. Place your content into the **Carousel Items** placeholder. 
 
-4\. Publish your app.
+    To use a List, drag it into **Carousel Items** placeholder (disable virtualization and set **Animated items** to _False_ .
+
+    ![](images/Carousel_items.png)
+
+
+
+1. All available options have default properties, but you can change them.
+
+    ![](images/Carousel_parameters.png)
+
+After following these steps and publishing the module, you can test the pattern in your app.
 
 ### Customizing the Dots
 
@@ -188,9 +194,9 @@ actions.
 
 ![](images/Carousel_list_remove.png)
 
-## Input Parameters
+## Properties
 
-Input Name |  Description |  Default Value  
+Property |  Description |  Default Value  
 ---|---|--- 
  ![](images/input.png)  Navigation  |  Enable or disable buttons to navigate left and right.  |  _False_
  ![](images/input.png)  Dots  |  Enable or disable dots to represent items on the Carousel, which can be tapped to navigate directly to a given item.  | _True_
@@ -209,17 +215,6 @@ Input Name |  Description |  Default Value
 ---|---|---  
 ![](images/Event.png) OnItemChange  |  Returns the active item's current position.  |  False  
   
-## Layout and Classes
-
-![](images/Carousel_ayout.png)
-
-## CSS Selectors
-
-**Element** |  **CSS Class** |  **Description**  
----|---|---  
-![](images/css_selector.png) Carousel Wrapper  |  .carousel  |  Container that wraps all Carousel elements.  
-![](images/css_selector.png) Navigation Dots  |  .carousel-dot  |  All dots that represent the number of Carousel items.  
-![](images/css_selector.png) Selected Navigation Dot  |  .carousel-dot.active  |  The dot that represents the currently active item.  
   
 ## Compatibility with Other Patterns
 
@@ -230,3 +225,7 @@ Avoid using the Carousel inside patterns with swipe events, like Tabs Stacked Ca
 See how the [Product Dashboard sample](https://silkui.outsystems.com/Samples_Mobile.aspx#Mobile_Content-Samples_ProductDashboard) uses the Carousel pattern:
 
 ![](images/Sample_Product_Dashboard.png)
+
+## See Also
+* OutSystems UI Live Style Guide: [Carousel](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Carousel.aspx)
+* OutSystems UI Pattern Page: [Carousel](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=17)

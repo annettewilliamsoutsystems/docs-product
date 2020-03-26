@@ -5,29 +5,40 @@ summary: Counter shows the total number of occurrences of several values regardi
 
 # Counter
 
-Give feedback about the current count of several elements.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use the Counter to show the total number of occurrences of several values regarding a single topic.
+You can use the Counter UI pattern to give feedback about the current count of several elements and to show the total number of occurrences of several values regarding a single topic.
 
-**How to use**
+![](<images/counter-image-5.png>)
 
-Add content to the placeholder and set the orientation and height of the pattern.
+**How to Use the Counter UI Pattern**
 
-1. Drag the Counter pattern into the preview.
 
-1. Set the Input Parameters to extend the default values.
+1. In Service Studio, select the **Interface** tab.
 
-1. Publish and test.
+2. On the left side of the screen, in the **Search** field, enter **Counter**.
+   
+    The Counter block is displayed.
+    
+    ![](<images/counter-image-6.png>)
+    
+  
 
-    ![](<images/counter-image-1.png>)
 
-## Input Parameters
+3. From the Toolbox, drag the Counter block onto your application’s screen.
+4. On the **Properties** tab, set the relevant properties.
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+    ![](<images/counter-image-3.png>)
+
+After following these steps and publishing the module, you can test the pattern in your app.
+
+## Properties
+
+| **Property** |  **Description** | **Usage** |
 |---|---|---|---|---|
-| Orientation  | Set the orientation. | Orientation Identifier | False | Entities.Orientation.Horizontal |
-| Height  | Height of the block, use Pixel units. | Text | False | 100 |
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | none |
+| Orientation (Orientation Identifier): Optional  | Set the orientation. |
+| Height (Text): Optional  | Height of block (pixel units). | 
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. | 
 
 ## Layout and Classes
 
@@ -64,3 +75,9 @@ Add content to the placeholder and set the orientation and height of the pattern
 1. Publish and test.
     
     ![](<images/counter-image-5.png>)
+
+
+  ## See Also
+
+* OutSystems UI Live Style Guide: [Counter](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Counter.aspx)
+* OutSystems UI Pattern Page: [Counter](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=30)

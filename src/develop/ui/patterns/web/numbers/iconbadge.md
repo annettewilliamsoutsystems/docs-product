@@ -3,34 +3,44 @@ tags: runtime-traditionalweb;
 summary: IconBadge displays numerical information as notification.
 ---
 
-# IconBadge
+# Icon Badge
+ **_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Display numerical information as notification.
+You can use the Icon Badge UI pattern to display numerical information as a notification. This UI pattern is frequently used to notify users about new messages or tasks.
 
-Use the Icon Badge to notify the user of numerical information. It is frequently used to notify users about new messages or tasks. 
+![](<images/iconbadge-image-1.png>)
 
-**How to use**
+
+**How to Use the Icon Badge UI Pattern**
 
 Add an icon to the placeholder, then set the color and apply the light theme.
 
-1. Drag IconBadge pattern into the preview.
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Icon Badge**.
 
-1. Change the pattern values and icon.
+    The Icon Badge block is displayed.
 
-1. Publish and test.
+    ![](<images/iconbadge-image-3.png>)
 
-    ![](<images/iconbadge-image-1.png>)
+1. From the Toolbox, drag the Icon Badge block onto your application's screen. 
 
-## Input Parameters
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+1. On the **Properties** tab, set the relevant properties for the Icon Badge block.
+
+    ![](<images/iconbadge-image-4.png>)
+    
+After following these steps and publishing the module, you can test the pattern in your app.
+
+## Properties
+
+| **Property** |  **Description** |  **Usage** |
 |---|---|---|---|---|
-| Number  |  Number that will appear inside the badge over the icon. | Integer | False | 0 |
-| Color  |  Color of the badge over the icon. | Color Identifier | False | Entities.Color.Primary |
-| IsLight  |  Use the lightest color version for the background and the darker color version for the text. | Boolean | False | False |
-| ExtendedClass  |  Add custom style classes to this Block. | Text | False | none |
+| Number (Integer): Optional  |  Number that appears inside the icon badge. |
+| Color (Color Identifier): Optional  |  Color of icon badge. | 
+| IsLight (Boolean): Optional|  Use the lightest color version for the background and the darker color version for the text. |
+| ExtendedClass (Text):Optional  |  Add custom style classes to the Block. |
 
-## Layout and Classes
 
-![](<images/iconbadge-image-2.png?width=650>)
-
+## See Also
+* OutSystems UI Live Style Guide: [Icon Badge](https://outsystemsui.outsystems.com/WebStyleGuidePreview/IconBadge.aspx)
+* OutSystems UI Pattern Page: [Icon Badge](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=43)

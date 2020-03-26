@@ -5,60 +5,59 @@ summary: Breadcrumbs present the location of the user within the hierarchy of ap
 
 # Breadcrumbs
 
-Present the location of the user within the hierarchy of applications.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use Breadcrumbs to reduce the number of actions required from the user to reach a higher-level page. Breadcrumbs are helpful visual aids in understanding the location within the hierarchy, making sections and pages easier to find and assisting with understanding the context.
+You can use the Breadcrumbs UI pattern as a navigational aid that helps users keep track of their location within the app.
 
-**How to use**
+  ![](<images/breadcrumbs-image-2.png>)
 
-1. Drag the Breadcrumbs pattern into preview.
+**How to Use the Breadcrumbs UI Pattern**
 
-1. Drag as many Breadcrumbs Items as you need.
+1. In Service Studio, select the **Interface** tab.
 
-1. Set the content you need in the placeholders. 
+2. On the left side of the screen, in the **Search** field, enter **Breadcrumbs**. 
+    
+    The Breadcrumbs block is displayed. 
+    
+    ![](<images/breadcrumbs-image-6.png>)
+
+3. From the Toolbox, drag the Breadcrumbs block onto your application's screen.
+
+4. Drag the required number of Breadcrumb Item blocks into the Content placeholder.
+    
+    ![](<images/breadcrumbs-image-7.png>)
+    
+    **Note**: Each Breadcrumb Item represents a different location in the breadcrumb trail.
+
+5. On the **Properties** tab, set the content in the placeholders, for example, titles, icons, and links to the relevant pages.
 
     ![](<images/breadcrumbs-image-1.png>)
 
-1. Publish and test.
 
-    ![](<images/breadcrumbs-image-2.png>)
+  After following these steps and publishing the module, you can test the pattern in your app.
 
-## Input Parameters
+## Properties
 
 ### Breadcrumbs
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Property** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | none |
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. | 
 
-### Breadcrumbs Item
+### Breadcrumb Item
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Property** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | none |
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
-## Layout and Classes
 
-![](<images/breadcrumbs-image-3.png>)
+## Additional Notes
 
-## Advanced Use Case
-
-### Use Breadcrumbs with ListRecords
-
-1. Drag the Breadcrumbs Pattern into preview.
-
-1. In the Content placeholder, drag a ListRecords widget.
-
-1. In the ListRecords widget, drag a Breadcrumbs Item.
-
-1. Inside the BreadcrumbsItem Pattern, use expressions to display the content.
-
-1. Publish and test.
-
-    ![](<images/breadcrumbs-image-4.png>)
-
-## Notes
-
-The Line Separator property of the ListRecords widget should be set to None.
+The Line Separator property of the ListRecords widget should be set to **None**.
 
 ![](<images/breadcrumbs-image-5.png>)
+
+## See Also
+
+* OutSystems UI Live Style Guide: [Gallery](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Breadcrumbs.aspx)
+* OutSystems UI Pattern Page: [Gallery](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=10)

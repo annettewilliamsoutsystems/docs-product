@@ -3,38 +3,54 @@ tags: runtime-traditionalweb;
 summary: CharacterCount displays the number of characters left to be entered in a target input field.
 ---
 
-# CharacterCount
+# Character Count
 
-Displays the number of characters left to be entered in a target input field.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use CharacterCount to inform users about the maximum number of characters they can enter in a given text area. Also show how many more characters can be entered.
+You can use the Character Count UI pattern to inform users about the maximum and remaining number of characters they can enter into an input field. 
 
-**How to use**
+[//]: # (Add preview screenshot here if possible)
 
-1. Drag an input into the preview.
+**How to Use the Character Count UI Pattern**
 
-1. Give a name to the input (for instance, CharacterCount).
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Input Count**.
 
-1. Set a variable type **text** to the input.
+    The Character Count block is displayed.
 
-1. Drag the CharacterCount pattern into the preview.
+    [//]: # (Add Input icon here)
+   
+3. From the Toolbox, drag the Input block onto your application's screen.
+4. Enter a name for the Input block, for example, CharacterCount.
 
-1. Set the InputWidgetId to the input name. 
+    ![](<images/charactercount-image-3.png>)
 
-1. Set the Limit property (for instance, 50).
+5. From the **Main Flow** menu, right-click **CharacterCount**, and choose **Add Local Variable**.
+ 
+
+6. Set the variable's **Data Type** to **Text**.
+       ![](<images/charactercount-image-4.png>)
+
+7. From the Toolbox, search for the Character Count pattern and drag it onto the screen.
+
+  [//]: # (Add Charcter Count icon here)
+
+8. On the **Properties** tab, set the **InputWidgetId** property to the Input block name (CharacterCount) and use the **Limit** property to set the maximum number of characters allowed, for example, 50.
+
 
     ![](<images/charactercount-image-1.png>)
 
-1. Publish and test.
+After following these steps and publishing the module, you can test the pattern in your app.
+## Properties
 
-## Input Parameters
-
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Properties** |  **Description** | **Usage** |
 |---|---|---|---|---|
-| InputWidgetId  | Input Element Name that will trigger the count. | Text | True | none |
-| Limit  | The character count limit. This value should be the same as the Max Length property in the input. | Integer | True | none |
-| IsDescending  | When set to false, the count will go from 0 to the limit that has been chosen on the Limit parameter. | Boolean | True | True
+| InputWidgetId (Text): Mandatory | Input element name that triggers the count. |
+| Limit (Integer): Mandatory  | Character count limit. This value should be the same as the Max Length for the input block. |
+| IsDescending (Boolean): Optional  | If set to False, the count goes from 0 to the limit set for the Limit property.|
 
-## Layout and Classes
 
-![](<images/charactercount-image-2.png>)
+
+
+## See Also
+* OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx)

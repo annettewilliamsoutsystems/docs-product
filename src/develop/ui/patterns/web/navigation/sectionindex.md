@@ -3,80 +3,56 @@ tags: runtime-traditionalweb;
 summary: SectionIndex organizes the content of a screen, enabling quick navigation within the page.
 ---
 
-# SectionIndex
+# Section Index
 
-Organizes the content of a screen, enabling quick navigation within the page.
+**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use the Section Index to organize the content of a screen, enabling quick navigation. Related content is preferably grouped adjacent to each other. 
+You can use the Section Index UI pattern to organize the content of a screen, enabling quick navigation within the page.
 
-**How to use**
+**How to Use the Section Index UI Pattern**
 
-Drag the SectionIndex pattern into the preview.
+**Prerequisite**: Your application screen contains sections.
 
-![](images/sectionindex-image-1.png)
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Section Index**. 
 
-It creates a link to every section you have on the page. The name of the link is based on the text you have in the Title placeholder of each section.
+    The Section Index block is displayed.
 
-![](<images/sectionindex-image-2.png?width=750>) 
-
-![](<images/sectionindex-image-3.png?width=750>)
+     ![](<images/sectionindex-image-5.png>)
 
 
-## Input Parameters
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+3. From the Toolbox, drag the Section Index block onto your application’s screen.
+
+    A link is automatically created to every section you have on the screen. The name of the link is based on the text you entered in the Title placeholder of each section.
+
+    ![](<images/sectionindex-image-2.png>)
+   
+After following these steps and publishing the module, you can test the pattern in your app.
+## Properties
+
+| **Property** |  **Description** |  **Usage** | 
 |---|---|---|---|---|
-| IsSmooth  |  If IsSmooth is true, the navigation to destination will animate. If set to false, it will navigate instantly. | Boolean | False | False |
-| IsFixed  |  If Fixed is true, SectionIndex will allways be in the same position within the screen. If set to false, it scrolls with the page content. |  Text | False | True |
-| TopPosition  |  Set the top position when the SectionIndex is fixed. Just insert the number, the pixels unit will be added automatically. |  Integer | False | none |
-| ExtendedClass  |  Add custom style classes to this Block. | Text | False | none |
+| IsSmooth (Boolean): Optional  |  If IsSmooth is True, the navigation to the destination is animated. If set to false, navigation is instant. |
+| IsFixed (Text): Optional  |  If Fixed is true, the Section Index is always in the same position on the screen. If Fixed is false, it scrolls with the page content. |
+| TopPosition (Integer): Optional  |  Distance in pixels from the top of the page to the first item in the section index.  |
+| ExtendedClass (Text): Optional |  Add custom style classes to the block. |
   
-## Layout and Classes
 
-![](<images/sectionindex-image-4.png>)
 
-## CSS Selectors
+## Additional Notes
 
-| **Element** |  **CSS Class** |  **Description**  |
-| ---|---|---  
-| .section-index |  .section-index.is--sticky|  Defines if the SectionIndex position is fixed or not  |
-| .section-index-item |  .section-index-item.is--active|  Defines the current active link  |
-
-## Advanced Use Case
-
-### Change active color
-
-1. Write the following CSS in the CSS editor and change the `yourcolor`.
-
-    `a.section-index-item.is--active {
-        border-left-color: yourcolor;
-        color: yourcolor;
-    }`
-
-1. Or using CSS variables: `var(--color-yourcolor)`.
-
-    `a.section-index-item.is--active {
-        border-left-color: var(--color-yourcolor);
-        color: var(--color-yourcolor);
-    }`
-
-For RTL compatibility, make sure to also add the following code:
-
-    `.is-rtl a.section-index-item.is--active {
-        border-right-color: yourcolor;
-        color: yourcolor;
-    }`
-
-## Notes
-
-Remember to use the Title placeholder in the Section pattern, as this will define the text for each SectionIndex link. 
+Remember to use the **Title** placeholder in the Section Index pattern as this defines the text for each SectionIndex link. 
 
 ## Device Compatibility
 
-In Internet Explorer `position: fixed` is used instead of `position sticky`, as the latter is unsupported.
+In Internet Explorer, `position: fixed` is used instead of `position sticky` as the latter is unsupported.
 
 ## Compatibility with other Patterns
 
-Only works with Section Pattern in the same screen.
+This UI pattern only works with the Section Pattern in the same screen.
 
+## See Also
+* OutSystems UI Live Style Guide: [Section index](https://outsystemsui.outsystems.com/WebStyleGuidePreview/SectionIndex.aspx)
+* OutSystems UI Pattern Page: [Section Index](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=65)
 

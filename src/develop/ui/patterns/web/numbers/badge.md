@@ -5,60 +5,55 @@ summary: Badge display numerical information as notification.
 
 # Badge
 
-Display numerical information as notification.
+ **_Note:_**  _Applicable to Traditional Web Apps Only_.
 
-Use the Badge to notify the user about numerical information such as new messages or tasks. 
+You can use the Badge UI pattern to display numerical information as a notification. The Badge UI pattern is frequently used to notify users about new messages or tasks.  
 
-**How to use**
+![](<images/badge-image-7.png>)
 
-Use the parameters to choose some options such as color, shape, size and light theme.
+**How to Use the Badge UI Pattern**
 
-1. Drag Badge pattern into the preview.
 
-1. Set the Input Parameters to extend the default values.
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Badge**.
 
-1. Publish and test.
+    The Badge block is displayed.
 
-    ![](<images/badge-image-1.png>)
+    ![](<images/badge-image-9.png>)
 
-## Input Parameters
+3. From the Toolbox, drag the Badge block onto your application's screen.
+4. On the **Properties** tab, set the relevant Badge properties, for example, color, shape, and size.
 
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+    ![](<images/badge-image-8.png>)
+
+
+After following these steps and publishing the module, you can test the pattern in your app.
+     
+
+
+## Properties
+
+| **Property** |  **Description** |  **Usage** |
 |---|---|---|---|---|
-| Number  | Number that will appear inside the badge. | Integer | False | 8 |
-| Color  | Set the color. | Color Identifier | False | Entities.Color.Primary |
-| Shape  | Set the shape. | Shape Identifier | False | Entities.Shape.Rounded |
-| Size  | Set the size. | Size Identifier | False | none |
-| IsLight  | Use the lightest color version for the background and the darker color version for the text. | Boolean | False | False |
-| ExtendedClass  |  Add custom style classes to this Block. |  Text | False | none |
-
-## Layout and Classes
-
-![](<images/badge-image-2.png>)
-
-## Advanced Use Case
-
-### Use a transparent Badge Pattern with a border
-
-1. Use Transparent in Color Value.
-
-1. In the ExtendedClass Input Parameter, choose the desired text color.
-
-    ![](<images/badge-image-3.png>)
-
-1. Choose the border size of the Badge.
-
-    ![](<images/badge-image-4.png>)
-    
-1. Publish and test.
-    
-    ![](<images/badge-image-5.png>)
+| Number (Integer): Optional  | Number that appears inside the badge. | 
+| Color (Color Identifier): Optional  | Set the badge color. | 
+| Shape (Shape Identifier): Optional  | Set the badge shape. | 
+| Size (Size Identifier): Optional  | Set the badge size. |
+| IsLight (Boolean): Optional  | If set to True, the lightest color version is applied to the background and a darker color applied to the text. If set to False, the darker color version is applied to the background, and the lighter color to the text. |
+| ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
 
 
-## Notes
+## Additional Notes
 
-If the number on Badge pattern is greater then 99, it is displayed as 99+.
+If the number on Badge pattern is greater than 99, it is displayed as 99+.
 
 ![](<images/badge-image-6.png>)
 
 
+
+  ## See Also
+
+* OutSystems UI Live Style Guide: [Badge](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Badge.aspx)
+* OutSystems UI Pattern Page: [Badge](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=7)
+
+ 

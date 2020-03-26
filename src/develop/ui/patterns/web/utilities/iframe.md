@@ -5,45 +5,39 @@ summary: Iframe displays information from other apps on the screen in small prev
 
 # Iframe
 
-Display additional information in one view.
+ **_Note:_**  _Applicable to Traditional Web Apps Only_.
+ 
+ You can use the Iframe UI pattern to display information from other applications on the screen as a small preview. For example, the Iframe UI pattern is often used to insert content from another source, such as an advertisement, into an application.
 
-Use Iframe to display information from other apps on the screen in small previews. 
+**How to Use the Iframe UI Pattern**
+1. In Service Studio, select the **Interface** tab.
+2. On the left side of the screen, in the **Search** field, enter **Iframe**.
 
-**How to use**
+    The Iframe block is displayed.
 
-1. Drag the Iframe pattern into the preview.
+    [//]: # (Add Iframe icon here)
+
+1. From the Toolbox, drag the Iframe block onto your application’s screen.
+
 
     ![](<images/iframe-image-1.png>)
 
-1. Set the mandatory values.
+1. On the **Properties** tab, set the relevant properties. 
+    ![](<images/iframe-image-5.png>)
 
-    ![](<images/iframe-image-2.png>)
+After following these steps and publishing the module, you can test the pattern in your app.
 
-1. Publish and test.
+## Properties
 
-## Input Parameters
-
-| **Input Name** |  **Description** |  **Type** | **Mandatory** | **Default Value** |
+| **Property** |  **Description** |  **Usage** |
 |---|---|---|---|---|
-| SourceURL  | The target URL to load on the Iframe. | Text | Yes | none |
-| Title  | Title for the iframe element. | Text | No | none |
-| Height  | Iframe height, default is 100%. | Text | No | 100% |
-| Width  | Iframe width, default is 100%. | Text | No | 100% |
+| SourceURL (Text): Mandatory   | The target URL that loads on the Iframe. | 
+| Title (Text): Optional | Iframe title.|
+| Height (Text): Optional  | Iframe height (default is 100%).|
+| Width (Text): Optional | Iframe width (default is 100%). |
   
-## Layout and Classes
 
-![](<images/iframe-image-3.png>)
 
-## Advanced Use Case
 
-### Change the Iframe width according to the device
-
-This can be very useful if you are using a fixed width.
-
-1. Set the Width to `If(IsDesktop(), "500px", "100%")`.
-
-1. Publish and test.
-
-    ![](<images/iframe-image-4.png>)
-
-You can change the condition of the width used. This code makes the width 500px on desktop, but on mobile, it is still full-width as the fixed width would probably overflow the screen.
+## See Also
+* OutSystems UI Live Style Guide: [Iframe](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Iframe.aspx)
