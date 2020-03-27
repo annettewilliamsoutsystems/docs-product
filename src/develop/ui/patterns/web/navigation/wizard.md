@@ -96,7 +96,6 @@ To ensure that all of the inforamtion the user enters is passed from step to ste
 1. Repeat these steps for the Previous button.
 
 
-
 After following all of the steps in each of the sections, you can publish the module, you can test the Wizard in your app.
 
 ## Properties
