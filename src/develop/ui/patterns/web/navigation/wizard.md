@@ -76,7 +76,6 @@ The following example demonstrates how you can create a three step Wizard with n
 
 1. Create variables for each of the elements in the step container. 
     
-
     ![](images/wizard-image-20.png)
 
 
