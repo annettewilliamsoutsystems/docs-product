@@ -63,7 +63,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
 
 1. Create a condition to control what is displayed, depending on what step is active.
-
+    
     ![](images/wizard-image-19.png)
 
 1. Add the relevant content to each for each of the steps.
