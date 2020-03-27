@@ -34,7 +34,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
 1. Rename each of the Wizard Items to Shopping Details, Payment Details, and Review Order respectively.
 
-    ![](images/wizard-image-14.PNG)
+    ![](images/wizard-image-14.png)
 
 1. Create an Input Parameter with the following properties:
     
@@ -64,7 +64,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
 1. Create a condition to control what is displayed, depending on what step is active.
     
-    ![](images/wizard-image-19.PNG)
+    ![](images/wizard-image-19.png)
 
 1. Add the relevant content to each for each of the steps.
 
