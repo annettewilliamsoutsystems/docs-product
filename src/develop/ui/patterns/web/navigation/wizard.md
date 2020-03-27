@@ -3,7 +3,7 @@ tags: runtime-traditionalweb;
 summary: Wizard splits complex tasks and process into steps.
 ---
 
-# Wizard
+# Wizard UI Pattern
 
 
 **_Note:_**  _Applicable to Traditional Web Apps Only_.
