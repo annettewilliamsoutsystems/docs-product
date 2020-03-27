@@ -50,7 +50,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
     ![](images/wizard-image-15.png)
 
-1. Create an expression that defines the status of each of the Wizard Items (current step, already completed, yet to be completed), depending on what stage the user is at.
+1. Create an expression that defines the status of each of the Wizard Items (current step, step already completed, step yet to be completed), depending on what stage the user is at.
 
     ![](images/wizard-image-16.png)
 
