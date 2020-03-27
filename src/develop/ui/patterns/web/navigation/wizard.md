@@ -87,10 +87,11 @@ To ensure that all of the inforamtion the user enters is passed from step to ste
 1. Select the Previous button.
 1. In Properties, from the Destination drop-down, select (New Screen Action).
 
-   ![](images/wizard-image-22.png)
+    ![](images/wizard-image-22.png)
 
 1. From the Toolbox, drag the Assign block onto your screen and set the properties so that the user inputs get passed from step to step.
-  ![](images/wizard-image-21.png)
+
+    ![](images/wizard-image-21.png)
 
 1. Repeat these steps for the Previous button.
 
