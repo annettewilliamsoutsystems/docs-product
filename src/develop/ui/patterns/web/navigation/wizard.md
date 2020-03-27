@@ -103,14 +103,14 @@ After following all of the steps in each of the sections, you can publish the mo
 ### Wizard
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | Orientation (Orientation Identifier): Optional  |  Set the orientation. |
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. | 
 
 ### Wizard Item
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | Step (Step Identifier): Mandatory | Set the step. |
 | UseTopLabel (Boolean): Optional  |  If True, label is placed above the icon. | 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
