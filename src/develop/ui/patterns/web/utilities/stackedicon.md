@@ -10,15 +10,15 @@ You can use the Stacked Icon pattern to stack two icons on top of each other, ex
 **How to Use the Stacked Icon UI Pattern**
 
 1. In Service Studio, select the **Interface** tab.
-2. On the left side of the screen, in the **Search** field, enter **Stacked Icon**. 
+1. On the left side of the screen, in the **Search** field, enter **Stacked Icon**. 
 
     The Stacked Icon block is displayed.
         
-3. From the Toolbox, drag the Stcked Icon block onto your application's screen.
+1. From the Toolbox, drag the Stcked Icon block onto your application's screen.
 
     ![](<images/stackedicon-image-1.png>)
 
-4. On the **Properties** tab, set the relevant properties for the icons. 
+1. On the **Properties** tab, set the relevant properties for the icons. 
 
     ![](<images/stackedicon-image-7.png>)
 
@@ -28,7 +28,7 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** |
-|---|---|---|---|---|
+|---|---|---|
 | IconFront (IconName Identifier): Optional| The icon that displays in front of the other icon. |
 | IconBack (IconName Identifier): Optional | The icon that displays behind the icon.|
 | IconFrontColor (Color Identifier): Optional | Front icon color. | 
