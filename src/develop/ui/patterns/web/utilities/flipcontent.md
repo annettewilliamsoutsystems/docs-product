@@ -5,13 +5,11 @@ summary: FlipContent prioritizes information display, keeping the interface uncl
 
 # FlipContent
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
  The Flip Content UI pattern allows you to prioritize information display by showing critical information first, revealing more details with a flip, while keeping the interface uncluttered. 
 
    ![](<images/flipcontent-image-1.gif?width=500>)
 
-**How to Use the Flip content UI Pettern**
+**How to Use the Flip content UI Pattern**
 
 1. In Service Studio, select the **Interface** tab.
 
@@ -20,12 +18,11 @@ summary: FlipContent prioritizes information display, keeping the interface uncl
     The Flip Content block is displayed.
     
      ![](<images/flipcontent-image-12.png>)
-
       
-
 1. From the Toolbox, drag the Flip Content block onto your application’s screen.
 1. Add the content for the front and back placeholders, for example, an image.
 1. On the **Properties** tab, set the relevant properties for the Flip Content block.
+
     ![](<images/flipcontent-image-11.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
@@ -33,13 +30,9 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** |
-|---|---|---|---|---|
+|---|---|---|
 | Trigger (Trigger Identifier): Optional  | Set the trigger event for the flip, either a mouse hover or a click event.|
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. |  
-
-
-
-
 
 
 ## See Also

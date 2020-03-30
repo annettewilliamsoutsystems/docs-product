@@ -5,8 +5,6 @@ summary: SectionIndex organizes the content of a screen, enabling quick navigati
 
 # Section Index
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Section Index UI pattern to organize the content of a screen, enabling quick navigation within the page.
 
 **How to Use the Section Index UI Pattern**
@@ -21,7 +19,6 @@ You can use the Section Index UI pattern to organize the content of a screen, en
      ![](<images/sectionindex-image-5.png>)
 
 
-
 3. From the Toolbox, drag the Section Index block onto your application’s screen.
 
     A link is automatically created to every section you have on the screen. The name of the link is based on the text you entered in the Title placeholder of each section.
@@ -29,10 +26,11 @@ You can use the Section Index UI pattern to organize the content of a screen, en
     ![](<images/sectionindex-image-2.png>)
    
 After following these steps and publishing the module, you can test the pattern in your app.
+
 ## Properties
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | IsSmooth (Boolean): Optional  |  If IsSmooth is True, the navigation to the destination is animated. If set to false, navigation is instant. |
 | IsFixed (Text): Optional  |  If Fixed is true, the Section Index is always in the same position on the screen. If Fixed is false, it scrolls with the page content. |
 | TopPosition (Integer): Optional  |  Distance in pixels from the top of the page to the first item in the section index.  |

@@ -4,6 +4,7 @@ summary:
 ---
 
 # Timeline UI Pattern Reference
+
 ## Layout and Classes
 
 ![](images/timeline-image-1.png?width=750)
@@ -18,20 +19,15 @@ summary:
 1. In the TimelineItem, use expressions to display the database content you need.
 1. To disable the vertical line on the last TimelineItem, write the following CSS code in the application Theme:
 
-    ```css
-    .ListRecords .timeline-item:last-of-type .timeline-item-separator {
-        display: none;
-    }
-    ```
+        .ListRecords .timeline-item:last-of-type .timeline-item-separator {
+        display: none; 
+        }
+    
 1. In the ListRecords Widget, set Line Separator to None to avoid additional margin between elements.
 
 1. Publish and test.
 
     ![](<images/timeline-image-4.png>)
-
-
-
-
 
 
  ## See Also

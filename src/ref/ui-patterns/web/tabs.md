@@ -4,6 +4,7 @@ summary:
 ---
 
 # Tabs UI Pattern Reference
+
 ## Layout and classes
 
 
@@ -14,7 +15,7 @@ summary:
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---  
 | Active Header |  .tabs-header-item.active |  It's active header (represented as the one with a colored underline)  |
-| Active Tab  |  .tabs-content-item.active  |   It's active content  |
+| Active Tab  |  .tabs-content-item.active  |  It's active content  |
   
 
 ## Advanced
@@ -24,17 +25,20 @@ Here are some more advanced use-cases of the widget.
 ### Change the active header style
 
 Write the following CSS in the CSS editor and change the `yourcolor` value:
-
-`.tabs-header-item.active {
+```css
+.tabs-header-item.active {
     border-bottom: var( --border-size-m) solid yourcolor;
-}`
+}
+```
 
 Or using CSS variables: `var(--color-yourcolor)`
 example:
 
-`.tabs-header-item.active {
+```css
+.tabs-header-item.active {
 background: border-bottom: var( --border-size-m) solid var(--color-red)
-}`
+}
+```
 
 ### Add a background color to the tabs
 
@@ -43,13 +47,6 @@ background: border-bottom: var( --border-size-m) solid var(--color-red)
 3. Publish the application.
 
 ![](images/tabs-image3.png?width=750)
-
-
-
-
-
-
-
 
  ## See Also
 

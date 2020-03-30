@@ -5,23 +5,19 @@ summary: Animate adds default animations to emphasize elements as they appear on
 
 # Animate
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Animate UI pattern to create animations within your app. This UI pattern allows you to emphasize elements as they appear on screen which enhances the overall usability of the app. 
-
-
 
 **How to Use the Animate UI Pattern**
 
 1. In Service Studio, select the **Interface** tab.
 
-2. On the left side of the screen, in the **Search** field, enter **Animate**. 
+1. On the left side of the screen, in the **Search** field, enter **Animate**. 
     
     The Animate block is displayed. 
 
      ![](<images/animate-image-9.png>)
 
-3. From the Toolbox, drag the Animate block onto your application's screen.     
+1. From the Toolbox, drag the Animate block onto your application's screen.     
 
     ![](<images/animate-image-1.png>)
 
@@ -34,7 +30,7 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | EnterAnimation (EnterAnimation Identifier): Optional | Set how the animation enters the screen.| 
 | LeaveAnimation (LeaveAnimation Identifier): Optional | Set how the animation leaves the screen.|
 | Speed (Speed Identifier): Optional | TAnimation duration. | 

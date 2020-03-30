@@ -5,8 +5,6 @@ summary:
 
 # Columns 
 
-**_Note:_**  _Applicable to Reactive Web Apps Only_.
-
 You can use the Columns UI pattern to split content into multiple columns. Additionally, you can configure the columns' behavior and define how they display on different devices. Splitting content into columns improves how information is displayed and enhances the overall user experience.
 
 <!---You can split the columns as follows:

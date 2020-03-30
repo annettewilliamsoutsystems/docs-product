@@ -5,11 +5,9 @@ summary: ResponsiveTable displays information in a logical and organized way tha
 
 # Responsive Table
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Responsive Table UI pattern to display information in a logical and organized way. The Responsive Table UI pattern allows interaction, such as sorting, so that users can customize how they view information.
 
-**How to Use the Responsive Table UI Pattern**
+**How to Use the Responsive Table UI Pattern**  
 
 **Prerequisite**: A pre-populated table of records.
 
@@ -19,8 +17,6 @@ You can use the Responsive Table UI pattern to display information in a logical 
     The Responsive Table block is displayed.
 
      ![](<images/responsivetable-image-5.png>)
-
-
 
 3. From the Toolbox, drag the Responsive Table block onto your application’s screen.
 
@@ -40,10 +36,8 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | ResponsiveBehavior (ResponsiveTableRecords Identifier): Mandatory   |  Set the Responsive Table behavior.| 
   
-
-
 ## See Also
 * OutSystems UI Live Style Guide: [Responsive Table](https://outsystemsui.outsystems.com/WebStyleGuidePreview/ResponsiveTableRecords.aspx)

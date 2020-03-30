@@ -5,10 +5,7 @@ summary:
 
 # Gallery Pattern
 
-**_Note:_**  _Applicable to Reactive Web Apps Only_.
-
-You can use the Gallery UI pattern to display content (such as cards) in a specific set of columns, configurable
-per device type and orientation. 
+You can use the Gallery UI pattern to display content (such as cards) in a specific set of columns, configurable per device type and orientation. 
 
 
 ![](images/Gallery_preview.png)
@@ -16,17 +13,17 @@ per device type and orientation.
 ## How to Use the Gallery UI Pattern
 1. In Service Studio, select the **Interface** tab.
 
-2. On the left side of the screen, in the **Search** field, enter **Gallery**. 
+1. On the left side of the screen, in the **Search** field, enter **Gallery**. 
     
     The Gallery block is displayed. 
 
      ![](<images/gallery-image-1.png>)
 
-3. From the Toolbox, drag the Gallery block onto your application's screen. 
+1. From the Toolbox, drag the Gallery block onto your application's screen. 
 
-4.  Drag a list or static content into the Content placeholder.
+1.  Drag a list or static content into the Content placeholder.
 
-5. On the **Properties** tab, set the number of items.
+1. On the **Properties** tab, set the number of items.
 
 After following these steps and publishing the module, you can test the pattern in your app.
 

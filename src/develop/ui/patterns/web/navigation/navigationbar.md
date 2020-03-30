@@ -5,8 +5,6 @@ summary:
 
 # Navigation Bar
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Navigation BAr UI pattern to organize the content and enable quick navigation through an application with vertically stacked links. These stacked links can be displayed with different hierarchy levels. The NavigationBar pattern uses the Navigation Bar Item and Navigation Bar SubItem to create the necessary structure.
 
 Use it when the end user needs to navigate through an application's main sections while maintaining the ability to browse to another subsection quickly. 
@@ -36,33 +34,32 @@ Use it when the end user needs to navigate through an application's main section
 After following these steps and publishing the module, you can test the pattern in your app.
 
 ## Properties
+
 #### Navigation Bar
+
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | IsFixed (Boolean): Optional |  If set to True, the navigation bar will allways be in the same position on the screen. If set to False, it scrolls with the page content. |  
 | TopPosition (Integer): Optional  |  Set the top position when the navigation bar is fixed. (Insert a number - the pixels unit is automatically added.) |  
 | MultipleItems (Boolean): Optional |  Allows multiple Navigation Bar Items to be opened having an accordian effect. | 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. | T|
 
 #### Navigation Bar Item
+
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | IsActive  |  Set IsActive to true, to define as the selected element. |  Boolean | False | False |
 | IsOpen  |  If true, when rendering the NavigationBarItem is open. |  Boolean | False | False |
 | ExtendedClass  |  Add custom style classes to this Block. | Text | False | none |
 
 #### Navigation Bar Sub Item
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | IsActive  |  Set IsActive to true, to define as the selected element. |  Boolean | False | False |
-  
-## Layout and Classes
-
 
 ## Device Compatibility
 
 In Internet Explorer, `position: fixed` is used instead of `position: sticky` as the latter is not supported.
-
 
 ## See Also
 

@@ -5,29 +5,23 @@ summary: AlignCenter places content horizontally or vertically within a containe
 
 # Align Center
 
-
-
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use Align Center UI pattern to center content horizontally or vertically on the screen. 
 
-
-
-**How to Use the Align Center**
+**How to Use the Align Center UI Pattern**
 
 1. In Service Studio, select the **Interface** tab.
 
-2. On the left side of the screen, in the **Search** field, enter **Align Center**. 
+1. On the left side of the screen, in the **Search** field, enter **Align Center**. 
     
     The Align Center block is displayed. 
 
      ![](<images/aligncenter-image-9.png>)
 
-3. From the Toolbox, drag the Align Center block onto your application's screen.  
+1. From the Toolbox, drag the Align Center block onto your application's screen.  
 
- 5. Drag the User Initials pattern into Align Center placeholder.
+1. Drag the User Initials pattern into Align Center placeholder.
 
- 1. In the Name property, enter a name, for example **Scott Ritchie**.
+1. In the Name property, enter a name, for example **Scott Ritchie**.
 
     ![](<images/aligncenter-image-1.png>)
 
@@ -45,7 +39,7 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | Orientation (Orientation Identifier): False  |  Set the orientation of the content inside. | 
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 

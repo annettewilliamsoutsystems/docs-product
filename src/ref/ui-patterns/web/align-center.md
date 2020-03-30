@@ -4,6 +4,7 @@ summary:
 ---
 
 # Align Center UI Pattern Reference
+
 ## Layout and Classes
 
 ![](<images/aligncenter-image-4.png>)

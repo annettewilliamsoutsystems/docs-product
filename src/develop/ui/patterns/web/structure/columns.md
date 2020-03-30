@@ -4,7 +4,6 @@ summary: Columns split content into multiple columns with responsive capabilitie
 ---
 
 # Columns
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
 
 You can use the Columns pattern to split content into multiple columns with responsive capabilities, improving the way information is displayed on screen.
 
@@ -12,7 +11,6 @@ You can use the Columns pattern to split content into multiple columns with resp
 
 
 **How to Use the Columns UI Pattern**
-
 
 1. In Service Studio, select the **Interface** tab.
 
@@ -34,8 +32,8 @@ After following these steps and publishing the module, you can test the pattern 
   
 ## Properties
 
-| **Property** |  **Description** |
-|---|---|---|---|---|
+| **Property** |  **Description** | **Usage**
+|---|---|---|
 | GutterSize (GutterSize Identifier): Optional | Set the gutter size. | 
 | TabletBehavior (BreakColumns Identifier): Optional | Responsive behavior for tablets. 
 | PhoneBehavior (BreakColumns Identifier): Optional | Responsive behavior for phones. | 

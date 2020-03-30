@@ -7,6 +7,7 @@ summary:
 
 
 ## Layout and Classes
+
 ![](<images/gallery-image-3.png>)
 
 

@@ -5,8 +5,6 @@ summary: Gallery enables the users to sequentially browse the content when there
 
 # Gallery
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Gallery UI pattern to display groups of content as scannable collections. This UI pattern allows users to sequentially browse images, with the notion of a beginning and an end. The Gallery UI pattern can be helpful when you have a large number of cards you need to group into one or more scannable collections. 
 
 **How to Use the Gallery UI Pattern**
@@ -33,7 +31,7 @@ After following these steps and publishing the module, you can test the pattern 
 ## Properties
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | ItemsDesktop (Integer): Optional |  Number of Items per line on a desktop. | 
 | ItemsTablet (Integer): Optional |  Number of Items per line on a tablet. | 
 | ItemsPhone (Integer): Optional|  Number of Items per line on a phone. |

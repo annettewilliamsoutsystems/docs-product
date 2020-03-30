@@ -5,8 +5,6 @@ summary: UserInitials display user information in a circular badge.
 
 # User Initials
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 Display user information in a circular badge.
 
 You can use the User Initials UI pattern to display a user’s initials or their image in a circular badge. 
@@ -34,15 +32,14 @@ After following these steps and publishing the module, you can test the pattern 
 
 ## Properties
 
-| **Property** |  **Description** |  **Usage** | **Mandatory** | **Default Value** |
-|---|---|---|---|---|
+| **Property** |  **Description** |  **Usage** |
+|---|---|---|
 | Name (Text): Optional  |  The username used in the pattern. | 
 | Color (Color Identifier): Optional  |  Badge color. | 
 | Shape (Shape Identifier): Optional|  Badge shape. | 
 | Size (Size Identifier): Optional  |  Badge size. | |
 | IsLight (Boolean): Optional | If set to True, the lightest color version is applied to the background. If set to False, the darker color version is applied. |
-| ExtendedClass (Text): Optional  |  Add custom style classes to the block.
- |
+| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
 
 

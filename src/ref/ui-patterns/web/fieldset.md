@@ -15,7 +15,7 @@ summary:
 
 you can use custom CSS to change the style of the Fieldset pattern. The following examples are only two ways of doing it. To use these in your application, copy the CSS code from below and add it to your theme.
 
-Example 1
+**Example 1**
 
 ```css
 .fieldset {
@@ -32,7 +32,7 @@ Example 1
 ```
 ![](<images/fieldset-image-3.png>)
 
-Example 2
+**Example 2**
 
 ```css
 .fieldset {

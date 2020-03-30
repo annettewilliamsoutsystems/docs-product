@@ -5,8 +5,6 @@ summary: StackedIcon expands the icon set and creates new graphical representati
 
 # Stacked Icon
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Stacked Icon pattern to stack two icons on top of each other, expand the icon set, and to create new graphical representations of concepts.  
 
 **How to Use the Stacked Icon UI Pattern**
@@ -15,8 +13,7 @@ You can use the Stacked Icon pattern to stack two icons on top of each other, ex
 2. On the left side of the screen, in the **Search** field, enter **Stacked Icon**. 
 
     The Stacked Icon block is displayed.
-    
-    
+        
 3. From the Toolbox, drag the Stcked Icon block onto your application's screen.
 
     ![](<images/stackedicon-image-1.png>)

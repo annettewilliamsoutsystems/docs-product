@@ -5,13 +5,7 @@ summary:
 
 # Carousel Pattern
 
-**_Note:_**  _Applicable to Reactive Web Apps Only_.
-
-You can use the Carousel UI pattern
-to display multiple items in a horizontal slide. This pattern is ideal for creating
-horizontal slides in smaller screens. You can also use this pattern for dynamic content, by placing a
-List directly inside the placeholder. 
-
+You can use the Carousel UI pattern to display multiple items in a horizontal slide. This pattern is ideal for creating horizontal slides in smaller screens. You can also use this pattern for dynamic content, by placing a List directly inside the placeholder. 
 
 ![](images/Carousel_studio_preview.png)
 
@@ -37,7 +31,6 @@ List directly inside the placeholder.
     ![](images/Carousel_items.png)
 
 
-
 1. All available options have default properties, but you can change them.
 
     ![](images/Carousel_parameters.png)
@@ -49,8 +42,7 @@ After following these steps and publishing the module, you can test the pattern 
 You can use CSS to customize the look and feel of the dots.
 
 **Example 1:**
-
-    
+  
     
     .carousel .carousel-dots-container .carousel-dot.active {
          opacity: 1;
@@ -72,8 +64,7 @@ You can use CSS to customize the look and feel of the dots.
 ![](images/Carousel_before_after_1.png)
 
 **Example 2:**
-
-    
+   
     
     .carousel-dots-container .carousel-dot {
          background: #fff;
@@ -97,8 +88,7 @@ You can use CSS to customize the look and feel of the dots.
 
 If you want to use a Carousel inside any [Columns pattern](<columns.md>) , you must fix the columns’ overflow, by adding this style
 to the CSS:
-
-    
+   
     
     .col {
         overflow: hidden;

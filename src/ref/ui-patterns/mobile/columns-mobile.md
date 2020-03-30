@@ -4,13 +4,10 @@ summary:
 ---
 
 # Columns UI Pattern Reference
+
 ## Layout and Classes
 
 ![](images/Column_layout.png)
-
-
-
-
 
  ## See Also
 

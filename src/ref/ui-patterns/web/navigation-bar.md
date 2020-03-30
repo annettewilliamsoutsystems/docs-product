@@ -48,17 +48,17 @@ summary:
 * Write the following CSS in the CSS editor and change the `yourcolor` and `yourelement`.
 
 ```css
-`.navigation-bar-item.is--active yourelement {
+.navigation-bar-item.is--active yourelement {
     color: yourcolor;
-}`
+}
 ```
 
 * Or use CSS variables: `var(--color-yourcolor)`.
 
 ```css
-`.navigation-bar-item.is--active yourelement {
+.navigation-bar-item.is--active yourelement {
     color: var(--color-yourcolor);
-}`
+}
 ```
 
 ### Change active color on NavigationBarSubItem
@@ -66,17 +66,17 @@ summary:
 * Write the following CSS in the CSS editor and change the `yourcolor` and `yourelement`.
 
 ```css
-`.navigation-bar-item-subitem.is--active yourelement {
+.navigation-bar-item-subitem.is--active yourelement {
     color: yourcolor;
-}`
+}
 ```
 
 * Or use CSS variables: `var(--color-yourcolor)`.
 
 ```css
-`.navigation-bar-item-subitem.is--active yourelement {
+.navigation-bar-item-subitem.is--active yourelement {
     color: var(--color-yourcolor);
-}`
+}
 ```
 
 

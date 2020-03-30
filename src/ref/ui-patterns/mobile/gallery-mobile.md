@@ -3,14 +3,14 @@ tags:
 summary: 
 ---
 
-# Tabs UI Pattern Reference
-
+# Gallery UI Pattern Reference
 
 ## Layout and Classes
 
 ![](images/Gallery_Layout.png)
 
 ## Advanced Use Case
+
 ### Using Animations Inside the Gallery
 
 1\. Use the **Animate** block as the first element inside the list.
@@ -30,7 +30,6 @@ the delay with current row number from the list.
 virtualization.
 
 ![](images/Gallery_list.png)
-
 
 
  ## See Also

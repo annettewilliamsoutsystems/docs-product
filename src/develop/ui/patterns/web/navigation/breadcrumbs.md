@@ -5,8 +5,6 @@ summary: Breadcrumbs present the location of the user within the hierarchy of ap
 
 # Breadcrumbs
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Breadcrumbs UI pattern as a navigational aid that helps users keep track of their location within the app.
 
   ![](<images/breadcrumbs-image-2.png>)
@@ -41,13 +39,13 @@ You can use the Breadcrumbs UI pattern as a navigational aid that helps users ke
 ### Breadcrumbs
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. | 
 
 ### Breadcrumb Item
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
 

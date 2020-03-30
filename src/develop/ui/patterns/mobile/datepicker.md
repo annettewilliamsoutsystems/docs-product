@@ -5,8 +5,6 @@ summary:
 
 # Date Picker Pattern
 
-**_Note:_**  _Applicable to Reactive Web Apps Only_.
-
 You can use the Date Picker UI pattern as a graphical interface widget that allows the user to select a date from a calendar and/or time from a time range.
 
 To display items in a gallery pattern, you can use static data or a **List** widget inside this block. 
@@ -30,6 +28,7 @@ library](https://github.com/dbushell/Pikaday/blob/master/README.md "https://gith
 1. From the Toolbox, drag the Date Picker block onto your application's screen.
 
     You are prompted to create an event.
+    
     ![](images/datepicker_create_an_event.png?width=500)
 
 

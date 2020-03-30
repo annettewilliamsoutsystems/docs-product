@@ -37,6 +37,7 @@ summary:
     width: 100px;
 }
 ```
+
 1. Drag the Users Entity into the preview.
 
 1. Remove the expression from the Name and drag a container into the cell.

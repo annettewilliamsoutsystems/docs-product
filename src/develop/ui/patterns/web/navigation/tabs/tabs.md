@@ -5,8 +5,6 @@ summary: Tabs separate content into flat structure sections.
 
 # Tabs
 
-**_Note:_**  _Applicable to Traditional Web Apps Only_.
-
 You can use the Tabs UI pattern to display large sets of information, which can be split into different areas, while always remaining a click away. 
 
 ![](images/tabs-gif1.gif?width=650)
@@ -41,7 +39,7 @@ After following these steps and publishing the module, you can test the pattern 
 ### Tabs
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | ActiveTab (Text): Optional  |  Set the active tab. | 
 | Orientation (Orientation Identifier): Optional  |  If Vertical, header is displayed beside the content. If Horizontal, header is displayed above the content. | 
 | IsJustified (Boolean): Optional  |  The Tabs Header items are evenly distributed. |
@@ -51,13 +49,13 @@ After following these steps and publishing the module, you can test the pattern 
 ### Tabs Header Item
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | DataTab (Text): Mandatory  |  Sets the name to connect to the Tabs Content Item. Should be the same as the paired Header Item and unique. |  
 
 ### Tabs Content Item
 
 | **Property** |  **Description** |  **Usage** | 
-|---|---|---|---|---|
+|---|---|---|
 | DataTab (Text): Mandatory  |  Value that connects with the Tabs Header Item. Should be the same as the paired Content Item and unique. | 
 
 

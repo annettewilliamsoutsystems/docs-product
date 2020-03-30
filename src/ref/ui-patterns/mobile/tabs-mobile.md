@@ -4,7 +4,9 @@ summary:
 ---
 
 # Tabs UI Pattern Reference
-## Layout and classes
+
+## Layout and Classes
+
 ![](images/Tabs_layout.png)
 
 ## CSS Selectors
@@ -15,11 +17,6 @@ summary:
 ![](images/css_selector.png) Active tab header  |  .tabs-header-tab-active  |  Represents the header of the active element.  
 ![](images/css_selector.png) Open tab content  |  .tabs-content-tab-open  |  The dot that represents the content of the open item. 
 
-
-
-
-
  ## See Also
 
 * OutSystems UI Pattern Documentation: [Tabs](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Mobile_Patterns/Tabs_Pattern)
-

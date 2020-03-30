@@ -27,6 +27,7 @@ It is possible to change the opacity of LightBoxImage overlay when it is open by
     background-color: rgba(0, 0, 0, 0);
 }
 ```
+
 ![](<images/lightboximage-image-5.png>)
 
 ### Add rounded corners to images inside LightBoxImage

@@ -7,8 +7,6 @@ summary:
 
 You can use the Tabs UI pattern to display large sets of information, which can be split into different areas, while always remaining a click away. 
 
-**_Note:_**  _Applicable to Reactive Web Apps Only_.
-
 ## How to Use the Tabs UI Pattern
 
 1. In Service Studio, select the **Interface** tab.
