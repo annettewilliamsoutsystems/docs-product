@@ -48,7 +48,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
     ![](images/wizard-image-16.png)
 
-1. Create a condition for both the **Previous** and **Next** buttons. This ensures that theuser can never goes above or below the actual number of steps in the Wizard.
+1. Create a condition for both the **Previous** and **Next** buttons. This ensures that the user can never goes above or below the actual number of steps in the Wizard.
 
     ![](images/wizard-image-17.png)
 
@@ -79,7 +79,7 @@ To ensure that all of the information the user enters is passed from step to ste
 
 1. From the Toolbox, drag the Assign block onto your screen and set the properties. This ensures that the user inputs get passed from step to step.
 
-
+    ![](images/wizard-image-21.png)
 
 1. Repeat these steps for the **Previous** button.
 
