@@ -5,18 +5,19 @@ summary: StackedIcon expands the icon set and creates new graphical representati
 
 # Stacked Icon
 
-You can use the Stacked Icon pattern to stack two icons on top of each other, expand the icon set, and to create new graphical representations of concepts.  
+You can use the Stacked Icon Pattern to stack two icons on top of each other, expand the icon set, and to create new graphical representations of concepts.  
 
-**How to Use the Stacked Icon UI Pattern**
+![](<images/stackedicon-image-8.png>)
 
-1. In Service Studio, select the **Interface** tab.
-1. On the left side of the screen, in the **Search** field, enter **Stacked Icon**. 
+**How to use the Stacked Icon UI Pattern**
 
-    The Stacked Icon block is displayed.
-        
-1. From the Toolbox, drag the Stcked Icon block onto your application's screen.
+1. In Service Studio, in the Toolbox, search for `Stacked Icon`. 
 
-    ![](<images/stackedicon-image-1.png>)
+    The Stacked Icon widget is displayed.
+
+   ![](<images/stackedicon-image-9.png>)
+
+  1. From the Toolbox, drag the Stacked Icon widget onto your application’s screen.
 
 1. On the **Properties** tab, set the relevant properties for the icons. 
 
@@ -38,5 +39,5 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
 
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Stacked Icon](https://outsystemsui.outsystems.com/WebStyleGuidePreview/StackedIcon.aspx)

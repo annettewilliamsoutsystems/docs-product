@@ -5,6 +5,12 @@ summary:
 
 # Carousel UI Pattern Reference
 
+## Events
+
+**Event Name** |  **Description** |  **Mandatory**  
+---|---|---  
+![](images/Event.png) OnItemChange  |  Returns the active item's current position.  |  False  
+  
 ## Layout and Classes
 
 ![](images/Carousel_ayout.png)

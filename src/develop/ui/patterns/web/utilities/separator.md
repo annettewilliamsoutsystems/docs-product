@@ -5,20 +5,19 @@ summary: Separator distributes content into clear groups and ease visual organiz
 
 # Separator
 
-You can use the Separator UI pattern to separate content clearly which eases visual organization.
+You can use the Separator UI Pattern to separate content clearly and ease visual organization.
 
   ![](<images/separator-image-1.png>)
 
-**How to Use the Separator UI Pattern**
+**How to use the Separator UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
-1. On the left side of the screen, in the **Search** field, enter **Separator**. 
+1. In Service Studio, in the Toolbox, search for `Separator`. 
 
-    The Separator block is displayed.
+    The Separator widget is displayed.
 
-      ![](<images/separator-image-4.png>)
+    ![](<images/separator-image-5.png>)
 
-  1. From the Toolbox, drag the Iframe block onto your application’s screen.
+  1. From the Toolbox, drag the Separator widget onto your application’s screen.
   
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -32,6 +31,6 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional |  Adds custom style classes to the block.|
 
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Separator](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Separator.aspx)
 * OutSystems UI Pattern Page: [Separator](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=66)

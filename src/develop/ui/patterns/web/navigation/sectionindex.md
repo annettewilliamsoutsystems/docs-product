@@ -5,23 +5,21 @@ summary: SectionIndex organizes the content of a screen, enabling quick navigati
 
 # Section Index
 
-You can use the Section Index UI pattern to organize the content of a screen, enabling quick navigation within the page.
+You can use the Section Index UI Pattern to organize the content of a screen, enabling quick navigation within the page.
 
-**How to Use the Section Index UI Pattern**
+**How to use the Section Index UI Pattern**
 
 **Prerequisite**: Your application screen contains sections.
 
-1. In Service Studio, select the **Interface** tab.
-2. On the left side of the screen, in the **Search** field, enter **Section Index**. 
+1. In Service Studio, in the Toolbox, search for `Section Index`. 
 
-    The Section Index block is displayed.
+    The Section Index widget is displayed.
 
-     ![](<images/sectionindex-image-5.png>)
+    ![](<images/sectionindex-image-6.png>)
 
+1. From the Toolbox, drag the Section Index widget onto your application’s screen.
 
-3. From the Toolbox, drag the Section Index block onto your application’s screen.
-
-    A link is automatically created to every section you have on the screen. The name of the link is based on the text you entered in the Title placeholder of each section.
+     A link is automatically created to every section you have on the screen. The name of the link is based on the text you entered in the Title placeholder of each section.
 
     ![](<images/sectionindex-image-2.png>)
    
@@ -38,19 +36,19 @@ After following these steps and publishing the module, you can test the pattern 
   
 
 
-## Additional Notes
+## Additional notes
 
 Remember to use the **Title** placeholder in the Section Index pattern as this defines the text for each SectionIndex link. 
 
-## Device Compatibility
+## Device compatibility
 
 In Internet Explorer, `position: fixed` is used instead of `position sticky` as the latter is unsupported.
 
-## Compatibility with other Patterns
+## Compatibility with other patterns
 
 This UI pattern only works with the Section Pattern in the same screen.
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Section index](https://outsystemsui.outsystems.com/WebStyleGuidePreview/SectionIndex.aspx)
 * OutSystems UI Pattern Page: [Section Index](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=65)
 

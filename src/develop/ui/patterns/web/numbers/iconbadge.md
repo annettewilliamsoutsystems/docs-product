@@ -5,25 +5,22 @@ summary: IconBadge displays numerical information as notification.
 
 # Icon Badge
 
-You can use the Icon Badge UI pattern to display numerical information as a notification. This UI pattern is frequently used to notify users about new messages or tasks.
+You can use the Icon Badge UI Pattern to display numerical information as a notification. This UI pattern is frequently used to notify users about new messages or tasks.
 
 ![](<images/iconbadge-image-1.png>)
 
 
-**How to Use the Icon Badge UI Pattern**
+**How to use the Icon Badge UI Pattern**
 
-Add an icon to the placeholder, then set the color and apply the light theme.
+1. In Service Studio, in the Toolbox, search for `Icon Badge`. 
 
-1. In Service Studio, select the **Interface** tab.
-1. On the left side of the screen, in the **Search** field, enter **Icon Badge**.
+    The Icon Badge widget is displayed.
 
-    The Icon Badge block is displayed.
+    ![](<images/iconbadge-image-5.png>)
 
-    ![](<images/iconbadge-image-3.png>)
+1. From the Toolbox, drag the Icon Badge widget onto your application’s screen. 
 
-1. From the Toolbox, drag the Icon Badge block onto your application's screen. 
-
-1. On the **Properties** tab, set the relevant properties for the Icon Badge block.
+1. On the **Properties** tab, set the relevant properties for the Icon Badge block, for example, the color. 
 
     ![](<images/iconbadge-image-4.png>)
     
@@ -39,6 +36,6 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text):Optional  |  Add custom style classes to the Block. |
 
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Icon Badge](https://outsystemsui.outsystems.com/WebStyleGuidePreview/IconBadge.aspx)
 * OutSystems UI Pattern Page: [Icon Badge](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=43)

@@ -3,7 +3,7 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# MasterDetail Pattern
+# Master Detail Pattern
 
 The MasterDetail pattern is similar to the SplitScreen pattern, but it receives an item list for the left panel. You can use this pattern in tablet apps, to display the detail of a list of items.
 
@@ -99,3 +99,8 @@ This pattern should be used alone inside the screen content because it will adap
 You can use the MasterDetail pattern as a sample:
 
 ![](images/MasterDetail-Sample-1.PNG)
+
+
+## See Also
+
+* OutSystems UI Pattern Page: [Master Detail](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=51)

@@ -5,23 +5,24 @@ summary: LightBoxImage displays an image thumbnail that is clicked to open a ful
 
 # Lightbox Image
 
-You can use the Lighbox Image UI pattern to open smaller images in full screen mode. This UI pattern is often used when creating an image gallery, allowing you to navigate through each of the images and view them in more detail.  
+You can use the Lighbox Image UI Pattern to open smaller images in full screen mode. This UI pattern is often used when creating an image gallery, allowing you to navigate through each of the images and view them in more detail.  
 
+![](<images/lightboxweb-image-11.png>)
 
-**How to Use the Lighbox UI Pattern**
+**How to use the Lighbox UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
+1. In Service Studio, in the Toolbox, search for `Lightbox Image`. 
 
-2. On the left side of the screen, in the **Search** field, enter **Lightbox Image**.
+    The Lightbox Image widget is displayed.
 
-    The Lightbox Image block is displayed.
+    ![](<images/lightboximage-image-12.png>)
+    
 
-    ![](<images/lightboximage-image-7.png?width=600>)
-     
-  3. From the Toolbox, drag the Lightbox Image block onto your application's screen.
-  4. On the **Properties** tab, set the **Type** property for the Image.
+1. From the Toolbox, drag the Lightbox Image widget onto your application's screen.
+   
+1. . On the **Properties** tab, set the **Type** property for the Image.
 
-        Note: In this example, the property type is set to **Local Image**. You can also choose **External URL** or **Binary Data**.
+    Note: In this example, the property type is set to **Local Image**. You can also choose **External URL** or **Binary Data**.
 
       ![](<images/lightboximage-image-8.png>)
         
@@ -45,9 +46,6 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. |
 
 
-
-
-
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Lightbox Image](https://outsystemsui.outsystems.com/WebStyleGuidePreview/LightboxImage.aspx)
 * OutSystems UI Pattern Page: [Lightbox Image](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=46)

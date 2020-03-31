@@ -5,6 +5,12 @@ summary:
 
 # Tabs UI Pattern Reference
 
+## Events
+
+**Event Name** |  **Description** |  **Mandatory**  
+---|---|---  
+![](images/Event.png) OnTabChange  |  Triggered when switching tabs.  |  _False_  
+
 ## Layout and Classes
 
 ![](images/Tabs_layout.png)

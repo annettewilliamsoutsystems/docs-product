@@ -67,15 +67,6 @@ All Silk patterns hide _divs_ with no content. If you only need 2 or 3 tabs, and
 ---|---|---  
 ![](images/input.png) StartingTab  |  Index of the currently active tab.  |  0  
   
-## Events
-
-**Event Name** |  **Description** |  **Mandatory**  
----|---|---  
-![](images/Event.png) OnTabChange  |  Triggered when switching tabs.  |  _False_  
-  
-### Layout and Classes
-
- 
   
 ## Device and Patterns Compatibility
 

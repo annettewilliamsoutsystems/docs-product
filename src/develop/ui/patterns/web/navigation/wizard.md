@@ -3,12 +3,13 @@ tags: runtime-traditionalweb;
 summary: Wizard splits complex tasks and process into steps.
 ---
 
-# Wizard UI Pattern
+# Wizard 
+
 You can use the Wizard UI pattern to split large complex tasks and processes into smaller manageable steps. Wizards usually include explicit button navigation to move a step forward or backward. 
 
-**How to Use the Wizard UI Pattern**
+**How to use the Wizard UI Pattern**
 
-1. In Service Studio, in the Toolbox, search for  `Wizard`. 
+1. In Service Studio, in the Toolbox, search for `Wizard`. 
 
     The Wizard widget is displayed.
     

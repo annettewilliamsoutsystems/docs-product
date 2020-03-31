@@ -32,7 +32,7 @@ library](https://github.com/dbushell/Pikaday/blob/master/README.md "https://gith
     ![](images/datepicker_create_an_event.png?width=500)
 
 
-1. To have access to the picked date, you need to create an assign to the
+1. To access the pciked date, you must create an Assign for the
 **startDate** (if SelectInterval is False ).
 
 1. Set the default value of the variable **PickedDate** as CurrDateTime().
@@ -49,31 +49,31 @@ After following these steps and publishing the module, you can test the pattern 
 
 1. Set the area where you want to put the list of events.
 
-![](images/add_new_date.png)
+    ![](images/add_new_date.png)
 
 1. Create an entity with a **DateTime** attribute.
 
 1. Set the entity in your **EventList** parameter on eventList, using the
 right attribute to map.
 
-![](images/interaction_datepicker.png)  
+    ![](images/interaction_datepicker.png)  
 
 1. Add the list to the page.
 
-![](images/date_time.png)  
+    ![](images/date_time.png)  
 
 1. Create a Local Variable.
 
-![](images/date_local_variable.png)  
+    ![](images/date_local_variable.png)  
 
 1. Get another Aggregate for the Events and set a filter on the aggregate:  
 DateTimeToDate(Events.DateTime) = Date
 
-![](images/datepicker_filter.png)
+    ![](images/datepicker_filter.png)
 
 **Result**:
 
-![](images/datepicker_Profit.gif) 
+   ![](images/datepicker_Profit.gif) 
 
 ## Input Parameters
 
@@ -96,9 +96,6 @@ DateTimeToDate(Events.DateTime) = Date
 | **Event Name** |  **Description** |  **Mandatory**  |
 | ---|---|--- |  
 | ![](images/Event.png) OnSelect | Action to execute after selecting a DatePicker day. If SelectInterval is enabled, both parameters return values. If not, only the StartDate has a value.  |  True  |
-  
-
-
 
 ## See Also
 * OutSystems UI Live Style Guide: [Date Picker](https://outsystemsui.outsystems.com/WebStyleGuidePreview/DatePicker.aspx)

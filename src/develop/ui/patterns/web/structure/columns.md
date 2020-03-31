@@ -5,22 +5,20 @@ summary: Columns split content into multiple columns with responsive capabilitie
 
 # Columns
 
-You can use the Columns pattern to split content into multiple columns with responsive capabilities, improving the way information is displayed on screen.
+You can use the Columns Pattern to split content into multiple columns with responsive capabilities, improving the way information is displayed on screen.
 
  ![](<images/columns-image-4.png>)
 
 
-**How to Use the Columns UI Pattern**
+**How to use the Columns UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
+1. In Service Studio, in the Toolbox, search for `Columns`. 
 
-1. On the left side of the screen, in the **Search** field, enter **Column**. 
-    
-    The various Column blocks are displayed. 
+    The various Column widgets are displayed.
 
-    ![](<images/columns-image-5.png>)
+    ![](<images/columns-image-6.png>)
 
-1. From the Toolbox, drag the relevant Column block onto your application’s screen.
+1. From the Toolbox, drag the required Column widget onto your application’s screen.
 1. Add the required content to the Column block, for example, counters.
 
     ![](<images/columns-image-1.png>)
@@ -40,6 +38,6 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
 
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Columns](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Columns2.aspx)
 * OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=21)

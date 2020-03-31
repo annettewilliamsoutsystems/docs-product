@@ -5,25 +5,22 @@ summary: Badge display numerical information as notification.
 
 # Badge
 
-You can use the Badge UI pattern to display numerical information as a notification. The Badge UI pattern is frequently used to notify users about new messages or tasks.  
+You can use the Badge UI Pattern to display numerical information as a notification. The Badge UI pattern is frequently used to notify users about new messages or tasks.  
 
 ![](<images/badge-image-7.png>)
 
-**How to Use the Badge UI Pattern**
+**How to use the Badge UI Pattern**
 
+1. In Service Studio, in the Toolbox, search for `Badge`. 
 
-1. In Service Studio, select the **Interface** tab.
-1. On the left side of the screen, in the **Search** field, enter **Badge**.
+    The Badge widget is displayed.
 
-    The Badge block is displayed.
-
-    ![](<images/badge-image-9.png>)
-
-1. From the Toolbox, drag the Badge block onto your application's screen.
+    ![](<images/badge-image-10.png>)
+    
+1. From the Toolbox, drag the Badge widget onto your application's screen.
 1. On the **Properties** tab, set the relevant Badge properties, for example, color, shape, and size.
 
     ![](<images/badge-image-8.png>)
-
 
 After following these steps and publishing the module, you can test the pattern in your app.
      
@@ -39,13 +36,13 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
 
 
-## Additional Notes
+## Additional notes
 
 If the number on Badge pattern is greater than 99, it is displayed as 99+.
 
 ![](<images/badge-image-6.png>)
 
-  ## See Also
+  ## See also
 
 * OutSystems UI Live Style Guide: [Badge](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Badge.aspx)
 * OutSystems UI Pattern Page: [Badge](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=7)

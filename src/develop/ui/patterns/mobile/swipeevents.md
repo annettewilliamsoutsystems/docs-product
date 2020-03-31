@@ -3,44 +3,40 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# SwipeEvents Pattern
+# Swipe Events
 
-The SwipeEvents pattern enables swiping on a specific widget.
+You can use the Swipe Events UI pattern to enable swiping on a specific widget.
 
-![](images/swipe_events.png)
 
-## How to Use the SwipeEvents Pattern
+## How to Use the Swipe Events UI Pattern
 
-You can use the SwipeEvents pattern to open a sidebar.
+You can use the Swipe Events UI pattern to open a sidebar.
+1. In Service Studio, in the Toolbox, search for  `Swipe Events`. 
 
-![](images/swipe_area.png)
+    The Swipe Events widget is displayed.
 
-Create a local variable, called isOpen to be used in the sidebar.
+    ![](images/swipeevents-icon.png)
 
-![](images/swipe_events_create.png)
+1. From the Toolbox, drag the Swipe Events widget onto your application's screen.
 
-Result:
+1. On the **Properties** tab, create a local variable called isOpen. This is used in the sidebar.
+
+    ![](images/swipe_events_create.png)
+
+After following these steps and publishing the module, you can test the pattern in your app. the result should look something like the following:
 
 ![](images/SwipeEvents_EndResult.gif)
 
-## Input Parameters
+## Properties
 
-**Input Name** |  **Description** |  **Default Value**  
+**Property** |  **Description** |  **Default Value**  
 ---|---|---  
 ![](images/input.png) |  WidgetId  |  Element that will be swipeable.  |  none  
   
-## Events
-
-**Event Name** |  **Description** |  **Mandatory**  
----|---|---  
-![](images/Event.png) SwipeDown  |  The event is triggered after a swipe down.  |  _False_  
-![](images/Event.png) SwipeLeft  |  The event is triggered after a swipe left.  |  _False_  
-![](images/Event.png) SwipeRight  |  The event is triggered after a swipe right.  |  _False_  
-![](images/Event.png) SwipeUp  |  The event is triggered after a swipe up.  |  _False_  
   
 ## Compatibility with other Patterns
 
-There might be conflicts with any pattern with touch events (unless the code is altered to support the behavior). For example: using the id of a sidebar instead of a container in the previous example.
+There might be conflicts with any pattern with touch events (unless the code is altered to support the behavior). For example, using the sidebar ID  instead of a container in the previous example.
 
   * HorizontalScroll 
   * [Carousel](<carousel.md>)
@@ -51,6 +47,9 @@ There might be conflicts with any pattern with touch events (unless the code is 
 
 ## Samples
 
-The following sample uses the SwipeEvents pattern:
+The following sample uses the Swipe Events UI Pattern:
 
 ![](images/SwipeEvents-Sample-1.PNG)
+
+## See Also
+* OutSystems UI Pattern Page: [Swipe Events](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=70)

@@ -199,13 +199,7 @@ Property |  Description |  Default Value
  ![](images/input.png)  InitialPosition  |  Set the first element to show.  | 0
  ![](images/input.png)  Items  |  Number of visible Carousel items at the same time on the screen.  |  1
   
-## Events
-
-**Event Name** |  **Description** |  **Mandatory**  
----|---|---  
-![](images/Event.png) OnItemChange  |  Returns the active item's current position.  |  False  
-  
-  
+ 
 ## Compatibility with Other Patterns
 
 Avoid using the Carousel inside patterns with swipe events, like Tabs Stacked Cards.

@@ -3,23 +3,30 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# RangeSliderInterval Pattern
+# Range Slider Interval 
 
-The RangeSliderInterval pattern enables you to set an interval by dragging two handles. You can control an interval value with simple and interactive user input.
+You can use the Range Slider Interval pattern to set an interval by dragging two handles. You can control an interval value with simple and interactive user inputs.
 
-## How to Use the RangeSliderInterval Pattern
+## How to Use the Range Slider Interval UI Pattern
 
-1\. Bind your variables to the InitialIntervalStart and InitialIntervalEnd inputs and use the OnChange event to add your logic to handle value changes.
+1. In Service Studio, in the Toolbox, search for  `Range Slider`. 
 
-![](images/range_slider_interval_interaction.png)  
+    The Range Slider widget is displayed.
 
-2\. After setting the MinValue, MaxValue, InitialIntervalStart and the InitialIntervalEnd, create the OnChange event.
+    ![](images/rangeslider-widget.png)
 
-![](images/range_slider_interval_create.png)  
+1. From the Toolbox, drag the Range Slider widget onto your application's screen.
+1. Bind your variables to the InitialIntervalStart and InitialIntervalEnd inputs and use the OnChange event to add your logic to handle value changes.
 
-3\. Create an integer value and assign it.
+    ![](images/range_slider_interval_interaction.png)  
 
-![](images/range_slider_interval_assign.png)  
+1. After setting the MinValue, MaxValue, InitialIntervalStart and the InitialIntervalEnd, create the OnChange event.
+
+    ![](images/range_slider_interval_create.png)  
+
+1. Create an integer value and assign it.
+
+    ![](images/range_slider_interval_assign.png)  
 
 **Result**:
 
@@ -41,7 +48,7 @@ The RangeSliderInterval pattern enables you to set an interval by dragging two h
 
 ![](images/change_size_of_handles_2.png)
 
-## Input Parameters
+## Properties
 
 **Input Name** |  **Description** |  **Default Value**  
 ---|---|---  
@@ -54,24 +61,14 @@ The RangeSliderInterval pattern enables you to set an interval by dragging two h
 ![](images/input.png) |  PipsStep  |  Range interval after which a Pip is drawn (when ShowPips is enabled). If not specified, the component will try to guess what step fits your data.  |  -1  
 ![](images/input.png) |  ChangeEventDuringSlide  |  Trigger Change events while the slider is being dragged. If set to False, the Change events will only be triggered when the user releases the slider.  **Tip**: if you're refreshing a query based on the value of the slider, you probably want to set this to False.  |  _True_  
   
-## Events
-
-**Event Name** |  **Description** |  **Mandatory**  
----|---|---  
-![](images/Event.png) OnChange  |  Action to execute after selecting a new value on the slider. Returns the new IntervalStart and the new IntervalEnd.  |  _True_  
-  
-## Layout and Classes
-
-![](images/range_slider_layout_and_classes.png)
-
-## CSS Selectors
-
-**Element** |  **CSS Class** |  **Description**  
----|---|---  
-![](images/css_selector.png) |  noUi-handle  |  .noui-active  |  Class added when you click the handle.  
   
 ## Samples
 
-This sample uses the RangeSliderInterval pattern:
+The following example uses the Range Slider Interval pattern:
 
 ![](images/RangeSliderInterval-Sample-1.PNG)
+
+## See Also
+
+* OutSystems UI Live Style Guide: [Range Slider Interval](https://outsystemsui.outsystems.com/WebStyleGuidePreview/RangeSliderInterval.aspx)
+* OutSystems UI Pattern Page: [Range Slider Interval](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=61)

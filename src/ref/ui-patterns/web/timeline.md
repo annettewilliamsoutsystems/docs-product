@@ -19,7 +19,7 @@ summary:
 1. In the TimelineItem, use expressions to display the database content you need.
 1. To disable the vertical line on the last TimelineItem, write the following CSS code in the application Theme:
 
-        .ListRecords .timeline-item:last-of-type .timeline-item-separator {
+         .ListRecords .timeline-item:last-of-type .timeline-item-separator {
         display: none; 
         }
     

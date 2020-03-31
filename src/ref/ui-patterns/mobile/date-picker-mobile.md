@@ -12,9 +12,9 @@ summary:
 ## CSS Selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
-| ---|---|---  
-| ![](images/css_selector.png) td |  .is-selected  |  Clicked day.  
-| ![](images/css_selector.png) td  |  .is-startrange  |  If SelectInterval is True , this class will be the start range value.  |
+| ---|---|---| 
+| ![](images/css_selector.png) td |  .is-selected  |  Clicked day.  |
+| ![](images/css_selector.png) td |  .is-startrange |  If SelectInterval is True , this class will be the start range value.  |
 
 
  ## See Also

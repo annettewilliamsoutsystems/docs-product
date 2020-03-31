@@ -5,18 +5,17 @@ summary: Iframe displays information from other apps on the screen in small prev
 
 # Iframe
  
- You can use the Iframe UI pattern to display information from other applications on the screen as a small preview. For example, the Iframe UI pattern is often used to insert content from another source, such as an advertisement, into an application.
+ You can use the Iframe UI Pattern to display information from other applications on the screen, as a small preview. For example, the Iframe UI pattern is often used to insert content from another source, such as an advertisement, into an application.
 
-**How to Use the Iframe UI Pattern**
+**How to use the Iframe UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
-1. On the left side of the screen, in the **Search** field, enter **Iframe**.
+1. In Service Studio, in the Toolbox, search for `Iframe`. 
 
-    The Iframe block is displayed.
-
-    [//]: # (Add Iframe icon here)
-
-1. From the Toolbox, drag the Iframe block onto your application’s screen.
+    The Iframe widget is displayed.
+    
+    ![](<images/iframe-image-6.png>)
+      
+1. From the Toolbox, drag the Iframe widget onto your application’s screen.
 
     ![](<images/iframe-image-1.png>)
 
@@ -35,5 +34,5 @@ After following these steps and publishing the module, you can test the pattern 
 | Height (Text): Optional  | Iframe height (default is 100%).|
 | Width (Text): Optional | Iframe width (default is 100%). |
   
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Iframe](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Iframe.aspx)
