@@ -5,11 +5,13 @@ summary:
 
 # Range Slider Interval 
 
-You can use the Range Slider Interval pattern to set an interval by dragging two handles. You can control an interval value with simple and interactive user inputs.
+You can use the Range Slider Interval Pattern to allow users select a single value between two range values. This pattern enables the adjustment of content by predetermined intervals and within a chosen range. Moving the slider along the track, increases or decreases the value. 
 
-## How to Use the Range Slider Interval UI Pattern
+![](images/range-slider-interval-preview.png)
 
-1. In Service Studio, in the Toolbox, search for  `Range Slider`. 
+## How to use the Range Slider Interval UI Pattern
+
+1. In Service Studio, in the Toolbox, search for `Range Slider`. 
 
     The Range Slider widget is displayed.
 
@@ -28,11 +30,13 @@ You can use the Range Slider Interval pattern to set an interval by dragging two
 
     ![](images/range_slider_interval_assign.png)  
 
+After following these steps and publishing the module, you can test the pattern in your app. 
+
 **Result**:
 
 ![](images/RangesliderInterval_BasicEndResult.gif)
 
-### Changing the Color of the Bar
+### Changing the color of the bar
 
 ![](images/range_slider_interval_change_colors.png)
 
@@ -40,7 +44,7 @@ You can use the Range Slider Interval pattern to set an interval by dragging two
 
 ![](images/range_slider_interval_change_colors_2.png)
 
-### Changing the Size of the Handles
+### Changing the size of the handles
 
 ![](images/change_size_of_handles.png)
 
@@ -50,7 +54,7 @@ You can use the Range Slider Interval pattern to set an interval by dragging two
 
 ## Properties
 
-**Input Name** |  **Description** |  **Default Value**  
+**Property** |  **Description** |  **Default Value**  
 ---|---|---  
 ![](images/input.png) |  MinValue  |  Slider's minimum value.  |  none  
 ![](images/input.png) |  MaxValue  |  Slider's maximum value.  |  none  
@@ -68,7 +72,7 @@ The following example uses the Range Slider Interval pattern:
 
 ![](images/RangeSliderInterval-Sample-1.PNG)
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Range Slider Interval](https://outsystemsui.outsystems.com/WebStyleGuidePreview/RangeSliderInterval.aspx)
 * OutSystems UI Pattern Page: [Range Slider Interval](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=61)

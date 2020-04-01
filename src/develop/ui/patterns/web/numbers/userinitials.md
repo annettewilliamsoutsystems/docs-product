@@ -5,25 +5,22 @@ summary: UserInitials display user information in a circular badge.
 
 # User Initials
 
-Display user information in a circular badge.
-
-You can use the User Initials UI pattern to display a user’s initials or their image in a circular badge. 
+You can use the User Initials UI Pattern to display a user’s initials or their image in a circular badge. 
 
 ![](<images/userinitials-image-4.png>)
 
-**How to Use the User Initials UI Pattern**
+**How to use the User Initials UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
-2. On the left side of the screen, in the **Search** field, enter **User Initials**. 
+1. In Service Studio, in the Toolbox, search for `User Initials`. 
 
-    The Stacked Icon block is displayed.      
-        ![](<images/userinitials-image-9.png>)
-    
-    
-3. From the Toolbox, drag the Stacked Icon block onto your application's screen.
+    The User Initials widget is displayed.
 
+    ![](<images/userinitials-image-11.png>)
+
+1. From the Toolbox, drag the User Initials widget onto your application’s screen.
+   
   
-4. On the **Properties** tab, set the relevant properties. 
+1. On the **Properties** tab, set the relevant properties, for example, color, size, and shape. 
 
     ![](<images/userinitials-image-10.png>)
     
@@ -44,6 +41,6 @@ After following these steps and publishing the module, you can test the pattern 
 
 
 
-### See Also
+### See also
 * OutSystems UI Live Style Guide: [User Initials](https://outsystemsui.outsystems.com/WebStyleGuidePreview/UserInitials.aspx)
 * OutSystems UI Pattern Page: [User Avatar](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=80)

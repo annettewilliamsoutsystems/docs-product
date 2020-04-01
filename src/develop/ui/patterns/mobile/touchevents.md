@@ -9,7 +9,7 @@ You can use the Touch Events UI Pattern to enable touch events on a specific wid
 
 ![](images/touch_events_utilities.png)
 
-## How to Create Custom Patterns with the Touch Events UI Pattern
+## How to create custom patterns using the Touch Events UI Pattern
 
 You can call the **event.preventDefault()** to prevent the default action associated with each event from occurring. The touchstart and touchend events don't need this action, but touchmove requires it to stop screen scrolling when the user is moving the finger inside the element.
 
@@ -19,7 +19,7 @@ To use the **event.preventDefault()**, use the following string of code:
 
 `$parameters.Evt.preventDefault();`
 
-## How to Hide a Header During a Scroll Action
+## How to hide a header during a scroll action
 
 You can use the Touch Events UI pattern to hide a header during a scroll action.
 
@@ -52,7 +52,7 @@ Element | Code
 ---|---|---  
 ![](images/input.png) WidgetId  |  This is the element that responds to the touch you configure.  |  none  
 
-## Compatibility with other Patterns
+## Compatibility with other patterns
 
 There might be conflicts with any pattern with touch events used together with this pattern (unless the code is altered to expect this behavior).
 
@@ -62,6 +62,6 @@ The following sample uses the TouchEvents pattern:
 
 ![](images/TouchEvents-Sample-1.PNG)
 
-## See Also
+## See also
 
 * OutSystems UI Pattern Page: [Touch Events](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=78)

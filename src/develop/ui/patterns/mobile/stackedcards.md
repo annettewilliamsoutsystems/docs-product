@@ -9,7 +9,7 @@ You can use Stacked Cards UI Pattern to add swipeable cards that can be dragged 
 
    ![](images/stackedcards-preview.png)
 
-## How to Use the Stacked Cards Pattern
+## How to use the Stacked Cards Pattern
 
 1. In Service Studio, in the Toolbox, search for  `Stacked Cards`. 
 
@@ -38,7 +38,7 @@ You can use Stacked Cards UI Pattern to add swipeable cards that can be dragged 
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
-### Adding Styles to Elements
+### Adding styles to elements
 
 This example shows you how to add styles to elements in the Pattern:
 
@@ -50,7 +50,7 @@ This example shows you how to add styles to elements in the Pattern:
     }
     
 
-### Setting the Full Height of Elements
+### Setting the full height of elements
 
 To set the full height of your elements in the Pattern, so that they fill the entire screen, use this CSS code:
 
@@ -63,7 +63,7 @@ To set the full height of your elements in the Pattern, so that they fill the en
     }
     
 
-### Defining Specific Heights for All Elements
+### Defining specific heights for all Elements
 
 The height of the first element defines the height of each element in the Pattern. To set a specific height, use the following CSS code:
 
@@ -74,7 +74,7 @@ The height of the first element defines the height of each element in the Patter
     }
     
 
-### Applying Different Background Colors to Overlays
+### Applying different background colors to overlays
 
 The overlays are enabled by default and have default colors in the Pattern. If you don’t want to use them, set “ **UseOverlays** ” to _False_ .
 
@@ -99,12 +99,12 @@ You can set other colors either by adding a container to **OverlayTop** , **Over
     }
     
 
-### Creating a Button to Execute Swipes
+### Creating a button to execute swipes
 
 Create each action and drag the [public actions](<public-actions.md>) (SwipeLeft, SwipeRight, or SwipeTop). In the Stacked Cards block, associate the handler to swipe events.  
 ![](images/Stacked_swipe.png)
 
-### Creating a ListRemove Button
+### Creating a ListRemove button
 
 Create an “OnListRemove” action and drag the ListRemoveNode and the UpdateStackedCards in the [public actions](<public-actions.md>) of the block.
 
@@ -118,7 +118,7 @@ Create an “OnListRemove” action and drag the ListRemoveNode and the UpdateSt
 ![](images/input.png) ElementsMargin  |  Define the distance of each element when the stacked options are bottom or top.  |  5  
 ![](images/input.png) UseOverlays  |  Enable or disable the overlays for swipe elements.  |  True
   
-## Compatibility with Other Patterns
+## Compatibility with other patterns
 
 Avoid using the Stacked Cards Pattern inside patterns with swipe events / touch events, like [Tabs](<tabs.md>) or [Carousel](<carousel.md>).
 
@@ -130,6 +130,6 @@ The following samples use the Stacked Cards pattern:
 
 ![](images/StackedCards-Sample-2.PNG)
 
-## See Also
+## See also
 
 * OutSystems UI Pattern Page: [Stacked Cards](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=68)

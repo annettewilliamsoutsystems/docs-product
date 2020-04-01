@@ -3,23 +3,23 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# Gallery Pattern
+# Gallery 
 
-You can use the Gallery UI pattern to display content (such as cards) in a specific set of columns, configurable per device type and orientation. 
+You can use the Gallery UI Pattern to display content (such as cards) in a specific set of columns, configurable per device type and orientation. 
+
+![](<images/gallery-image-7.png>)
 
 
-![](images/Gallery_preview.png)
+## How to use the Gallery UI Pattern
 
-## How to Use the Gallery UI Pattern
-1. In Service Studio, select the **Interface** tab.
+1. In Service Studio, in the Toolbox, search for `Gallery`. 
 
-1. On the left side of the screen, in the **Search** field, enter **Gallery**. 
-    
-    The Gallery block is displayed. 
+    The Gallery widget is displayed.
 
-     ![](<images/gallery-image-1.png>)
+    ![](<images/gallery-image-8.png>)
 
-1. From the Toolbox, drag the Gallery block onto your application's screen. 
+1. From the Toolbox, drag the Gallery widget onto your application’s screen.
+
 
 1.  Drag a list or static content into the Content placeholder.
 
@@ -27,9 +27,9 @@ You can use the Gallery UI pattern to display content (such as cards) in a speci
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
-## Input Parameters
+## Properties
 
-**Input Name** |  **Description** |  **Default Value**  
+**Property** |  **Description** |  **Default Value**  
 ---|---|---  
 ![](images/input.png) ColumnsInPhonePortrait  |  Number of columns in a Portrait phone.  |  1  
 ![](images/input.png) ColumnsInPhoneLandscape  |  Number of columns in a Landscape phone.  |  2  
@@ -45,7 +45,7 @@ The following sample uses the Gallery pattern:
 
 ![](images/Gallery-Sample-1.PNG)
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Gallery](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Gallery.aspx)
 

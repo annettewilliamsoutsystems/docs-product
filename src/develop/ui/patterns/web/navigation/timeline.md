@@ -5,23 +5,24 @@ summary: Timeline indicates related events in chronological order.
 
 # Timeline
 
-You can use the Timeline UI pattern to show related events in a chronological order, such as a user’s upcoming, current, and past activities.
+You can use the Timeline UI Pattern to show related events in a chronological order, such as a user’s upcoming, current, and past activities.
 
 ![](<images/timeline-image-6.png>)
 
 
-**How to Use the Timeline UI Pattern**
+**How to use the Timeline UI Pattern**
 
-1. In Service Studio, select the **Interface** tab.
 
-1. On the left side of the screen, in the **Search** field, enter **Timeline**. 
-    
-    The Timeline block is displayed. 
+1. In Service Studio, in the Toolbox, search for `Timeline`. 
 
-     ![](<images/timeline-image-5.png>)
+    The Timeline widget is displayed.
 
-1. From the Toolbox, drag the Timeline block onto your application's screen.  
-![](images/timeline-image-2.png?width=500)
+    ![](<images/timeline-image-7.png>)
+
+
+1. From the Toolbox, drag the Timeline widget onto your application’s screen.
+
+    ![](images/timeline-image-2.png?width=500)
 
 
 1. Set the required content in the Icon, Date, and Content placeholders. 
@@ -51,7 +52,7 @@ After following these steps and publishing the module, you can test the pattern 
 | ExtendedClass (Text): Optional |  Add custom style classes to the block. |  
 
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Timeline](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Timeline.aspx)
 

@@ -5,12 +5,13 @@ summary:
 
 # Swipe Events
 
-You can use the Swipe Events UI pattern to enable swiping on a specific widget.
+You can use the Swipe Events UI Pattern to enable swiping on a specific widget.
 
 
-## How to Use the Swipe Events UI Pattern
+## How to use the Swipe Events UI Pattern
 
-You can use the Swipe Events UI pattern to open a sidebar.
+the following example shows how you can use the Swipe Events UI pattern to open a sidebar.
+
 1. In Service Studio, in the Toolbox, search for  `Swipe Events`. 
 
     The Swipe Events widget is displayed.
@@ -23,7 +24,7 @@ You can use the Swipe Events UI pattern to open a sidebar.
 
     ![](images/swipe_events_create.png)
 
-After following these steps and publishing the module, you can test the pattern in your app. the result should look something like the following:
+After following these steps and publishing the module, you can test the pattern in your app. The result should look something like the following:
 
 ![](images/SwipeEvents_EndResult.gif)
 
@@ -34,7 +35,7 @@ After following these steps and publishing the module, you can test the pattern 
 ![](images/input.png) |  WidgetId  |  Element that will be swipeable.  |  none  
   
   
-## Compatibility with other Patterns
+## Compatibility with other patterns
 
 There might be conflicts with any pattern with touch events (unless the code is altered to support the behavior). For example, using the sidebar ID  instead of a container in the previous example.
 
@@ -51,5 +52,5 @@ The following sample uses the Swipe Events UI Pattern:
 
 ![](images/SwipeEvents-Sample-1.PNG)
 
-## See Also
+## See also
 * OutSystems UI Pattern Page: [Swipe Events](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=70)

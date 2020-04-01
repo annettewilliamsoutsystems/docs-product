@@ -5,27 +5,28 @@ summary: Tabs separate content into flat structure sections.
 
 # Tabs
 
-You can use the Tabs UI pattern to display large sets of information, which can be split into different areas, while always remaining a click away. 
+You can use the Tabs UI Pattern to display large sets of information, which can be split into different areas, while always remaining a click away. 
 
 ![](images/tabs-gif1.gif?width=650)
 
 
-**How to Use the Tabs UI Pattern**
-1. In Service Studio, select the **Interface** tab.
+**How to use the Tabs UI Pattern**
 
-2. On the left side of the screen, in the **Search** field, enter **Tabs**. 
+
+1. In Service Studio, in the Toolbox, search for `Tabs`. 
+
+    The Tabs widget is displayed.
     
-    The Tabs block is displayed. 
+    ![](images/tabs-image4.png)
+    
 
-    ![](images/tabs-image-4.png)
+1. From the Toolbox, drag the Tabs widget onto your application's screen. 
 
-3. From the Toolbox, drag the Tabs block onto your application's screen. 
-
-     ![](images/tabs-image1.png?width=750)
+    ![](images/tabs-image1.png?width=750)
   
-4. Add the necessary number of Tabs Header Item blocks to the Header placeholder and Tabs Content Item blocks to the Content placeholders.
+1. Add the necessary number of Tabs Header Item blocks to the Header placeholder and Tabs Content Item blocks to the Content placeholders.
 
-6. On the **Properties** tab, set the relevant properties.
+1. On the **Properties** tab, set the relevant properties.
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -60,7 +61,7 @@ After following these steps and publishing the module, you can test the pattern 
 
 
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Tabs](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Tabs.aspx)
 * OutSystems UI Pattern Page: [Tabs](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=73)

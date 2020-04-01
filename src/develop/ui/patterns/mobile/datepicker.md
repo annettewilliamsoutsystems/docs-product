@@ -3,36 +3,34 @@ tags: runtime-mobileandreactiveweb;
 summary: 
 ---
 
-# Date Picker Pattern
+# Date Picker
 
 You can use the Date Picker UI pattern as a graphical interface widget that allows the user to select a date from a calendar and/or time from a time range.
 
-To display items in a gallery pattern, you can use static data or a **List** widget inside this block. 
+To display items in a gallery pattern, you can use static data or a **List** widget inside the block. 
 
-![](images/datepicker.png?width=600)  
+![](images/datepickercalendar.png)  
 
 The Date Picker UI pattern was created using the [Pikaday.js
 library](https://github.com/dbushell/Pikaday/blob/master/README.md "https://github.com/dbushell/Pikaday/blob/master/README.md") .
 
 
-## How to Use the Date Picker UI Pattern
+## How to use the Date Picker UI Pattern
 
-1. In Service Studio, select the **Interface** tab.
-
-1. On the left side of the screen, in the **Search** field, enter **Date Picker**. 
-    
-    The Date Picker block is displayed. 
-    
-    ![](images/date-picker-icon.png)
+1. In Service Studio, in the Toolbox, search for `Date Picker`.
+  
+     The Date Picker widget is displayed.
    
-1. From the Toolbox, drag the Date Picker block onto your application's screen.
+    ![](images/datepicker-widget.png)  
+  
+1. From the Toolbox, drag the Date Picker widget onto your application's screen.
 
     You are prompted to create an event.
     
     ![](images/datepicker_create_an_event.png?width=500)
 
 
-1. To access the pciked date, you must create an Assign for the
+1. To access the picked date, you must create an Assign for the
 **startDate** (if SelectInterval is False ).
 
 1. Set the default value of the variable **PickedDate** as CurrDateTime().
@@ -45,7 +43,7 @@ After following these steps and publishing the module, you can test the pattern 
 
 
 
-### Listing Events of a Selected Day
+### Listing events of a selected day
 
 1. Set the area where you want to put the list of events.
 
@@ -75,9 +73,9 @@ DateTimeToDate(Events.DateTime) = Date
 
    ![](images/datepicker_Profit.gif) 
 
-## Input Parameters
+## Properties
 
-| **Input Name** |  **Description** |  **Default Value** |
+| **Properties** |  **Description** |  **Default Value** |
 |---|---|---|
 | ![](images/input.png)  EventList  |  Receives a List of DateTime records that are used to highlight days as event days. |  none |
 | ![](images/input.png) MinDate  |  Days before this date will be disabled. |  none  |
@@ -97,6 +95,6 @@ DateTimeToDate(Events.DateTime) = Date
 | ---|---|--- |  
 | ![](images/Event.png) OnSelect | Action to execute after selecting a DatePicker day. If SelectInterval is enabled, both parameters return values. If not, only the StartDate has a value.  |  True  |
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Date Picker](https://outsystemsui.outsystems.com/WebStyleGuidePreview/DatePicker.aspx)
 * OutSystems UI Pattern Page: [Date Picker](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=31)

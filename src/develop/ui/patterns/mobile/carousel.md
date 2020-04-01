@@ -5,28 +5,26 @@ summary:
 
 # Carousel Pattern
 
-You can use the Carousel UI pattern to display multiple items in a horizontal slide. This pattern is ideal for creating horizontal slides in smaller screens. You can also use this pattern for dynamic content, by placing a List directly inside the placeholder. 
+You can use the Carousel UI Pattern to display multiple items in a horizontal slide. This pattern is ideal for creating horizontal slides in smaller screens. You can also use this pattern for dynamic content, by placing a List directly inside the placeholder. 
 
 ![](images/Carousel_studio_preview.png)
 
-## How to Use the Carousel UI Pattern
+## How to use the Carousel UI Pattern
 
-1. In Service Studio, select the **Interface** tab.
+1. In Service Studio, in the Toolbox, search for `Carousel`.
+  
+     The Carousel widget is displayed.
 
-1. On the left side of the screen, in the **Search** field, enter **Carousel**. 
-    
-    The Carousel block is displayed. 
+    ![](images/carousel-widget.png)
+  
 
-   ![](images/carousel-ui-icon.png)
-
-1. From the Toolbox, drag the Carousel block onto your application's screen. 
+1. From the Toolbox, drag the Carousel widget onto your application's screen. 
 
     ![](images/Carousel_drag_pattern.png)
 
-
 1. Place your content into the **Carousel Items** placeholder. 
 
-    To use a List, drag it into **Carousel Items** placeholder (disable virtualization and set **Animated items** to _False_ .
+    To use a List, drag it into **Carousel Items** placeholder (disable virtualization and set **Animated items** to False .
 
     ![](images/Carousel_items.png)
 
@@ -37,7 +35,7 @@ You can use the Carousel UI pattern to display multiple items in a horizontal sl
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
-### Customizing the Dots
+### Customizing the dots
 
 You can use CSS to customize the look and feel of the dots.
 
@@ -84,10 +82,9 @@ You can use CSS to customize the look and feel of the dots.
 
 ![](images/Carousel_before_after_2.png)
 
-### Using the Carousel Inside Columns
+### Using the Carousel Pattern inside the Columns Pattern
 
-If you want to use a Carousel inside any [Columns pattern](<columns.md>) , you must fix the columns’ overflow, by adding this style
-to the CSS:
+To use the Carousel Pattern inside any Columns Pattern , you must fix the columns’ overflow, by adding the following style to the CSS:
    
     
     .col {
@@ -95,32 +92,32 @@ to the CSS:
     }
     
 
-### Getting the CurrentPosition of a Carousel Item
+### Getting the current position of a Carousel Item
 
-  1. Create an **Integer** local variable (ex: Position) on the screen. 
-  2. In the **OnItemChange** event of the block, create a new client action for the handler (CarouselCurrentPosition).   
-a. The action receives a variable **Index** , which is the event that
+  1. Create an **Integer** local variable (for example, Position) on the screen. 
+  1. In the **OnItemChange** event of the block, create a new client action for the handler (CarouselCurrentPosition).   
+    a. The action receives a variable **Index** , which is the event that
 indicates the current position in the Carousel.
 
-  3. Drag an **Assign** node and set the Position (your local variable) to Index. 
+  1. Drag an **Assign** node and set the Position (your local variable) to Index. 
 
 ![](images/Carousel_current_position.png)
 
-### Creating an Onboarding with the Carousel Pattern
+### Creating an onboarding screen using the Carousel Pattern
 
 A typical onboarding screen has a Carousel that takes the full height of the
 screen, slides for a couple of items and then displays a button to start using
 the app on the last slide. Follow the steps below to create your own
 onboarding screen using the Carousel.
 
-#### Creating a Carousel that Occupies the Screen Height
+#### Creating a carousel that occupies the screen height
 
-1\. Start with a new Screen using a Blank Layout (Common\LayoutBlank).
+1. Start with a new Screen using a Blank Layout (Common\LayoutBlank).
 
-2\. Drag the **Carousel** pattern into the **Content** placeholder
+1. Drag the **Carousel** pattern into the **Content** placeholder
 (Interaction\Carousel).
 
-3\. Add content to the Carousel, either static or dynamic items, from a List.  
+1. Add content to the Carousel, either static or dynamic items, from a List.  
 **Note: If you use a List Widget, you need to disable virtualization.**
 
 Here's what it would look like:
@@ -129,45 +126,44 @@ Here's what it would look like:
 
 #### Displaying a Button when Viewing the Last Carousel Item
 
-1\. Create a **boolean** local variable on the screen called **ShowButton**.
+1. Create a **boolean** local variable on the screen called **ShowButton**.
 
-2\. Create an action called **OnChange** and add it to the **OnItemChange**
+1. Create an action called **OnChange** and add it to the **OnItemChange**
 handler of the Carousel.
 
-3\. In this action, we will verify if the current position is equal to the
+1. In this action, we will verify if the current position is equal to the
 total number of elements in the OnBoarding’s Carousel.
 
 ![](images/Carousel_onboarding.png)
 
-4\. The logic is: if **“Index = 2”** the local variable is assigned to _True_
+1. The logic is: if **“Index = 2”** the local variable is assigned to _True_
 , otherwise it is assigned to _False_ .
+1. The variable **showButton** shows the button to the user.
 
-2\. The variable **showButton** shows the button to the user.
-
-3\. Drag the **FloatingContent** pattern (Content\FloatingContent) into the
+1. Drag the **FloatingContent** pattern (Content\FloatingContent) into the
 screen.
 
-7\. Add a **Container** and in the **Visible** parameter, set the local
+1. Add a **Container** and in the **Visible** parameter, set the local
 variable **showButton**.  
 a. Drag the “ **Animate** ” block into the container, and set the **Animation
 Type**.  
 b. Add a button into the Content placeholder.  
   
-8\. Publish your app.
+1. Publish your app.
 
-### Creating a Carousel with Buttons to Navigate
+### Creating a carousel with navigation buttons
 
 This pattern includes [public actions](<public-actions.md>) that you can use without having to use the Carousel's own
 navigation (Next, Previous or GoTo). In this use case, we will only use
 buttons to navigate in the Carousel:
 
-1\. Create an action and drag either one of the public actions Next, Previous
+1. Create an action and drag either one of the public actions Next, Previous
 or GoTo.
 
-2\. Create a button to associate the **onClick** event with the created
+1. Create a button to associate the **onClick** event with the created
 action.
 
-3\. See the image below with all possible actions.
+1. See the image below with all possible actions.
 
 ![](images/Carousel__on_click.png)
 
@@ -175,12 +171,12 @@ action.
 
 This pattern includes the **UpdateCarousel** [public actions](<public-actions.md>) to update all variables and positions in the Pattern:
 
-1\. Create an action and drag the **ListRemove** and **CarouselUpdate**
+1. Create an action and drag the **ListRemove** and **CarouselUpdate**
 actions.
 
-2\. Create a **ListRemoveOnClick** button and associate the created action.
+1. Create a **ListRemoveOnClick** button and associate the created action.
 
-3\. See the example in the image below.
+1. See the example in the image below.
 
 ![](images/Carousel_list_remove.png)
 
@@ -188,21 +184,21 @@ actions.
 
 Property |  Description |  Default Value  
 ---|---|--- 
- ![](images/input.png)  Navigation  |  Enable or disable buttons to navigate left and right.  |  _False_
- ![](images/input.png)  Dots  |  Enable or disable dots to represent items on the Carousel, which can be tapped to navigate directly to a given item.  | _True_
+ ![](images/input.png)  Navigation  |  Enable or disable buttons to navigate left and right.  |  False
+ ![](images/input.png)  Dots  |  Enable or disable dots to represent items on the Carousel, which can be tapped to navigate directly to a given item.  | True
  ![](images/input.png)  Margin  |  Set the distance between each Carousel item.  |  0 
  ![](images/input.png)  Padding  |  Set the distance between the screen edges and the visible items on the screen.  |  0
  ![](images/input.png)  AutoPlay  |  Enable or disable the autoplay velocity. |  Disabled
- ![](images/input.png)  Scale  |  Use the scale option for each carousel item.  |  _False_
- ![](images/input.png)  Loop  |  Enable or disable continuous slide of the Carousel even after it reaches the end.  |  _False_
- ![](images/input.png)  Center  |  Display the active item centered horizontally.  |  _False_
+ ![](images/input.png)  Scale  |  Use the scale option for each carousel item.  |  False
+ ![](images/input.png)  Loop  |  Enable or disable continuous slide of the Carousel even after it reaches the end.  |  False
+ ![](images/input.png)  Center  |  Display the active item centered horizontally.  |  False
  ![](images/input.png)  InitialPosition  |  Set the first element to show.  | 0
  ![](images/input.png)  Items  |  Number of visible Carousel items at the same time on the screen.  |  1
   
  
-## Compatibility with Other Patterns
+## Compatibility with other patterns
 
-Avoid using the Carousel inside patterns with swipe events, like Tabs Stacked Cards.
+Avoid using the Carousel inside patterns with swipe events, such as the Tabs and Stacked Cards Patterns.
 
 ## Samples
 
@@ -210,6 +206,6 @@ See how the [Product Dashboard sample](https://silkui.outsystems.com/Samples_Mob
 
 ![](images/Sample_Product_Dashboard.png)
 
-## See Also
+## See also
 * OutSystems UI Live Style Guide: [Carousel](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Carousel.aspx)
 * OutSystems UI Pattern Page: [Carousel](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=17)

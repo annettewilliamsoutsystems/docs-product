@@ -5,23 +5,23 @@ summary: Wizard splits complex tasks and process into steps.
 
 # Wizard 
 
-You can use the Wizard UI pattern to split large complex tasks and processes into smaller manageable steps. Wizards usually include explicit button navigation to move a step forward or backward. 
+You can use the Wizard UI Pattern to split large complex tasks and processes into smaller manageable steps. A wizard presents a series of steps or conditions that the user needs to complete in order to accomplish a goal. Additionally, wizards usually include explicit button navigation to move a step forward or backward. Some wizard examples include software installation wizards and sign-up screens.
 
 **How to use the Wizard UI Pattern**
 
 1. In Service Studio, in the Toolbox, search for `Wizard`. 
 
-    The Wizard widget is displayed.
+    The Wizard and Wizard Item widgets are displayed (both of which are required to use this pattern).
     
      ![](<images/wizard-image-23.png>)
 
 1. From the Toolbox, drag the Wizard widget onto your application's screen.
 
-    By default, the Wizard widget contains three Wizard Item blocks. Each Wizard Item represents a step. You can add or delete Wizard Items as required.
+    By default, the Wizard widget contains three Wizard Item widgets. Each Wizard Item represents a step. You can add or delete Wizard Items as required.
 
     ![](<images/wizard-image-1.png>)
 
-**Create a Wizard with Navigation Buttons**
+**Create a wizard with navigation buttons**
 
 The following example demonstrates how you can create a three step Wizard with navigation buttons.
 
@@ -53,7 +53,7 @@ The following example demonstrates how you can create a three step Wizard with n
 
     ![](images/wizard-image-17.png)
 
-**Add Content to your Wizard**
+**Add content to your wizard**
 
 1. Create a condition to control what is displayed, depending on what step is active.
     
@@ -69,7 +69,7 @@ The following example demonstrates how you can create a three step Wizard with n
     
     ![](images/wizard-image-20.png)
 
-**Create a Screen Action**
+**Create a screen action**
 
 To ensure that all of the information the user enters is passed from step to step, you must create a screen action for the **Previous** and **Next** navigation buttons.
 
@@ -104,7 +104,7 @@ After following all of the steps in each of the sections, you can publish the mo
 | ExtendedClass (Text) : Optional |  Add custom style classes to the block. | 
   
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Wizard](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Wizard.aspx)
 * OutSystems UI Pattern Page: [Wizard](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=82)

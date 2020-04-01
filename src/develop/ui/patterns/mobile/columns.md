@@ -5,7 +5,9 @@ summary:
 
 # Columns 
 
-You can use the Columns UI pattern to split content into multiple columns. Additionally, you can configure the columns' behavior and define how they display on different devices. Splitting content into columns improves how information is displayed and enhances the overall user experience.
+You can use the Columns UI Pattern to split content into multiple columns. Additionally, you can configure the column behavior and define how they display on different devices. Splitting content into columns improves how information is displayed and enhances the overall user experience.
+
+![](images/columns-image-4.png)  
 
 <!---You can split the columns as follows:
 
@@ -13,17 +15,15 @@ You can use the Columns UI pattern to split content into multiple columns. Addit
 
 ![](images/Column_columns.png)--->
 
-## How to Use the Columns UI Pattern
+## How to use the Columns UI Pattern
 
-1. In Service Studio, select the **Interface** tab.
+1. In Service Studio, in the Toolbox, search for `Columns`.
+  
+     The various Column widgets are displayed.
 
-1. On the left side of the screen, in the **Search** field, enter **Columns**. 
-    
-    The various Column blocks are displayed. 
+    ![](images/columns-image-6.png)  
 
-     ![](<images/columns-image-1.png>)
-
-1. From the Toolbox, drag the relevant Columns block onto your application's screen. 
+1. From the Toolbox, drag the relevant Columns widget onto your application's screen. 
 
 1. On the **Properties** tab, configure the column behavior to define how the columns will display on different devices.
 
@@ -63,7 +63,7 @@ See how the [Account Dashboard sample](https://silkui.outsystems.com/Samples_Mob
 
 ![](images/Sample_Account_Dashboard.png)
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Columns](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Columns6.aspx)
 * OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=25)

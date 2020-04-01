@@ -5,23 +5,23 @@ summary: AlignCenter places content horizontally or vertically within a containe
 
 # Align Center
 
-You can use Align Center UI pattern to center content horizontally or vertically on the screen. 
+You can use Align Center UI Pattern to center content horizontally or vertically on the screen. 
 
-**How to Use the Align Center UI Pattern**
+![](<images/aligncenter-image-10.png>)
 
-1. In Service Studio, select the **Interface** tab.
+**How to use the Align Center UI Pattern**
 
-1. On the left side of the screen, in the **Search** field, enter **Align Center**. 
-    
-    The Align Center block is displayed. 
+1. In Service Studio, in the Toolbox, search for `Align Center`. 
 
-     ![](<images/aligncenter-image-9.png>)
+    The Align Center widget is displayed.
 
-1. From the Toolbox, drag the Align Center block onto your application's screen.  
+    ![](<images/aligncenter-image-11.png>)
 
-1. Drag the User Initials pattern into Align Center placeholder.
+1. From the Toolbox, drag the Align Center widget onto your application’s screen.
+   
+1. From the Toolbox, drag the User Initials pattern into the Align Center placeholder.
 
-1. In the Name property, enter a name, for example **Scott Ritchie**.
+1. On the **Properties** tab, in the Name property, enter a name, for example **Scott Ritchie**.
 
     ![](<images/aligncenter-image-1.png>)
 
@@ -29,12 +29,11 @@ You can use Align Center UI pattern to center content horizontally or vertically
 
     ![](<images/aligncenter-image-2.png>)
 
-    When publshed, the user initials and text appears center aligned.
 
-    ![](<images/aligncenter-image-3.png>)
+After following these steps and publishing the module, you can test the pattern in your app. It should look something like the following:
 
-
-After following these steps and publishing the module, you can test the pattern in your app.
+   
+![](<images/aligncenter-image-3.png>)
 
 ## Properties
 

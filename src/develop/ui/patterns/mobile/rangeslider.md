@@ -5,9 +5,11 @@ summary:
 
 # Range Slider 
 
-You can use the Range Slider UI Pattern to set a value by dragging a handle within a configured range. It is used to control a variable value with simple and interactive user input.
+You can use the Range Slider UI Pattern to allow users select a single value between two range values. This pattern enables the adjustment of content within a predetermined range. Moving the slider along the track, increases or decreases the value.  
 
-## How to Use the Range Slider UI Pattern
+![](images/rangeslider-preview.png)
+
+## How to use the Range Slider UI Pattern
 
 1. In Service Studio, in the Toolbox, search for  `Range Slider`. 
 
@@ -28,11 +30,13 @@ You can use the Range Slider UI Pattern to set a value by dragging a handle with
 
     ![](images/range_slder_integer.png)
 
+After following these steps and publishing the module, you can test the pattern in your app. 
+
 **Result**:
 
 ![](images/Rangeslider_BasicEndResult.gif)
 
-### Changing the Color of the Bar
+### Changing the color of the bar
 
 ![](images/range_slider_color_bar_1.png)
 
@@ -40,7 +44,7 @@ You can use the Range Slider UI Pattern to set a value by dragging a handle with
 
 ![](images/range_slider_color_bar_2.png)
 
-### Changing the Size of the Handles
+### Changing the size of the handles
 
 ![](images/range_slider_handle_size_1.png)
 
@@ -50,7 +54,7 @@ You can use the Range Slider UI Pattern to set a value by dragging a handle with
 
 ## Properties
 
-**Input Name** |  **Description** |  **Default Value**  
+**Property** |  **Description** |  **Default Value**  
 ---|---|---  
 ![](images/input.png) MinValue  |  Slider's minimum value.  |  none  
 ![](images/input.png) MaxValue  |  Slider's maximum value.  |  none  
@@ -66,7 +70,7 @@ This sample uses the Range Slider Pattern:
 
 ![](images/RangeSlider-Sample-1.PNG)
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Range Slider](https://outsystemsui.outsystems.com/WebStyleGuidePreview/RangeSlider.aspx)
 * OutSystems UI Pattern Page: [Range Slider](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=60)

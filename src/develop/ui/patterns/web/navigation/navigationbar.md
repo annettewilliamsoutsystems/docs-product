@@ -5,29 +5,31 @@ summary:
 
 # Navigation Bar
 
-You can use the Navigation BAr UI pattern to organize the content and enable quick navigation through an application with vertically stacked links. These stacked links can be displayed with different hierarchy levels. The NavigationBar pattern uses the Navigation Bar Item and Navigation Bar SubItem to create the necessary structure.
+You can use the Navigation Bar UI Pattern to organize the content and enable quick navigation through an application with vertically stacked links. These stacked links can be displayed with different hierarchy levels. 
 
-Use it when the end user needs to navigate through an application's main sections while maintaining the ability to browse to another subsection quickly. 
+You user this pattern when the end user needs to navigate through an application's main sections while maintaining the ability to browse to another subsection quickly. 
 
-**How to Use the Navigation Bar UI Pattern**
+![](images/navigationbar-image-7.png)
 
-1. In Service Studio, select the **Interface** tab.
+**How to use the Navigation Bar UI Pattern**
 
-2. On the left side of the screen, in the **Search** field, enter **Navigation Bar**. 
-    
-    The Navigation Bar block is displayed. 
+1. In Service Studio, in the Toolbox, search for `Navigation Bar`. 
 
-3. From the Toolbox, drag the Navigation Bar block onto your application's screen. 
+    The Navigation Bar widget is displayed.
+
+      ![](images/navigationbar-image-6.png)
+
+1. From the Toolbox, drag the Navigation Bar widget onto your application's screen. 
 
     ![](images/navigationbar-image-1.png?width=500)
 
-4. Drag the required number of Navigation Bar Item blocks into the Content placeholder.
+1. Drag the required number of Navigation Bar Item blocks into the Content placeholder.
 
-5. Drag the required number of Navigation Bar Sub Item blocks into the Navigation Bar Item Content placeholder.
+1. Drag the required number of Navigation Bar Sub Item blocks into the Navigation Bar Item Content placeholder.
 
     ![](images/navigationbar-image-2.png)
 
-6. On the **Properties** tab, set the required values.
+1. On the **Properties** tab, set the required values.
 
     ![](images/navigationbar-image-3.png)
 
@@ -57,11 +59,11 @@ After following these steps and publishing the module, you can test the pattern 
 |---|---|---|
 | IsActive  |  Set IsActive to true, to define as the selected element. |  Boolean | False | False |
 
-## Device Compatibility
+## Device compatibility
 
 In Internet Explorer, `position: fixed` is used instead of `position: sticky` as the latter is not supported.
 
-## See Also
+## See also
 
 * OutSystems UI Live Style Guide: [Navigation Bar](https://outsystemsui.outsystems.com/WebStyleGuidePreview/NavigationBar.aspx)
 
