@@ -4,12 +4,13 @@ summary:
 ---
 
 # Navigatiob Bar UI Pattern Reference
-## Layout and Classes
+
+## Layout and classes
 
 
 ![](images/navigationbar-image-4.png)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---  
@@ -24,7 +25,7 @@ summary:
 | .navigation-bar-item-content | .is--collapsed |  Defines if the current navigationBarSubItem is collapsed  |
 
 
-## Advanced Use Case
+## Advanced use case
 
 ### Use Navigation Bar with ListRecords
 
@@ -43,7 +44,7 @@ summary:
     ![](images/navigationbar-image-5.png)
 
 
-### Change active color on NavigationBarItem
+### Change the active color on the NavigationBarItem
 
 * Write the following CSS in the CSS editor and change the `yourcolor` and `yourelement`.
 
@@ -61,7 +62,7 @@ summary:
 }
 ```
 
-### Change active color on NavigationBarSubItem
+### Change the active color on the NavigationBarSubItem
 
 * Write the following CSS in the CSS editor and change the `yourcolor` and `yourelement`.
 
@@ -81,7 +82,7 @@ summary:
 
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Navigation Bar](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/NavigationBar)
 

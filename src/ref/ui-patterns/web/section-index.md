@@ -5,18 +5,18 @@ summary:
 
 # Section Index UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/sectionindex-image-4.png>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---  
 | .section-index |  .section-index.is--sticky|  Defines if the SectionIndex position is fixed or not  |
 | .section-index-item |  .section-index-item.is--active|  Defines the current active link  |
 
-## Advanced Use Case
+## Advanced use case
 
 ### Change active color
 
@@ -41,7 +41,7 @@ For RTL compatibility, make sure to also add the following code:
         color: yourcolor;
     }
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Section Index](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/SectionIndex)
 

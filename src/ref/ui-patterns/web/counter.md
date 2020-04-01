@@ -5,19 +5,19 @@ summary:
 
 # Counter UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/counter-image-2.png>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | --- | --- | --- |
 | .center-align | .flex-direction-column |  When Orientation is Vertical  |
 
-## Advanced Use Case
+## Advanced use case
 
-### Add a new style to the Counter pattern
+### Add a new style to the Counter Pattern
 
 1. Drag the Counter pattern into the preview.
 
@@ -42,5 +42,5 @@ summary:
     ![](<images/counter-image-5.png>)
 
 
-  ## See Also
+  ## See also
  * OutSystems UI Pattern Documentation: [Counter](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Numbers/Counter)

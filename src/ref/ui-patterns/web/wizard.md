@@ -4,11 +4,12 @@ summary:
 ---
 
 # Wizard UI Pattern Reference
-## Layout and Classes
+
+## Layout and classes
 
 ![](images/wizard-image-3.png?width=750)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---
@@ -17,9 +18,9 @@ summary:
 | .wizard-item |  .wizard-item.past|  Defines the previous step  |
 | .wizard-item |  .wizard-item.next|  Defines the next step  |
 
-## Advanced Use Case
+## Advanced use case
 
-### Use Wizard with ListRecords
+### Use the Wizard Pattern with ListRecords
 
 1. Drag the Wizard Pattern into the screen.
 
@@ -33,7 +34,7 @@ summary:
 
 1. Publish and test.
 
-### Create a Wizard Navigation
+### Create a wizard navigation
 
 Use this example to create a three steps Wizard with continue and back buttons.
 
@@ -115,7 +116,7 @@ Use this example to create a three steps Wizard with continue and back buttons.
 
 ![](images/wizard-image-9.png?width=750)
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Wizard](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/Wizard)
 

@@ -43,12 +43,12 @@ background: border-bottom: var( --border-size-m) solid var(--color-red)
 ### Add a background color to the tabs
 
 1. Enclose the tabs with a container.
-2. Add the classes `background-blue-lighter text-neutral-0`, this adds a light blue background and force the text to be white.
-3. Publish the application.
+1. Add the classes `background-blue-lighter text-neutral-0`, this adds a light blue background and force the text to be white.
+1. Publish the application.
 
 ![](images/tabs-image3.png?width=750)
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Tabs](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/Tabs)
 

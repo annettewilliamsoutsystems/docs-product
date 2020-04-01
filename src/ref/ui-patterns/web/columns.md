@@ -5,11 +5,11 @@ summary:
 
 # Columns UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/columns-image-3.png>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---
@@ -43,5 +43,5 @@ summary:
 
 
 
-## See Also
+## See also
 * OutSystems UI Pattern Documentation: [Columns](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Structure/Columns)

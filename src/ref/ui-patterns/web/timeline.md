@@ -5,13 +5,13 @@ summary:
 
 # Timeline UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](images/timeline-image-1.png?width=750)
 
 ## Advanced Use Case
 
-### Use Timeline with ListRecords
+### Use the Timeline Pattern with ListRecords
 
 1. Drag the Timeline Pattern into the preview.
 1. In the Content placeholder, drag a ListRecords widget.
@@ -30,7 +30,7 @@ summary:
     ![](<images/timeline-image-4.png>)
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Timeline](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/Timeline)
 

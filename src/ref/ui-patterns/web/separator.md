@@ -5,18 +5,18 @@ summary:
 
 # Separator UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/separator-image-2.png>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | --- | --- | --- |
 | .separator | .separator-horizontal |  When IsVertical parameter is False  |
 | .separator | .separator-vertical |  When IsVertical parameter is True  |
 
-## Advanced Use Case
+## Advanced use case
 
 ### Use the vertical separator
 
@@ -37,7 +37,7 @@ summary:
 
     ![](<images/separator-image-3.png>)
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Separator](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Utilities/Separator)
 

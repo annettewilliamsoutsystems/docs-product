@@ -5,7 +5,7 @@ summary:
 
 # Stacked Icon UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/stackedicon-image-3.png>)
 
@@ -19,9 +19,9 @@ summary:
 | .stacked-icon  | .fa-5x |  Change the icon size, to 5em  |
 | .stacked-icon  | .fa-lg |  Change the icon size, to 1.33333333em  |
 
-## Advanced Use Case
+## Advanced use case
 
-### Use StackedIcon with a Tooltip
+### Use the Stacked Icon Pattern with a tooltip
 
 1. Drag a Tooltip Pattern into the page.
 
@@ -48,7 +48,7 @@ summary:
 The InvertSize parameter changes the sizes of the back and front icons with each other. This means toggling the `.fa-stack-1x` and `.fa-stack-2x` CSS classes.
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Stacked Icon](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Utilities/StackedIcon)
 

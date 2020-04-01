@@ -5,13 +5,13 @@ summary:
 
 # User Initials UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/userinitials-image-2.png>)
 
-## Advanced Use Case
+## Advanced use case
 
-### Use UserInitials on tables
+### Use the User Initials Pattern with tables
 
 1. Drag the Users table into preview.
 
@@ -27,7 +27,7 @@ summary:
 
     
 
-### Use UserInitials on IF conditions
+### Use the User Initials Pattern with IF conditions
 
 1. Create a custom class called "table-image-size".
 
@@ -62,7 +62,7 @@ summary:
 
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [User Initials](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Numbers/UserInitials)
 

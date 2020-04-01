@@ -5,7 +5,7 @@ summary:
 
 # Align Center UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/aligncenter-image-4.png>)
 
@@ -16,7 +16,7 @@ summary:
 | .center-align | .center-align.flex-direction-row | When Orientation parameter is Horizontal |
 | .center-align | .center-align.flex-direction-column | When Orientation parameter is Vertical |
 
-## Advanced Use Case
+## Advanced use case
 
 ### Set vertical align with custom content
 
@@ -49,7 +49,7 @@ summary:
 
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Align Center](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Structure/AlignCenter)
 

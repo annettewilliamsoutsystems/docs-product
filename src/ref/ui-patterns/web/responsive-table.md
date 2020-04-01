@@ -4,12 +4,13 @@ summary:
 ---
 
 # Responsive Table UI Pattern Reference
-## Layout and Classes
+
+## Layout and classes
 
 ![](<images/responsivetable-image-4.png>)
 
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---
@@ -18,9 +19,9 @@ summary:
 | table tbody tr |  .TableRecords_ExpandedRow |  When using the expandable-row option, identifies when the the row is expanded  |
 
 
-## Advanced Use Case
+## Advanced use case
 
-### Change Responsive Behavior parameter according to device
+### Change the responsive behavior parameter according to device
 
 1. Drag the ResponsiveTable Pattern into the page.
 
@@ -53,7 +54,7 @@ To implement this, you can use either method described below.
 ```
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Responsive Table](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Responsive/ResponsiveTable)
 

@@ -5,11 +5,11 @@ summary:
 
 # Flip Content UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/flipcontent-image-2.png?width=600>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | --- | --- | --- |
@@ -17,9 +17,9 @@ summary:
 | .flip-content | .flip-content.is--click |  When Trigger parameter is Click |
 | .flip-content | .flip-content.is--click.is--flipped |  When FlipContent is flipped |
 
-## Advanced Use Case
+## Advanced use case
 
-### Use the Events on Flip Content pattern
+### Use the events on the Flip Content Pattern
 
 It is possible to interact with other patterns or trigger actions with FlipContent events. To use the events, create a screen action to hold the event.
 
@@ -53,7 +53,7 @@ It is possible to interact with other patterns or trigger actions with FlipConte
 
     ![](<images/flipcontent-image-7.gif>)
 
-### Use the Toggle server action on Flip Content pattern
+### Use the Toggle server action on Flip Content Pattern
 
 It is possible to use a button or containers to interact with FlipContent by using a server action ToggleFlipContent.
 
@@ -85,6 +85,6 @@ It is possible to use a button or containers to interact with FlipContent by usi
 
     ![](<images/flipcontent-image-10.gif>)
 
-## See Also
+## See also
 * OutSystems UI Pattern Documentation: [Flip Content](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Utilities/FlipContent)
 

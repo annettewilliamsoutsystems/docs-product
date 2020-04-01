@@ -6,13 +6,13 @@ summary:
 # Breadcrumbs UI Pattern Reference
 
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/breadcrumbs-image-3.png>)
 
-## Advanced Use Case
+## Advanced use Case
 
-### Use Breadcrumbs with ListRecords
+### Use breadcrumbs with ListRecords
 
 1. Drag the Breadcrumbs Pattern into preview.
 
@@ -26,7 +26,7 @@ summary:
 
     ![](<images/breadcrumbs-image-4.png>)
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Breadcrumbs](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/Breadcrumbs)
 

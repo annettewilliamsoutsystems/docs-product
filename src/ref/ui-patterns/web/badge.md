@@ -6,11 +6,11 @@ summary:
 # Badge UI Pattern Reference
 
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/badge-image-2.png>)
 
-## Advanced Use Case
+## Advanced use case
 
 ### Use a transparent Badge pattern with a border
 
@@ -24,7 +24,7 @@ summary:
 
     
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Badge](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Numbers/Badge)
 

@@ -5,12 +5,11 @@ summary:
 
 # Animate UI Pattern Reference
 
-
-## Layout and Classes
+## Layout and classes
 
 ![](<images/animate-image-3.png>)
 
-## CSS Selectors
+## CSS selectors
 
 | **Element** |  **CSS Class** |  **Description**  |
 | ---|---|---
@@ -32,9 +31,9 @@ summary:
 | .animate | .animate-fast | The animation will reach the end in 500ms |
 
 
-## Advanced Use Case
+## Advanced use case
 
-### Use the ToggleAnimate Server Action
+### Use the Toggle Animate server action
 
 It is possible to hide elements in the screen using an Animation.
 
@@ -52,7 +51,7 @@ It is possible to hide elements in the screen using an Animation.
 
     ![](<images/animate-image-6.gif?width=600>)
 
-### Use Animations On Scroll
+### Use animations on scroll
 
 It is possible to load and animate the elements when they are not visible in the screen.
 
@@ -66,7 +65,7 @@ It is possible to load and animate the elements when they are not visible in the
 
 
 
- ## See Also
+ ## See also
 
 * OutSystems UI Pattern Documentation: [Animate](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Utilities/Animate)
 

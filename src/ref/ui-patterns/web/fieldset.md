@@ -5,15 +5,15 @@ summary:
 
 # Fieldset UI Pattern Reference
 
-## Layout and Classes
+## Layout and classes
 
 ![](<images/fieldset-image-2.png>)
 
-## Advanced Use Case
+## Advanced use case
 
-### Change the style of Fieldset
+### Change the style of Fieldset Pattern
 
-you can use custom CSS to change the style of the Fieldset pattern. The following examples are only two ways of doing it. To use these in your application, copy the CSS code from below and add it to your theme.
+you can use custom CSS to change the style of the Fieldset Pattern. The following examples are only two ways of doing it. To use these in your application, copy the CSS code from below and add it to your theme.
 
 **Example 1**
 
@@ -49,5 +49,5 @@ you can use custom CSS to change the style of the Fieldset pattern. The followin
 ![](<images/fieldset-image-4.png>)
 
 
-## See Also
+## See also
 * OutSystems UI Pattern Documentation: [Fieldset](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Utilities/Fieldset)
