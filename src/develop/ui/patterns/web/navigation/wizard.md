@@ -164,7 +164,7 @@ After following all of the steps in each of the sections, you can publish the mo
 ### Wizard Item
 
 | **Property** |  **Description** | 
-|---|---|---|
+|---|---|
 | Step (Step Identifier): Mandatory | Set the step. Using an expression, you can set the status of a step to being active (the step the user is on) or inactive (a step the user has already completed or has yet to complete).| 
 | UseTopLabel (Boolean) :Optional  |  If True, label is placed above the icon. If False, label is placed below the icon. The text describing the step is either placed above or below the step icon. | 
 | ExtendedClass (Text) : Optional |  Add custom style classes to the block. | 
