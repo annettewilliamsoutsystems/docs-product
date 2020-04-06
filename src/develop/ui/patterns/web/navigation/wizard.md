@@ -11,10 +11,10 @@ You can use the Wizard UI Pattern to split large complex tasks and processes int
 
 ## **How to use the Wizard UI Pattern**
 #### Example use case 
-The following example demonstrates how you can create a four step Wizard with navigation buttons. The example is made up of the following:
-* Creating the wizard 
-* Creating the wizard content
-* Creating the wizard navigation
+The following example demonstrates how you can create a four step Wizard with navigation buttons. The example is made up of the following steps:
+* Create a wizard 
+* Add content to the wizard
+* Create the wizard navigation
 
 **Create a wizard**
 
@@ -128,7 +128,7 @@ The following example demonstrates how you can create a four step Wizard with na
 
 1. Repeat steps 1 and 2 for all of the Wizard Items. Replace **Condition** property with 2, 3, and 4 respectively.
 
-1. In the top section (True) of each of the If widgets, create the relevant content for each of the steps.
+1. In the top section (True) of If widgets, create the relevant content for each of the steps.
 
      The following example shows a Shipping Details step that contains labels and input boxes.
 
