@@ -17,8 +17,13 @@ You can use the Badge UI Pattern to display numerical information as a notificat
 
     ![](<images/badge-image-10.png>)
     
-1. From the Toolbox, drag the Badge widget onto your application's screen.
-1. On the **Properties** tab, set the relevant Badge properties, for example, color, shape, and size.
+1. From the Toolbox, drag the Badge widget into the Main Content area of your application's screen.
+
+    ![](<images/badge-image-11.png>)
+
+1. On the **Properties** tab, set the **Number** property to the Data that contains the value you want to display in your Badge, or the actual static numeric value itself.
+
+1. Additionally, on the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size.
 
     ![](<images/badge-image-8.png>)
 
@@ -26,23 +31,25 @@ After following these steps and publishing the module, you can test the pattern 
      
 ## Properties
 
-| **Property** |  **Description** |  **Usage** |
+| **Property** |  **Description** |
 |---|---|---|
-| Number (Integer): Optional  | Number that appears inside the badge. | 
-| Color (Color Identifier): Optional  | Set the badge color. | 
-| Shape (Shape Identifier): Optional  | Set the badge shape. | 
-| Size (Size Identifier): Optional  | Set the badge size. |
-| IsLight (Boolean): Optional  | If set to True, the lightest color version is applied to the background and a darker color applied to the text. If set to False, the darker color version is applied to the background, and the lighter color to the text. |
-| ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
+| Number (Integer): Optional  | Number that appears inside the badge. Set this to a Data source that contains the value that the Badge will display. Common use cases include displaying a value contained in a Variable or the result of an Aggregate (for instance, querying a 'Messages' table for the current user to return the count of new messages). <p>Examples <ul><li>_Blank_ - displays the number 8 (default value)</li><li>_22_ - displays the number 22</li><li>_VariableName_ - displays the value that the variable ''VariableName'' holds at that time </li><li>_ExampleAggregate.Count_ - displays the number of records returned by the ''ExampleAggregate'' aggregate execution</li></ul></p>| 
+| Color (Color Identifier): Optional  | Set the badge color. Red, orange, yellow, lime, green, blue, violet, and pink are just some of predefined colors available for the badge. <p>Examples <ul><li>_Blank_ - displays the badge in the color you chose when creating the app (default value)</li><li>_Entities.Color.Red_ - displays a red badge</li></ul></p> | 
+| Shape (Shape Identifier): Optional  | Set the badge shape. Rounded, soft rounded, and sharp are the predefined shapes available for the badge. <p>Examples <ul><li>_Blank_ - displays a rounded badge (default value)</li><li>_Entities.Shape.Sharp_ - displays a square badge</li></ul></p>| 
+| Size (Size Identifier): Optional  | Set the badge size. Small and medium are the predefined sizes available for the badge. <p>Examples <ul><li>_Blank_ - displays a  (default value)</li><li>_Entities.Size.Small_ - displays a small sized badge</li></ul></p> |
+| IsLight (Boolean): Optional  | Specify the badge's background color. <p>Examples <ul><li>_Blank_ - A darker hue of the color is applied to the badge and a lighter color to the text (default value)</li><li>_True_ - A brighter hue of the color is applied to the badge and a darker color to the text.</li><li>_False_ - A darker hue of the color is applied to the badge and a lighter color to the text</li></ul></p> |
+| ExtendedClass (Text): Optional |  Add custom style classes to the Badge UI Pattern. You define your custom style classes in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Badge UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Badge UI styles being applied.</li></ul></p> | 
 
 
 ## Additional notes
 
-If the number on Badge pattern is greater than 99, it is displayed as 99+.
+If the number on Badge Pattern is greater than 99, it is displayed as 99+.
 
 ![](<images/badge-image-6.png>)
 
-  ## See also
+<!---  Added to yml file
+
+## See also
 
 * OutSystems UI Live Style Guide: [Badge](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Badge.aspx)
 * OutSystems UI Pattern Page: [Badge](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=7)

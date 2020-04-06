@@ -24,7 +24,7 @@ The following example demonstrates how you can create a four step Wizard with na
     
      ![](<images/wizard-image-23.png>)
 
-1. From the Toolbox, drag the Wizard widget onto the main content area of your application's screen.
+1. From the Toolbox, drag the Wizard widget into the Main Content area of your application's screen.
 
     ![](<images/wizard-image-1.png>)
 
@@ -112,7 +112,7 @@ The following example demonstrates how you can create a four step Wizard with na
        
 1. Repeat steps 13 and 14 for the **Next** button. Enter `CurrentStep < 4` as the **Condition** property. This ensures the **Next** button is only displayed when applicable, and the user can never go above the number of steps in the wizard.
 
-**Add content to your wizard**
+**Add content to the wizard**
 
 1. From the Toolbox, drag the If widget onto the main content area of your application's screen, just below the Wizard Pattern.
 
@@ -136,7 +136,11 @@ The following example demonstrates how you can create a four step Wizard with na
 
 **Create the wizard navigation**
 
-To ensure that all of the information the user enters is passed from step to step, you must create a [screen action](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Implementing_Logic/Logic_Elements/Screen_Action) for the **Previous** and **Next** navigation buttons.
+To ensure that all of the information the user enters is passed from step to step, you must create a screen action.
+
+
+
+) for the **Previous** and **Next** navigation buttons.
 
 1. Select the **Next** button.
 
@@ -169,6 +173,8 @@ After following all of the steps in each of the sections, you can publish the mo
 | UseTopLabel (Boolean) :Optional  |  If True, label is placed above the icon. If False, label is placed below the icon. The text describing the step is either placed above or below the step icon. | 
 | ExtendedClass (Text) : Optional |  Add custom style classes to the block. | 
   
+
+<!--- Added to yml file
 
 ## See also
 
