@@ -155,7 +155,7 @@ After following all of the steps in each of the sections, you can publish the mo
 
 | **Property** |  **Description** | 
 |---|---|
-| Orientation (Orientation Identifier): Optional  |  Set the wizard orientation. By default the Wizard displays horizontally. The Orientation drop-down shows the different orientation options: <ul><li> Horizontal (_Entities.Orientation.Horizontal_) - The wizard displays horizontally </li></ul> <ul><li>Vertical (_Entities.Orientation.Vertical_) - The wizard displays vertically</ul></li>|
+| Orientation (Orientation Identifier): Optional  | Set the wizard orientation. By default the Wizard displays horizontally. <p> Examples <ul><li>_Entities.Orientation.Horizontal_ - The wizard displays horizontally </li></ul> <ul><li>_Entities.Orientation.Vertical_ - The wizard displays vertically</ul></li></p>|
 | ExtendedClass (Text): Optional  |  Add custom style classes to the Wizard UI Pattern. You define your custom style classes in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the _myclass_ style to the Wizard UI styles being applied<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Wizard UI styles being applied</li></ul></p> |
 
 ### Wizard Item

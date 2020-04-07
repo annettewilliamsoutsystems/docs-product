@@ -33,7 +33,7 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Property** |  **Description** |
 |---|---|
-| Behavior (DeviceResponsive Identifier): Mandatory | Select the device types upon which the content is displayed. The following are the predefined options available: <p><ul><li>DesktopOnly</li><li>DesktopAndTablet</li><li>TabletOnly</li><li>TabletAndPhone</li><li>PhoneOnly</li><li>AllDevices</li><p>Examples<ul><li>[Entities.DeviceResponsive.]DesktopOnly - will show this content only on Desktop browsers</li><li>[Entities.DeviceResponsive.]TabletAndPhone - will show this content only on Tablet and Phone browsers</li></ul></p>|
+| Behavior (DeviceResponsive Identifier): Mandatory | Select the device types upon which the content is displayed. The following are the predefined options available: <p><ul><li>DesktopOnly</li><li>DesktopAndTablet</li><li>TabletOnly</li><li>TabletAndPhone</li><li>PhoneOnly</li><li>AllDevices</li><p>Examples<ul><li>Entities.DeviceResponsive.DesktopOnly - content is only displayed on Desktop browsers only</li><li>Entities.DeviceResponsive.TabletAndPhone - content is displayed on Tablet and Phone browsers only</li></ul></p>|
 
 
 <!---  Added to yml file

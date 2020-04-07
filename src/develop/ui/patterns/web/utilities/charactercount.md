@@ -11,7 +11,7 @@ You can use the Character Count UI Pattern to inform users about the maximum and
 
 **How to use the Character Count UI Pattern**
 
-1. In Service Studio, in the Toolbox, search for `Input`. 
+<!---1. In Service Studio, in the Toolbox, search for `Input`. 
 
     The Input widget is displayed.
 
@@ -28,11 +28,21 @@ You can use the Character Count UI Pattern to inform users about the maximum and
 
 1. Set the variable's **Data Type** to **Text**.
 
-    ![](<images/charactercount-image-4.png>)
+    ![](<images/charactercount-image-4.png>) -->
 
-1. From the Toolbox, search for the Character Count pattern and drag it onto the screen.
+**Prerequisites:** You have created an Input widget called CharacterCount.
 
-1. On the **Properties** tab, set the **InputWidgetId** property to the Input block name (CharacterCount) and use the **Limit** property to set the maximum number of characters allowed, for example, 50.
+1. In Service Studio, in the Toolbox, search for `Character Count`. 
+
+    The Character Count widget is displayed.
+
+    ![](<images/charactercount-image-7.png>)
+
+1. From the Toolbox, drag the Character Count widget into the Main Content area of your application's screen.
+
+    ![](<images/charactercount-image-8.png>)
+
+1. On the **Properties** tab, set the **InputWidgetId** property to the Input widget name (CharacterCount) and use the **Limit** property to set the maximum number of characters allowed, for example, 50.
 
     ![](<images/charactercount-image-1.png>)
 
@@ -40,11 +50,11 @@ After following these steps and publishing the module, you can test the pattern 
 
 ## Properties
 
-| **Property** |  **Description** | **Usage** |
-|---|---|---|
-| InputWidgetId (Text): Mandatory | Input element name that triggers the count. |
-| Limit (Integer): Mandatory  | Character count limit. This value should be the same as the Max Length for the input block. |
+| **Property** |  **Description** |
+|---|---|
+| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property.|
+| Limit (Integer): Mandatory  | Character count limit. This value should be the same as the Max Length of the Input widget. |
 | IsDescending (Boolean): Optional  | If set to False, the count goes from 0 to the limit set for the Limit property.|
 
-## See also
-* OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx)
+<!---## See also
+* OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx) -->
