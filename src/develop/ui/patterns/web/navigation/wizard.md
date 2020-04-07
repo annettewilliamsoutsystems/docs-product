@@ -12,9 +12,9 @@ You can use the Wizard UI Pattern to split large complex tasks and processes int
 ## **How to use the Wizard UI Pattern**
 #### Example use case 
 The following example demonstrates how you can create a four step Wizard with navigation buttons. The example is made up of the following steps:
-* Create a wizard 
-* Add content to the wizard
-* Create the wizard navigation
+* Creating a wizard 
+* Adding content to the wizard
+* Creating the wizard navigation
 
 **Create a wizard**
 
@@ -62,26 +62,7 @@ The following example demonstrates how you can create a four step Wizard with na
 
      By setting the **Default Value** to 1, you ensure that the  Wizard always starts on step 1.
 
-1. From the Toolbox, drag two Button widgets onto your screen.
-
-1. On the **Properties** tab, define the button names and the button behavior (previous and next).
-
-    | **Property** |  **Button 1** | **Button 2**
-    |---|---|---|
-    | Label |  "Previous"| "Next"|
-    | Method |  Navigate| Navigate|
-    | Destination  | Current Screen |  Current Screen|
-    | CurrentStep | CurrentStep - 1 | CurrentStep + 1
-
-    ![](images/wizard-image-15.png)    
-
-   You have now set the **On Click** behaviour for each of the buttons to:
-
-    * **navigate** to the **current screen**, and to
-    * update the value of the **CurrentStep** input parameter to the next (CurrentStep + 1) or previous step (CurrentStep - 1) in the Wizard.
-
-
-1. To create the logic that defines the status of each step (active, past, next), select the first Wizard Item (step 1), and on the **Properties** tab, from the **Step** drop-down, select **Expression Editor**. 
+1. To create the logic that defines the status of each Wizard Item (as an active step, a past step, or a next step), select the first Wizard Item (step 1), and on the **Properties** tab, from the **Step** drop-down, select **Expression Editor**. 
 
     ![](images/wizard-image-29.png)
 
@@ -94,23 +75,9 @@ The following example demonstrates how you can create a four step Wizard with na
     This logic has the following meaning:
     * If the user is on step 1, the step will show as the active step in the wizard.
     * If the user is on a step greater than step 1, step 1 will show as a step that is in the past (completed).
-    * If the user is on a step less than 1, the step will show as a next step.
+    * If the user is on a step less than 1, the step will show as an upcoming (next) step.
 
-1. Repeat steps 10 and 11 for all of the Wizard Items. Replace the number 1 in the expression with 2, 3, and 4 respectively.
-
-1. To display the **Previous** button when applicable, select the **Previous** button, right-click, and select **Enclose in If**.
-
-    ![](images/wizard-image-26.png) 
-
-1. On the **Properties** tab, in the **Condition** property, enter the following:
-
-   `CurrentStep > 1`
-
-    ![](images/wizard-image-17.png)
-
-    You have now created a condition that ensures that the user can never go below the number of steps in the wizard.
-       
-1. Repeat steps 13 and 14 for the **Next** button. Enter `CurrentStep < 4` as the **Condition** property. This ensures the **Next** button is only displayed when applicable, and the user can never go above the number of steps in the wizard.
+1. Repeat steps 8 and 9 for all of the Wizard Items. Replace the number 1 in the expression with 2, 3, and 4 respectively.
 
 **Add content to the wizard**
 
@@ -136,23 +103,49 @@ The following example demonstrates how you can create a four step Wizard with na
 
 **Create the wizard navigation**
 
-To ensure that all of the information the user enters is passed from step to step, you must create a screen action.
+1. From the Toolbox, drag two Button widgets onto your screen.
 
+1. On the **Properties** tab, define the button names and the button behavior (previous and next).
 
+    | **Property** |  **Button 1** | **Button 2**
+    |---|---|---|
+    | Label |  "Previous"| "Next"|
+    | Method |  Navigate| Navigate|
+    | Destination  | Current Screen |  Current Screen|
+    | CurrentStep | CurrentStep - 1 | CurrentStep + 1
 
-) for the **Previous** and **Next** navigation buttons.
+    ![](images/wizard-image-15.png)    
 
-1. Select the **Next** button.
+   You have now set the **On Click** behaviour for each of the buttons to:
+
+    * **navigate** to the **current screen**, and to
+    * update the value of the **CurrentStep** input parameter to the next (CurrentStep + 1) or previous step (CurrentStep - 1) in the Wizard.
+
+1. To display the **Previous** button when applicable, select the **Previous** button, right-click, and select **Enclose in If**.
+
+    ![](images/wizard-image-26.png) 
+
+1. On the **Properties** tab, in the **Condition** property, enter the following:
+
+   `CurrentStep > 1`
+
+    ![](images/wizard-image-17.png)
+
+    You have now created a condition that ensures that the user can never go below the number of steps in the wizard.
+       
+1. Repeat steps 3 and 4 for the **Next** button. Enter `CurrentStep < 4` as the **Condition** property. This ensures the **Next** button is only displayed when applicable, and the user can never go above the number of steps in the wizard.    
+
+1. To ensure that all of the information the user enters is passed from step to step, create a screen action by selecting the **Next** button.
 
 1. On the **Properties** tab, from the **Destination** drop-down, select **New Screen Action**.
 
     ![](images/wizard-image-22.png)
 
-1. From the Toolbox, drag the Assign block onto your screen and set the **Variable** property to ``CurrentStep`` and the Value property to ``CurrentStep + 1``. This ensures that user inputs get passed from step to step.
+1. From the Toolbox, drag the Assign block onto your screen and set the **Variable** property to ``CurrentStep`` and the **Value** property to ``CurrentStep + 1``. This ensures that user inputs are passed from step to step.
 
     ![](images/wizard-image-21.png)
 
-1. Repeat steps 2 and 3 for the **Previous** button.
+1. Repeat steps 7 and 8 for the **Previous** button, setting the **Variable** property to ``CurrentStep`` and the **Value** property to ``CurrentStep - 1``.
 
 After following all of the steps in each of the sections, you can publish the module, and test the Wizard in your app.
 
@@ -163,15 +156,15 @@ After following all of the steps in each of the sections, you can publish the mo
 | **Property** |  **Description** | 
 |---|---|
 | Orientation (Orientation Identifier): Optional  |  Set the wizard orientation. By default the Wizard displays horizontally. The Orientation drop-down shows the different orientation options: <ul><li> Horizontal (_Entities.Orientation.Horizontal_) - The wizard displays horizontally </li></ul> <ul><li>Vertical (_Entities.Orientation.Vertical_) - The wizard displays vertically</ul></li>|
-| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
+| ExtendedClass (Text): Optional  |  Add custom style classes to the Wizard UI Pattern. You define your custom style classes in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the _myclass_ style to the Wizard UI styles being applied<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Wizard UI styles being applied</li></ul></p> |
 
 ### Wizard Item
 
 | **Property** |  **Description** | 
 |---|---|
-| Step (Step Identifier): Mandatory | Set the step. Using an expression, you can set the status of a step to being active (the step the user is on) or inactive (a step the user has already completed or has yet to complete).| 
-| UseTopLabel (Boolean) :Optional  |  If True, label is placed above the icon. If False, label is placed below the icon. The text describing the step is either placed above or below the step icon. | 
-| ExtendedClass (Text) : Optional |  Add custom style classes to the block. | 
+| Step (Step Identifier): Mandatory | Set the status of the Wizard Item relative to the current step of the Wizard. You can customize an expression to set the status of the Wizard Item or you can use the predefined values Active, Next, and Past. <p>Examples <ul><li>_Extended.Step.Active_ - Sets the Wizard Item to active, that is, the current step the user is on<li>_Extended.Step.Next_ - Sets the Wizard Item to incomplete, that is, a step that is yet to be completed by the user</li><li>_Extended.Step.Past_ - Sets the step to inactive, that is, a step that has already been completed by the user</li></ul></p>| 
+| UseTopLabel (Boolean): Optional  | If True, label is placed above the icon. If False, label is placed below the icon. The text describing the step is either placed above or below the step icon. | 
+| ExtendedClass (Text): Optional | Add custom style classes to the Wizard UI Pattern. You define your custom style classes in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Wizard UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Wizard UI styles being applied</li></ul></p> | 
   
 
 <!--- Added to yml file

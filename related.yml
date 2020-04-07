@@ -998,11 +998,15 @@
 - develop/ui/patterns/web/navigation/wizard.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/Wizard.aspx        
+        - "OutSystems UI Pattern": 
+            https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=82
 - develop/ui/patterns/web/numbers/badge.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
             https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+         - "OutSystems UI Pattern": 
+             https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=7
 - develop/ui/patterns/web/numbers/counter.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
@@ -1026,7 +1030,10 @@
 - develop/ui/patterns/web/responsive/displayondevice.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/DisplayOnDevice.aspx
+        - "OutSystems UI Pattern": 
+           https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=32
+
 - develop/ui/patterns/web/responsive/loadonvisible.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
@@ -1097,12 +1104,6 @@
         - "OutSystems UI Pattern": 
            https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=82
 
-           - develop/ui/patterns/web/navigation/wizard.md:            
-    - external:
-        - "OutSystems UI Web Live Style Guide": 
-           https://outsystemsui.outsystems.com/WebStyleGuidePreview/Badge.aspx
-        - "OutSystems UI Pattern": 
-           https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=7
 
 # Link to Training
 

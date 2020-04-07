@@ -5,7 +5,7 @@ summary: DisplayOnDevice improves the way information is displayed on different 
 
 # Display on Device 
 
-You can use the Display on Device UI Pattern to select what elements are displayed on which device (mobile, tablet, desktop). By allowing you to choose the elements you don't want to show on, for example, mobile devices, the Display on Device UI pattern improves the way information is displayed.
+You can use the Display on Device UI pattern to select what elements are displayed on which device types. With this pattern you can improve the way information is displayed on different devices - computers, tablets, and phones - by specifically specifying which elements show on each of them. 
 
   ![](<images/displayondevice-image-4.png>)
 
@@ -17,22 +17,26 @@ You can use the Display on Device UI Pattern to select what elements are display
 
     ![](<images/displayondevice-image-5.png>)
   
-1. From the Toolbox, drag the Display on Device widget onto your application's screen. 
+1. From the Toolbox, drag the Display on Device widget into the Main Content area of your application's screen.
 
-1. Add the relevant content to the placeholders, for example, images or counters.
+    ![](<images/displayondevice-image-6.png>)
 
-1. On the **Properties** tab, from the Behavior dropdown list, choose the behavior you want to apply to the content, that is, what devices it displays on.
+1. On the **Properties** tab, from the **Behavior** drop-down list, choose the device types you want to display this widget on.
 
     ![](<images/displayondevice-image-2.png>)
+
+5. Add the relevant content to the placeholders inside the Display on Device widget, for example, images or counters. These are displayed on the device types you specified, and not shown for any other devices.
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
 ## Properties
 
-| **Property** |  **Description** | **Usage** |
-|---|---|---|
-| Behavior (DeviceResponsive Identifier): Mandatory | Select the device upon which the content is displayed. |
+| **Property** |  **Description** |
+|---|---|
+| Behavior (DeviceResponsive Identifier): Mandatory | Select the device types upon which the content is displayed. The following are the predefined options available: <p><ul><li>DesktopOnly</li><li>DesktopAndTablet</li><li>TabletOnly</li><li>TabletAndPhone</li><li>PhoneOnly</li><li>AllDevices</li><p>Examples<ul><li>[Entities.DeviceResponsive.]DesktopOnly - will show this content only on Desktop browsers</li><li>[Entities.DeviceResponsive.]TabletAndPhone - will show this content only on Tablet and Phone browsers</li></ul></p>|
 
+
+<!---  Added to yml file
 ## See also
 * OutSystems UI Live Style Guide : [Display on Device](https://outsystemsui.outsystems.com/WebStyleGuidePreview/DisplayOnDevice.aspx)
 * OutSystems UI Pattern Page: [Display on Device](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=32)
