@@ -52,9 +52,9 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Property** |  **Description** |
 |---|---|
-| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property.|
+| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property. |
 | Limit (Integer): Mandatory  | Character count limit. This value should be the same as the Max Length of the Input widget. |
-| IsDescending (Boolean): Optional  | If set to False, the count goes from 0 to the limit set for the Limit property.|
+| IsDescending (Boolean): Optional  | If set to False, the count goes from 0 to the limit set for the Limit property. If set to True, the count goes from the Limit property to 0. This is the default setting.|
 
 <!---## See also
 * OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx) -->
