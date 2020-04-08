@@ -5,7 +5,7 @@ summary: Columns split content into multiple columns with responsive capabilitie
 
 # Columns
 
-You can use the Columns Pattern to split content into multiple columns with responsive capabilities, improving the way information is displayed on screen.
+You can use the Columns UI Pattern to split content into multiple columns, improving the way information is displayed on screen.
 
  ![](<images/columns-image-4.png>)
 
@@ -18,26 +18,30 @@ You can use the Columns Pattern to split content into multiple columns with resp
 
     ![](<images/columns-image-6.png>)
 
-1. From the Toolbox, drag the required Column widget onto your application’s screen.
-1. Add the required content to the Column block, for example, counters.
+1. From the Toolbox, drag the required Column widget into the Main Content area of your application's screen. This following example uses the Columns 3 widget.
+
+    ![](<images/columns-image-7.png>)
+
+1. Add the required content to the Column widget, for example, counters.
 
     ![](<images/columns-image-1.png>)
 
-1. On the **Properties** tab, set the relevant properties for the Column block.
+1. On the **Properties** tab, you can  customize the Colums's look and feel by setting any of the optional properties, for example, the size of colums and how they will display on different device types.
+
     ![](<images/columns-image-2.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
   
 ## Properties
 
-| **Property** |  **Description** | **Usage**
-|---|---|---|
-| GutterSize (GutterSize Identifier): Optional | Set the gutter size. | 
-| TabletBehavior (BreakColumns Identifier): Optional | Responsive behavior for tablets. 
-| PhoneBehavior (BreakColumns Identifier): Optional | Responsive behavior for phones. | 
-| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |
+| **Property** |  **Description** |
+|---|---|
+| GutterSize (GutterSize Identifier): Optional | Set the gutter size. The default Gutter size is large.<p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_Gutter_None_ - <li>_Gutter_XS_ - </li></ul></p> | 
+| TabletBehavior (BreakColumns Identifier): Optional | Defines how the columns are displayed on tablets. The predefined options for the tablet behavior are: <p><ul><li>All</li><li>First</li><li>Last</li><li>Middle</li><li>None</li></ul></p><p>Examples <ul><li>_Entities.BreakColumns.All_ - </li><li>_Entities.BreakColumns.Last_ - </li></ul></p>|
+| PhoneBehavior (BreakColumns Identifier): Optional | Defines how the columns are displayed on phones. The predefined options for the phone behavior are: <p><ul><li>All</li><li>First</li><li>Last</li><li>Middle</li><li>None</li></ul></p><p>Examples <ul><li>_Entities.BreakColumns.First_ - </li><li>_Entities.BreakColumns.Middle_ - </li></ul></p>|
+| ExtendedClass (Text): Optional  |Add custom style classes to the Columns UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Columns UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Columns UI styles being applied.</li></ul></p> |
 
 
-## See also
+<!---## See also
 * OutSystems UI Live Style Guide: [Columns](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Columns2.aspx)
-* OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=21)
+* OutSystems UI Pattern Page: [Columns](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=21) 
