@@ -5,11 +5,14 @@ summary: Counter shows the total number of occurrences of several values regardi
 
 # Counter
 
-You can use the Counter UI Pattern to display numerical information as a notification. The Counter UI pattern is frequently used to notify users about new messages or tasks.  
-
+You can use the Counter UI Pattern to display numerical information as a notification. For example, the Counter UI pattern is frequently used to notify users about the number of unread emails, new messages, or tasks they have.
+ 
 ![](<images/counter-image-5.png>)
 
 **How to use the Counter UI Pattern**
+
+The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
+
 
 1. In Service Studio, in the Toolbox, search for `Counter`. 
 
@@ -24,7 +27,6 @@ You can use the Counter UI Pattern to display numerical information as a notific
 1. On the **Properties** tab, you can customize the Counter's look and feel by setting any of the optional properties, for example, the height and orientation.
 
     ![](<images/counter-image-3.png>)
-
     
 1. Additionally, you can customize the Counter's number, text, and icon from the **Properties** tab of each of the Counter's widgets.
 

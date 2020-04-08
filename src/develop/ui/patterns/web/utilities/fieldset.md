@@ -5,7 +5,7 @@ summary: Fieldset labels groups of related interface elements and fields.
 
 # Fieldset
 
-You can use the Fieldset UI Pattern to group thematically related elements, such as controls and labels, to help improve the layout of your application and to help users better understand the information.
+You can use the Fieldset UI Pattern to group related elements, such as controls and labels, to help improve the layout of your application and to help users better understand the information.
 
 ![](<images/fieldset-image-1.png>)
 

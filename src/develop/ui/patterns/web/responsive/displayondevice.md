@@ -11,6 +11,9 @@ You can use the Display on Device UI pattern to select what elements are display
 
 **How to use the Display on Device UI Pattern**
 
+The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
+
+
 1. In Service Studio, in the Toolbox, search for `Display on Device`. 
 
     The Display on Device widget is displayed.

@@ -109,8 +109,8 @@ The following example demonstrates how you can create a four step Wizard with na
 
     | **Property** |  **Button 1** | **Button 2**
     |---|---|---|
-    | Label |  "Previous"| "Next"|
-    | Method |  Navigate| Navigate|
+    | Label | "Previous"| "Next"|
+    | Method | Navigate| Navigate|
     | Destination  | Current Screen |  Current Screen|
     | CurrentStep | CurrentStep - 1 | CurrentStep + 1
 
@@ -135,7 +135,7 @@ The following example demonstrates how you can create a four step Wizard with na
        
 1. Repeat steps 3 and 4 for the **Next** button. Enter `CurrentStep < 4` as the **Condition** property. This ensures the **Next** button is only displayed when applicable, and the user can never go above the number of steps in the wizard.    
 
-1. To ensure that all of the information the user enters is passed from step to step, create a screen action by selecting the **Next** button.
+1. To ensure that all of the information the user enters is passed from step to step, create a [screen action](../../../../logic/action-web.md#screen-actions) by selecting the **Next** button.
 
 1. On the **Properties** tab, from the **Destination** drop-down, select **New Screen Action**.
 

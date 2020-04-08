@@ -5,11 +5,14 @@ summary: CharacterCount displays the number of characters left to be entered in 
 
 # Character Count
 
-You can use the Character Count UI Pattern to inform users about the maximum and remaining number of characters they can enter into an input field. 
+You can use the Character Count UI Pattern to display the number of characters a user has entered or has remaining for an onscreen text area. 
 
  ![](<images/charactercount-image-5.png>)
 
 **How to use the Character Count UI Pattern**
+
+The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
+
 
 <!---1. In Service Studio, in the Toolbox, search for `Input`. 
 
@@ -30,7 +33,7 @@ You can use the Character Count UI Pattern to inform users about the maximum and
 
     ![](<images/charactercount-image-4.png>) -->
 
-**Prerequisites:** You have created an Input widget called CharacterCount.
+**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called CharacterCount and created a Local Variable with its Data Type set to Text.
 
 1. In Service Studio, in the Toolbox, search for `Character Count`. 
 
@@ -42,9 +45,12 @@ You can use the Character Count UI Pattern to inform users about the maximum and
 
     ![](<images/charactercount-image-8.png>)
 
-1. On the **Properties** tab, set the **InputWidgetId** property to the Input widget name (CharacterCount) and use the **Limit** property to set the maximum number of characters allowed, for example, 50.
+
+1. On the **Properties** tab, set the **InputWidgetId** property to the Input widget name you have already created (CharacterCount), use the **Limit** property to set the maximum number of characters allowed, for example, 180, and set the **IsDescending** property to True.
 
     ![](<images/charactercount-image-1.png>)
+
+    By setting the **Limit** property to 180, the user can only enter 180 characters and by setting the **IsDescending** property to True, the character count will go from 180 to 0. 
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -52,9 +58,9 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Property** |  **Description** |
 |---|---|
-| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property. |
-| Limit (Integer): Mandatory  | Character count limit. This value should be the same as the Max Length of the Input widget. |
-| IsDescending (Boolean): Optional  | If set to False, the count goes from 0 to the limit set for the Limit property. If set to True, the count goes from the Limit property to 0. This is the default setting.|
+| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property. <p> Examples <ul><li></li></ul> </p>|
+| Limit (Integer): Mandatory  | Character count limit. This value should be the same as the maximum length of the Input widget. <p> Examples <ul><li>180 - Sets the maximum number of characters a user can enter into the Input widget to 180</li></ul> </p>|
+| IsDescending (Boolean): Optional  | Defines whehter the count is ascending or descending. <p> Examples <ul><li>_False_ - The count goes from 0 to the value set for the **Limit** property</li><li>_True_ - The count goes from the value set in the **Limit** property to 0. This is the default setting.</li></ul> |
 
 <!---## See also
 * OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx) -->

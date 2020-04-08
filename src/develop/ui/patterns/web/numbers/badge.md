@@ -5,11 +5,13 @@ summary: Badge display numerical information as notification.
 
 # Badge
 
-You can use the Badge UI Pattern to display numerical information as a notification. The Badge UI pattern is frequently used to notify users about new messages or tasks.  
+You can use the Badge UI Pattern to display numerical information as a notification. For example, the Badge UI pattern is frequently used to notify users about the number of unread emails, new messages, or tasks they have.
 
 ![](<images/badge-image-7.png>)
 
 **How to use the Badge UI Pattern**
+
+The Badge UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
 
 1. In Service Studio, in the Toolbox, search for `Badge`. 
 
