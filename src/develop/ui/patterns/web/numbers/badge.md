@@ -27,7 +27,7 @@ The following example demonstrates how you can display the number of registered 
 
 1. From the Element tree, create a Preparation action by right-clicking on your screen, and from the drop-down, select **Add Preparation**.
     
-    This Preperation action executes logic before the screen is displayed that fetches the data that will be displayed in the Badge.
+    This Preparation action executes logic before the screen is displayed that fetches the data that will be displayed in the Badge.
 
     ![](<images/badge-image-12.png>)
 
@@ -35,19 +35,21 @@ The following example demonstrates how you can display the number of registered 
 
     ![](<images/badge-image-13.png>)
     
-1. Select the **Interface** tab, and on the Badge's **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
+    This creates an [Aggregate](ADD PROPER LINK - https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Queries/Aggregate) that retrieves all the users in your platform.
+    
+1. Select the **Interface** tab, and douple-click on your screen to open it. Then, select the Badge and on the Badge's **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
 
 1. In the Expression Editor, enter the following expression and click **Done**.
 
     ``LongIntegerToInteger(GetUsers.Count)``
 
-    Note: You can also add the expression by navigating and doouble-clicking on the Count folder.However, to ensure the expression is valid, you must add ``LongIntegerToInteger`` to the beginning of the expression.
+    Note: You can also add the expression by navigating through the scope tree of the Expression Editor and double-clicking on the Count output parameter. However, since the [data type](ADD REAL LINK - https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Data_Types/Available_Data_Types) that the Badge expects (Integer) is different from the Count data type (Long Integer), to ensure the expression is correct, you must add ``LongIntegerToInteger`` around the GetUsers.Count expression.
 
    ![](<images/badge-image-14.png>)
 
-   The **Number** property  is now set to User entity that contains the value you want to display in your Badge.
+   The **Number** property is now set to show the value of the Count property of the Aggregate we added in the Preparation action that gets all the users in your platform, and will show how many of them there are.
 
-1. On the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size. The following example displays a ble, small sized, circle badge.  
+1. On the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size. The following example displays a blue, small sized, circle badge.  
 
     ![](<images/badge-image-15.png>)
 
