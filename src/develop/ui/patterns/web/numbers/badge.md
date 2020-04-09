@@ -5,7 +5,7 @@ summary: Badge display numerical information as notification.
 
 # Badge
 
-You can use the Badge UI Pattern to display numerical information as a notification. For example, the Badge UI pattern is frequently used to notify users about the number of unread emails, new messages, or tasks they have.
+You can use the Badge UI Pattern to display numerical information as a notification. For example, the Badge UI pattern is frequently used to notify users about the number of unread emails, unopened messages, or new tasks they may have.
 
 ![](<images/badge-image-7.png>)
 
@@ -27,27 +27,29 @@ The following example demonstrates how you can display the number of registered 
 
 1. From the Element tree, create a Preparation action by right-clicking on your screen, and from the drop-down, select **Add Preparation**.
     
-    This Preparation action executes logic before the screen is displayed that fetches the data that will be displayed in the Badge.
+    This Preparation action executes logic that fetches the data before the screen is displayed.
 
     ![](<images/badge-image-12.png>)
 
-1. On the **Data** tab, from the Entities tree, navigate to the **User** entity and drag it onto the Preparation action.
+    1. On the **Data** tab, from the Entities tree, navigate to the **User** entity and drag it onto the Preparation action.
 
     ![](<images/badge-image-13.png>)
-    
-    This creates an [Aggregate](ADD PROPER LINK - https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Queries/Aggregate) that retrieves all the users in your platform.
-    
-1. Select the **Interface** tab, and douple-click on your screen to open it. Then, select the Badge and on the Badge's **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
+
+    This creates an [aggregate](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Queries/Aggregate) that retrieves all of the users on your platform.
+        
+1. Select the **Interface** tab, and double-click on your screen to open it.
+
+1. Select the Badge, and on the **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
 
 1. In the Expression Editor, enter the following expression and click **Done**.
 
     ``LongIntegerToInteger(GetUsers.Count)``
 
-    Note: You can also add the expression by navigating through the scope tree of the Expression Editor and double-clicking on the Count output parameter. However, since the [data type](ADD REAL LINK - https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Data_Types/Available_Data_Types) that the Badge expects (Integer) is different from the Count data type (Long Integer), to ensure the expression is correct, you must add ``LongIntegerToInteger`` around the GetUsers.Count expression.
+    Note: You can also add the expression by navigating through the Expression Editor's **Scope** tree and double-clicking on the **Count** output parameter. However, because the expected Badge [data type](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Data_Types/Available_Data_Types) (Integer) is different to the Count data type (Long Integer), to ensure the expression is correct, you must add ``LongIntegerToInteger`` to the Get.Users.Count expression.
 
    ![](<images/badge-image-14.png>)
 
-   The **Number** property is now set to show the value of the Count property of the Aggregate we added in the Preparation action that gets all the users in your platform, and will show how many of them there are.
+   The **Number** property is now set to display the Count property of the Aggregate you added to the Preparation action, which gets the number of users on your platform and displays them in your Badge.
 
 1. On the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size. The following example displays a blue, small sized, circle badge.  
 

@@ -13,7 +13,7 @@ You can use the Character Count UI Pattern to display the number of characters a
 
 The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
 
-
+The following example demonstrates how you can display the number of registered users on your platform.
 <!---1. In Service Studio, in the Toolbox, search for `Input`. 
 
     The Input widget is displayed.
@@ -33,7 +33,7 @@ The Character Count UI Pattern usually displays dynamic information. In most cas
 
     ![](<images/charactercount-image-4.png>) -->
 
-**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called CharacterCount and created a Local Variable with its Data Type set to Text.
+**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called MyInput and created a Local Variable with its Data Type set to Text.
 
 1. In Service Studio, in the Toolbox, search for `Character Count`. 
 
@@ -45,10 +45,17 @@ The Character Count UI Pattern usually displays dynamic information. In most cas
 
     ![](<images/charactercount-image-8.png>)
 
+1. From the Element tree, create a Preparation action by right-clicking on your screen, and from the drop-down, select **Add Preparation**.
+    
+    This Preparation action executes logic that fetches the data before the screen is displayed.
 
-1. On the **Properties** tab, set the **InputWidgetId** property to the Input widget name you have already created (CharacterCount), use the **Limit** property to set the maximum number of characters allowed, for example, 180, and set the **IsDescending** property to True.
+1. On the **Properties** tab, from the **InputWidgetId** drop-down, set the Input widget Id by selecting the Input widget you have already created (MyInput).
 
-    ![](<images/charactercount-image-1.png>)
+   
+
+1. use the **Limit** property to set the maximum number of characters allowed, for example, 180, and set the **IsDescending** property to True.
+
+   
 
     By setting the **Limit** property to 180, the user can only enter 180 characters and by setting the **IsDescending** property to True, the character count will go from 180 to 0. 
 
