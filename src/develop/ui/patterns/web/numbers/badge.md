@@ -13,6 +13,8 @@ You can use the Badge UI Pattern to display numerical information as a notificat
 
 The Badge UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
 
+The following example demonstrates how you can display the number of registered users on your platform.
+
 1. In Service Studio, in the Toolbox, search for `Badge`. 
 
     The Badge widget is displayed.
@@ -23,11 +25,31 @@ The Badge UI Pattern usually displays dynamic information. In most cases, prior 
 
     ![](<images/badge-image-11.png>)
 
-1. On the **Properties** tab, set the **Number** property to the Data that contains the value you want to display in your Badge, or the actual static numeric value itself.
+1. From the Element tree, create a Preparation action by right-clicking on your screen, and from the drop-down, select **Add Preparation**.
+    
+    This Preperation action executes logic before the screen is displayed that fetches the data that will be displayed in the Badge.
 
-1. Additionally, on the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size.
+    ![](<images/badge-image-12.png>)
 
-    ![](<images/badge-image-8.png>)
+1. On the **Data** tab, from the Entities tree, navigate to the **User** entity and drag it onto the Preparation action.
+
+    ![](<images/badge-image-13.png>)
+    
+1. Select the **Interface** tab, and on the Badge's **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
+
+1. In the Expression Editor, enter the following expression and click **Done**.
+
+    ``LongIntegerToInteger(GetUsers.Count)``
+
+    Note: You can also add the expression by navigating and doouble-clicking on the Count folder.However, to ensure the expression is valid, you must add ``LongIntegerToInteger`` to the beginning of the expression.
+
+   ![](<images/badge-image-14.png>)
+
+   The **Number** property  is now set to User entity that contains the value you want to display in your Badge.
+
+1. On the **Properties** tab, you can also customize the Badge's look and feel by setting any of the optional properties, for example, the color, shape, and size. The following example displays a ble, small sized, circle badge.  
+
+    ![](<images/badge-image-15.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
      

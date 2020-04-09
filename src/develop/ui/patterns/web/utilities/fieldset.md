@@ -5,7 +5,7 @@ summary: Fieldset labels groups of related interface elements and fields.
 
 # Fieldset
 
-You can use the Fieldset UI Pattern to group related elements, such as controls and labels, to help improve the layout of your application and to help users better understand the information.
+You can use the Fieldset UI Pattern to group and label related information, such as a users personal details, improving the overall look and layout of your application.
 
 ![](<images/fieldset-image-1.png>)
 
@@ -17,13 +17,20 @@ You can use the Fieldset UI Pattern to group related elements, such as controls 
 
    ![](<images/fieldset-image-6.png>)
 
-1. From the Toolbox, drag the Fieldset widget onto your application’s screen.
+1. From the Toolbox, drag the Fieldset widget widget into the Main Content area of your application's screen.
 
-1. On the **Properties** tab, set Title property.
+   ![](<images/fieldset-image-7.png>)
+
+1. On the **Properties** tab, set the Title property. 
+
+    In the following example, we set the Title to ``Basic Information``.
 
     ![](<images/fieldset-image-5.png>)
 
-1.  Add the relevant content to the placeholder, for example, textboxes and labels.    
+1.  Add the relevant content to the placeholder, for example, textboxes and labels. 
+
+    ![](<images/fieldset-image-8.png>)
+
 
 After following these steps and publishing the module, you can test the pattern in your app.
     
@@ -31,7 +38,7 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Properties** |  **Description** | 
 |---|---|
-| Title (Text): Mandatory   |  The Fieldset title.| 
+| Title (Text): Mandatory   |  The Fieldset title. In this example, the Fieldset title is Basic Information.| 
 | ExtendedClass (Text): Optional  | Add custom style classes to the Fieldset UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Fieldset UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Fieldset UI styles being applied.</li></ul></p> |
 
 ## See also

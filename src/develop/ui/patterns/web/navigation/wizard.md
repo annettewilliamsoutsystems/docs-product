@@ -46,7 +46,7 @@ The following example demonstrates how you can create a four step Wizard with na
 
     ![](images/wizard-image-20.png)
 
-1. From the Element Tree, create an Input Parameter by right-clicking on your screen, and from the drop-down, select **Add Input Parameter**. 
+1. From the Element tree, create an Input Parameter by right-clicking on your screen, and from the drop-down, select **Add Input Parameter**. 
  
     The input parameter controls which Wizard step is shown to the user. 
     
