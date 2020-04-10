@@ -38,8 +38,8 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Properties** |  **Description** | 
 |---|---|
-| Title (Text): Mandatory   |  The Fieldset title. In this example, the Fieldset title is Basic Information.| 
-| ExtendedClass (Text): Optional  | Add custom style classes to the Fieldset UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Fieldset UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Fieldset UI styles being applied.</li></ul></p> |
+| Title (Text): Mandatory   |  The Fieldset title.  <p>Examples <ul><li>_"Basic Information"_ - the title is set to Basic Information</li></ul></p> | 
+| ExtendedClass (Text): Optional  | Add custom style classes to the Fieldset UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the _myclass style_ to the Fieldset UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Fieldset UI styles being applied.</li></ul></p> |
 
-## See also
+<!--- ## See also
 * OutSystems UI Live Style Guide: [Fieldset](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Fieldset.aspx)

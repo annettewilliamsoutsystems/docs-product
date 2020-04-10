@@ -13,7 +13,6 @@ You can use the Character Count UI Pattern to display the number of characters a
 
 The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
 
-The following example demonstrates how you can display the number of registered users on your platform.
 <!---1. In Service Studio, in the Toolbox, search for `Input`. 
 
     The Input widget is displayed.
@@ -33,7 +32,7 @@ The following example demonstrates how you can display the number of registered 
 
     ![](<images/charactercount-image-4.png>) -->
 
-**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called MyInput and created a Local Variable with its Data Type set to Text.
+**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called MyInput and created a Local Variable called MyInputVariable with its Data Type set to Text.
 
 1. In Service Studio, in the Toolbox, search for `Character Count`. 
 
@@ -45,19 +44,15 @@ The following example demonstrates how you can display the number of registered 
 
     ![](<images/charactercount-image-8.png>)
 
-1. From the Element tree, create a Preparation action by right-clicking on your screen, and from the drop-down, select **Add Preparation**.
+1. On the **Properties** tab, from the **InputWidgetId** drop-down, select the Input widget Id you have already created (MyInput).
+
+    ![](<images/charactercount-image-9.png>)
+
+1. In the **Limit** property, enter the maximum number of characters allowed, for example, 180, and set the **IsDescending** property to True.
     
-    This Preparation action executes logic that fetches the data before the screen is displayed.
+    ![](<images/charactercount-image-10.png>)
 
-1. On the **Properties** tab, from the **InputWidgetId** drop-down, set the Input widget Id by selecting the Input widget you have already created (MyInput).
-
-   
-
-1. use the **Limit** property to set the maximum number of characters allowed, for example, 180, and set the **IsDescending** property to True.
-
-   
-
-    By setting the **Limit** property to 180, the user can only enter 180 characters and by setting the **IsDescending** property to True, the character count will go from 180 to 0. 
+    By setting the **Limit** property to 180, the user can enter up to 180 characters, and by setting the **IsDescending** property to True, the character count will go from 180 to 0. 
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -65,9 +60,9 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Property** |  **Description** |
 |---|---|
-| InputWidgetId (Text): Mandatory | Input element name that triggers the count. A valid expression must be set for this property. <p> Examples <ul><li></li></ul> </p>|
+| InputWidgetId (Text): Mandatory | The Input widget name that counts the characters. <p> Examples <ul><li>_MyInput.Id_ - Counts the characters in the MyInput input widget.</li></ul> </p>|
 | Limit (Integer): Mandatory  | Character count limit. This value should be the same as the maximum length of the Input widget. <p> Examples <ul><li>180 - Sets the maximum number of characters a user can enter into the Input widget to 180</li></ul> </p>|
-| IsDescending (Boolean): Optional  | Defines whehter the count is ascending or descending. <p> Examples <ul><li>_False_ - The count goes from 0 to the value set for the **Limit** property</li><li>_True_ - The count goes from the value set in the **Limit** property to 0. This is the default setting.</li></ul> |
+| IsDescending (Boolean): Optional  | Defines whether the count is ascending or descending. <p> Examples <ul><li>_False_ - The count goes from 0 to the value set for the **Limit** property</li><li>_True_ - The count goes from the value set in the **Limit** property to 0. This is the default setting.</li></ul> |
 
 <!---## See also
 * OutSystems UI Live Style Guide: [Character Count](https://outsystemsui.outsystems.com/WebStyleGuidePreview/CharacterCount.aspx) -->

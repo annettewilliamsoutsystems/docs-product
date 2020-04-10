@@ -31,21 +31,22 @@ The following example demonstrates how you can display the number of registered 
 
     ![](<images/badge-image-12.png>)
 
-    1. On the **Data** tab, from the Entities tree, navigate to the **User** entity and drag it onto the Preparation action.
+1. Select the **Data** tab, and from the Entities tree, navigate to the **User** entity and drag it onto the Preparation action.
 
     ![](<images/badge-image-13.png>)
 
     This creates an [aggregate](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Queries/Aggregate) that retrieves all of the users on your platform.
-        
-1. Select the **Interface** tab, and double-click on your screen to open it.
+       
+1. To reopen your screen, select the **Interface** tab, and double-click on your screen.
 
-1. Select the Badge, and on the **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
+1. Select the Badge widget, and on the **Properties** tab, from the **Number** drop-down, select **Expression Editor**.
 
 1. In the Expression Editor, enter the following expression and click **Done**.
 
     ``LongIntegerToInteger(GetUsers.Count)``
 
-    Note: You can also add the expression by navigating through the Expression Editor's **Scope** tree and double-clicking on the **Count** output parameter. However, because the expected Badge [data type](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Data_Types/Available_Data_Types) (Integer) is different to the Count data type (Long Integer), to ensure the expression is correct, you must add ``LongIntegerToInteger`` to the Get.Users.Count expression.
+    Note: You can also add the expression by navigating through the Expression Editor's **Scope** tree and double-clicking on the **Count** output parameter. However, because the expected Badge [data type](../../../../../ref/data/data-types/available-data-types.md) 
+    (Integer) is different to the Count data type (Long Integer), to ensure the expression is correct, you must add ``LongIntegerToInteger`` to the Get.Users.Count expression.
 
    ![](<images/badge-image-14.png>)
 

@@ -865,10 +865,12 @@
     - external:
         - "OutSystems UI Web Live Style Guide": 
             https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+         - "OutSystems UI Pattern": 
+           https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=46
 - develop/ui/patterns/web/content/lightboximage.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/LightboxImage.aspx
 - develop/ui/patterns/web/content/modal.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
@@ -1016,7 +1018,9 @@
 - develop/ui/patterns/web/numbers/iconbadge.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/IconBadge.aspx
+         - "OutSystems UI Pattern": 
+            https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=43
 - develop/ui/patterns/web/numbers/progressbar.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
@@ -1073,15 +1077,17 @@
 - develop/ui/patterns/web/utilities/fieldset.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/Fieldset.aspx
 - develop/ui/patterns/web/utilities/flipcontent.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            https://outsystemsui.outsystems.com/WebStyleGuidePreview/FlipContent.aspx
+        - "OutSystems UI Pattern": 
+            https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=37
 - develop/ui/patterns/web/utilities/iframe.md:
     - external:
         - "OutSystems UI Web Live Style Guide": 
-            https://outsystemsui.outsystems.com/OutSystemsUILiveStyleGuide/Homepage.aspx
+            (https://outsystemsui.outsystems.com/WebStyleGuidePreview/Iframe.aspx
         - "How to Add Video to Your Applications": 
             https://success.outsystems.com/Documentation/Development_FAQs/How_to_Add_Video_to_Your_Applications            
 - develop/ui/patterns/web/utilities/separator.md:

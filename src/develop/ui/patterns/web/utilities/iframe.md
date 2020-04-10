@@ -5,7 +5,7 @@ summary: Iframe displays information from other apps on the screen in small prev
 
 # Iframe
  
- You can use the Iframe UI Pattern to display information from other applications on the screen, as a small preview. For example, the Iframe UI pattern is often used to insert content from another source, such as an advertisement, into an application.
+ You can use the Iframe UI Pattern to display information from other apps, on the screen, in bite-size previews. 
 
 **How to use the Iframe UI Pattern**
 
@@ -15,11 +15,11 @@ summary: Iframe displays information from other apps on the screen in small prev
     
     ![](<images/iframe-image-6.png>)
       
-1. From the Toolbox, drag the Iframe widget onto your application’s screen.
+1. From the Toolbox, drag the Iframe widget into the Main Content area of your application's screen.
 
-    ![](<images/iframe-image-1.png>)
+    ![](<images/iframe-image-7.png>)
 
-1. On the **Properties** tab, set the relevant properties. 
+1. On the **Properties** tab, set the relevant properties, for example, the Iframe URL, its title, as well as its width and height.
 
     ![](<images/iframe-image-5.png>)
 
@@ -27,12 +27,12 @@ After following these steps and publishing the module, you can test the pattern 
 
 ## Properties
 
-| **Property** |  **Description** |  **Usage** |
-|---|---|---|
-| SourceURL (Text): Mandatory   | The target URL that loads on the Iframe. | 
-| Title (Text): Optional | Iframe title.|
-| Height (Text): Optional  | Iframe height (default is 100%).|
-| Width (Text): Optional | Iframe width (default is 100%). |
+| **Property** |  **Description** |
+|---|---|
+| SourceURL (Text): Mandatory   | The target URL that loads on the Iframe.<p>Examples<ul><li> </li><li> </li></ul></p> | 
+| Title (Text): Optional | Iframe title.<p>Examples<ul><li> </li><li> </li></ul></p>|
+| Height (Text): Optional  | Iframe height (default is 100%).<p>Examples<ul><li> </li><li> </li></ul></p>|
+| Width (Text): Optional | Iframe width (default is 100%). <p>Examples<ul><li> </li><li> </li></ul></p>|
   
-## See also
+<!--- ## See also
 * OutSystems UI Live Style Guide: [Iframe](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Iframe.aspx)

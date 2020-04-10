@@ -5,7 +5,7 @@ summary: FlipContent prioritizes information display, keeping the interface uncl
 
 # Flip Content
 
- The Flip Content UI Pattern allows you to prioritize information display by showing critical information first, revealing more details with a flip, while keeping the interface uncluttered. 
+ You can use the Flip Content UI Pattern to display information that when, for example, is clicked, flips and displays different information. 
 
    ![](<images/flipcontent-image-1.gif?width=500>)
 
@@ -17,9 +17,15 @@ summary: FlipContent prioritizes information display, keeping the interface uncl
     
       ![](<images/flipcontent-image-13.png>)
       
-1. From the Toolbox, drag the Flip Content widget onto your application’s screen.
-1. Add the content for the front and back placeholders, for example, an image.
-1. On the **Properties** tab, set the relevant properties for the Flip Content block.
+1. From the Toolbox, drag the Flip Content widget into the Main Content area of your application's screen.
+
+    ![](<images/flipcontent-image-14.png>)
+
+1. Add content for the front and back placeholders, for example, an image.
+
+    ![](<images/flipcontent-image-15.png>)
+
+1. On the **Properties** tab, you can customize when the Flip Content widget is triggered, for example, when it is clicked.  
 
     ![](<images/flipcontent-image-11.png>)
 
@@ -27,12 +33,12 @@ After following these steps and publishing the module, you can test the pattern 
 
 ## Properties
 
-| **Property** |  **Description** |  **Usage** |
-|---|---|---|
-| Trigger (Trigger Identifier): Optional  | Set the trigger event for the flip, either a mouse hover or a click event.|
-| ExtendedClass (Text): Optional  |  Add custom style classes to the block. |  
+| **Property** |  **Description** | 
+|---|---|
+| Trigger (Trigger Identifier): Optional  | Define when the flip event is triggered. The predefined options are:<p><ul><li>Click</li><li>Hover</li><li>Manual</li></ul></p><p>Examples <ul><li>_Blank_ - The flip event is triggered when the hovers over it (default value)<li>_Entities.Trigger.Click_ - The flip event is triggered when the user clicks it</li><li>_Entities.Trigger.Hover_ -  The flip event is triggered when the user clicks it</li></ul></p>|  
+| ExtendedClass (Text): Optional  | Add custom style classes to the Flip Content UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Flip Content UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Flip Content UI styles being applied.</li></ul></p>|  
 
 
-## See also
+<!--- ## See also
 * OutSystems UI Live Style Guide: [Flip Content](https://outsystemsui.outsystems.com/WebStyleGuidePreview/FlipContent.aspx)
 * OutSystems UI Pattern Page: [Flip Content](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=37)
