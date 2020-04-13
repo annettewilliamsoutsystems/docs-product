@@ -15,11 +15,16 @@ You can use the Load on Visible UI Pattern to enhance the speed of your applicat
 
      ![](<images/loadonvisible-image-3.png>)
   
-1. From the Toolbox, drag the Load on Visible widget onto your application's screen. 
+1. From the Toolbox, drag the Load on Visible widget into the Main Content area of your application's screen.
+
+    ![](<images/loadonvisible-image-4.png>)
 
 1. Add the relevant content to the placeholders, for example, images.
 
+ ![](<images/loadonvisible-image-5.png>)
+
 After following these steps and publishing the module, you can test the pattern in your app.
 
+<!---  Added to yml file
 ## See Also
 * OutSystems UI Live Style Guide: [Load on Visible](https://outsystemsui.outsystems.com/WebStyleGuidePreview/LoadOnVisible.aspx)

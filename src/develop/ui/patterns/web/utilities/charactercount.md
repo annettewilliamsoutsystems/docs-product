@@ -11,8 +11,6 @@ You can use the Character Count UI Pattern to display the number of characters a
 
 **How to use the Character Count UI Pattern**
 
-The Character Count UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
-
 <!---1. In Service Studio, in the Toolbox, search for `Input`. 
 
     The Input widget is displayed.

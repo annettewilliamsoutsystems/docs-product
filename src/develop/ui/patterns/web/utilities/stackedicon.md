@@ -5,7 +5,7 @@ summary: StackedIcon expands the icon set and creates new graphical representati
 
 # Stacked Icon
 
-You can use the Stacked Icon Pattern to stack two icons on top of each other, expand the icon set, and to create new graphical representations of concepts.  
+You can use the Stacked Icon Pattern to stack two icons on top of each other.  
 
 ![](<images/stackedicon-image-8.png>)
 
@@ -17,9 +17,11 @@ You can use the Stacked Icon Pattern to stack two icons on top of each other, ex
 
    ![](<images/stackedicon-image-9.png>)
 
-  1. From the Toolbox, drag the Stacked Icon widget onto your application’s screen.
+1. From the Toolbox, drag the Stacked Icon widget into the Main Content area of your application's screen.
 
-1. On the **Properties** tab, set the relevant properties for the icons. 
+    ![](<images/stackedicon-image-10.png>)
+
+1. On the **Properties** tab, set any of the optional properties for the icons, for example, the size and color. 
 
     ![](<images/stackedicon-image-7.png>)
 
@@ -28,16 +30,18 @@ After following these steps and publishing the module, you can test the pattern 
 
 ## Properties
 
-| **Property** |  **Description** |  **Usage** |
-|---|---|---|
-| IconFront (IconName Identifier): Optional| The icon that displays in front of the other icon. |
-| IconBack (IconName Identifier): Optional | The icon that displays behind the icon.|
-| IconFrontColor (Color Identifier): Optional | Front icon color. | 
-| IconBackColor (Color Identifier): Optional | Back Icon color. |
-| IconSize (IconSize Identifier): Optional| Icon size. |
-| InvertSize (Boolean): Optional | Set to True to swap the icon sizes. |
-| ExtendedClass (Text): Optional |  Add custom style classes to the block. | 
+| **Property** |  **Description** |
+|---|---|
+| IconFront (IconName Identifier): Optional| The icon that displays in front of the other icon. Some of the predefined values include:<p><ul><li>Android</li><li>Bell</li><li>Camera</li><li>Desktop</li><li>Envelope</li><p>Examples <ul><li>_Blank_ - Displays a camera icon (default value)</li><li>_Entities.IconName.instagram_ - Displays the Instgram icon</li></ul></p>  |
+| IconBack (IconName Identifier): Optional | The icon that displays behind the icon. Some of the predefined values include:<p><ul><li>Circle</li><li>Square</li><li>Heart</li></ul></p><p>Examples <ul><li>_Blank_ - Displays a ban icon</li><li>_Entities.IconName.birthday_cake_ - Displays a birthday cake icon</li></ul></p> |
+| IconFrontColor (Color Identifier): Optional | Front icon color. Red, orange, yellow, lime, green, blue, violet, and pink are just some of predefined colors available for the badge. <p>Examples <ul><li>_Blank_ - Displays a black (Neutral10) icon (default value)</li><li>_Entities.Color.Red_ - Displays a red icon</li></ul></p>  | 
+| IconBackColor (Color Identifier): Optional | Back Icon color. Red, orange, yellow, lime, green, blue, violet, and pink are just some of predefined colors available for the badge. <p>Examples <ul><li>_Blank_ - displays a black (Neutral10) icon (default value)</li><li>_Entities.Color.Green_ - Displays a green icon</li></ul></p> |
+| IconSize (IconSize Identifier): Optional| Sets the icon size. The predefined values are:<p><ul><li>Size_2x</li><li>Size_3x</li><li>Size_4x</li><li>Size_5x</li><li>Percent_33</li></ul></p><p>Examples <ul><li>_Entities.IconSize.Size_2x_</li><li>_Entities.IconSize.Size_Percent_33_</li></ul></p>  |
+| InvertSize (Boolean): Optional | If set to True, the icon sizes are swapped. |
+| ExtendedClass (Text): Optional | Add custom style classes to the Separator UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Stacked Icon UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Stacked Icon UI styles being applied. | 
 
+
+<!---  Added to yml file
 
 ## See also
 * OutSystems UI Live Style Guide: [Stacked Icon](https://outsystemsui.outsystems.com/WebStyleGuidePreview/StackedIcon.aspx)

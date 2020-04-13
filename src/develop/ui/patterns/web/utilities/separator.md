@@ -17,19 +17,23 @@ You can use the Separator UI Pattern to separate content clearly and ease visual
 
     ![](<images/separator-image-5.png>)
 
-  1. From the Toolbox, drag the Separator widget onto your application’s screen.
+  1. From the Toolbox, drag the Separator widget into the Main Content area of your application's screen.
+
+      ![](<images/separator-image-6.png>)
   
 After following these steps and publishing the module, you can test the pattern in your app.
 
 ## Properties
 
-| **Property** |  **Description** |  **Usage** | 
-|---|---|---|
-| Color (Color Identifier): Optional  | Set the color. |
-| Space (Space Identifier): Optional |Set the space around the separator line. | 
-| IsVertical (Boolean): Optional |If set to True, the separator line is vertical. |
-| ExtendedClass (Text): Optional |  Adds custom style classes to the block.|
+| **Property** |  **Description** | 
+|---|---|
+| Color (Color Identifier): Optional  | Set the color for the separator line. Red, orange, yellow, lime, green, blue, violet, and pink are just some of predefined colors available for the badge. <p>Examples <ul><li>_Blank_ - Displays a grey (Neutral4) line (default value)</li><li>_Entities.Color.Red_ - Displays a red line</li></ul></p> |
+| Space (Space Identifier): Optional |Set the space around the separator line. The predefined vales are: <p> <ul><li>None</li><li>Extra small</li><li>Small</li><li>Base</li><li>Medium</li><li>Large</li><li>Extra large</li><li>Extra extra large</li><p>Examples <ul><li>_Blank_ - Displays a space of 16px around the line separator (default value)</li><li>_Entities.Space.Large_ - displays a large space around the line separator</li></ul></p> | 
+| IsVertical (Boolean): Optional |If set to False, the separator line displays horizontally (default). If set to True, the separator line displays vertically. |
+| ExtendedClass (Text): Optional | Add custom style classes to the Separator UI Pattern. You define your [custom style classes](../../../../../develop/ui/look-feel/css.md) in your application using CSS. <p>Examples <ul><li>_Blank_ - No custom styles are added (default value)</li><li>_''myclass''_ - adds the myclass style to the Separator UI styles being applied.<li>_''myclass1'' ''myclass2''_ - adds the _myclass1_ and _myclass2_ styles to the Separator UI styles being applied.</li></ul></p>|
 
+
+<!---  Added to yml file
 
 ## See also
 * OutSystems UI Live Style Guide: [Separator](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Separator.aspx)
