@@ -9,7 +9,9 @@ You can use the Responsive Table UI Pattern to display information in a logical 
 
 **How to use the Responsive Table UI Pattern**  
 
-The following example demonstrates how you can display the number of registered users on your platform.
+The Responsive Table UI Pattern usually displays dynamic information. In most cases, prior to using this pattern, you will need [to retrieve or update the Data](../../../../../develop/data/intro.md) that contains the information you want to display onscreen. You do this by using an [Action](../../../../../develop/logic/action-web.md). 
+
+The following example demonstrates how you can display the registered users on your platform.
 
 1. In Service Studio, in the Toolbox, search for `Responsive Table`. 
 
@@ -17,18 +19,14 @@ The following example demonstrates how you can display the number of registered 
 
     ![](<images/responsivetable-image-8.png>)
 
-1. From the Toolbox, drag the Responsive Table widget  into the Main Content area of your application's screen.
+1. From the Toolbox, drag the Responsive Table widget into the Main Content area of your application's screen.
 
     ![](<images/responsivetable-image-1.png>)
 
 1. Select the **Data** tab, and from the Entities tree, navigate to the **User** entity and drag it into the Responsive Table placeholder.
     
    ![](<images/responsivetable-image-10.png>)
-
-This creates an [aggregate](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Queries/Aggregate) that retrieves all of the users on your platform.
-       
-
-       
+      
 1. To reopen your screen, select the **Interface** tab, and double-click on your screen.
 
 1. On the **Properties** tab, set the **ResponseBehavior** property. In this example, the property is set so the table header stays fixed and the user can scroll through the rows.

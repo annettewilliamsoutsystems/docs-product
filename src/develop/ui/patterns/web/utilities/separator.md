@@ -20,7 +20,7 @@ You can use the Separator UI Pattern to separate content clearly and ease visual
   1. From the Toolbox, drag the Separator widget into the Main Content area of your application's screen.
 
       ![](<images/separator-image-6.png>)
-  
+
 After following these steps and publishing the module, you can test the pattern in your app.
 
 ## Properties

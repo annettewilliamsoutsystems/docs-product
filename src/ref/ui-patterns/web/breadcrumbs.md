@@ -26,6 +26,12 @@ summary:
 
     ![](<images/breadcrumbs-image-4.png>)
 
+## Additional notes
+
+The Line Separator property of the ListRecords widget should be set to **None**.
+
+![](<images/breadcrumbs-image-5.png>)
+
  ## See also
 
 * OutSystems UI Pattern Documentation: [Breadcrumbs](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Patterns/Using_Web_Patterns/Navigation/Breadcrumbs)
