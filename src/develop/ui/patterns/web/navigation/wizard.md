@@ -91,11 +91,11 @@ The following example demonstrates how you can create a four step Wizard with na
            
     ![](images/wizard-image-19.png)
 
-    You have now created a condition that controls what is displayed on screen when the step is acive.
+    You have now created a condition that controls what is displayed on screen when the step is active.
 
-1. Repeat steps 1 and 2 for all of the Wizard Items. Replace **Condition** property with 2, 3, and 4 respectively.
+1. Repeat steps 1 and 2 for all of the Wizard Items. Replace the **Condition** property with 2, 3, and 4 respectively.
 
-1. In the top section (True) of If widgets, create the relevant content for each of the steps.
+1. In the top section (True) of the If widgets, create the relevant content for each of the steps.
 
      The following example shows a Shipping Details step that contains labels and input boxes.
 
@@ -111,31 +111,8 @@ The following example demonstrates how you can create a four step Wizard with na
     |---|---|---|
     | Label | "Previous"| "Next"|
     | Method | Navigate| Navigate|
-    | Destination  | Current Screen |  Current Screen|
-    | CurrentStep | CurrentStep - 1 | CurrentStep + 1
 
-    ![](images/wizard-image-15.png)    
-
-   You have now set the **On Click** behaviour for each of the buttons to:
-
-    * **navigate** to the **current screen**, and to
-    * update the value of the **CurrentStep** input parameter to the next (CurrentStep + 1) or previous step (CurrentStep - 1) in the Wizard.
-
-1. To display the **Previous** button when applicable, select the **Previous** button, right-click, and select **Enclose in If**.
-
-    ![](images/wizard-image-26.png) 
-
-1. On the **Properties** tab, in the **Condition** property, enter the following:
-
-   `CurrentStep > 1`
-
-    ![](images/wizard-image-17.png)
-
-    You have now created a condition that ensures that the user can never go below the number of steps in the wizard.
-       
-1. Repeat steps 3 and 4 for the **Next** button. Enter `CurrentStep < 4` as the **Condition** property. This ensures the **Next** button is only displayed when applicable, and the user can never go above the number of steps in the wizard.    
-
-1. To ensure that all of the information the user enters is passed from step to step, create a [screen action](../../../../logic/action-web.md#screen-actions) by selecting the **Next** button.
+1. To ensure that all of the information the user enters is passed from step to step, create a [screen action](../../../../logic/action-web.md#screen-actions) by selecting the **Next** button. 
 
 1. On the **Properties** tab, from the **Destination** drop-down, select **New Screen Action**.
 
@@ -145,7 +122,23 @@ The following example demonstrates how you can create a four step Wizard with na
 
     ![](images/wizard-image-21.png)
 
-1. Repeat steps 7 and 8 for the **Previous** button, setting the **Variable** property to ``CurrentStep`` and the **Value** property to ``CurrentStep - 1``.
+1. Repeat steps 4 and 5 for the **Previous** button, setting the **Variable** property to ``CurrentStep`` and the **Value** property to ``CurrentStep - 1``.
+
+
+1. To display the **Next** button when applicable, select the **Next** button, right-click, and select **Enclose in If**.
+
+    ![](images/wizard-image-26.png) 
+
+1. On the **Properties** tab, in the **Condition** property, enter the following:
+
+   `CurrentStep < 4`
+
+    ![](images/wizard-image-17.png)
+
+    You have now created a condition that ensures that the user can never go above the number of steps in the wizard.
+       
+1. Repeat steps 7 and 8 for the **Previous** button. Enter `CurrentStep > 1` as the **Condition** property. This ensures the **Previous** button is only displayed when applicable, and the user can never go below the number of steps in the wizard.    
+
 
 After following all of the steps in each of the sections, you can publish the module, and test the Wizard in your app.
 

@@ -9,7 +9,7 @@ You can use the Lightbox Image UI Pattern to open smaller thumbnail images in fu
 
 ![](<images/lightboxweb-image-11.png>)
 
-**How to use the Lighbox UI Pattern**
+**How to use the Lightbox Image UI Pattern**
 
 1. In Service Studio, in the Toolbox, search for `Lightbox Image`. 
 
@@ -21,11 +21,18 @@ You can use the Lightbox Image UI Pattern to open smaller thumbnail images in fu
    
     ![](<images/lightboximage-image-13.png>)
 
-1. . Select the Image widget, and on the **Properties** tab, set the **Type** property for the Image.
+1. From the Toolbox, drag the [Image widget](../../../../../ref/lang/auto/Class.Image%Widget.final.md) into the Lightbox Image widget. 
 
-    Note: In this example, the property type is set to **Local Image**. You can also choose **External URL** or **Binary Data**.
+1. Select the image you want to display. In this example, we use the default OutSystems UI Images
 
-      ![](<images/lightboximage-image-8.png>)
+
+
+
+Note: In this example, the property type is set to **Local Image**. You can also choose **External URL** or **Binary Data**. 
+
+[Database Image](../../../../../develop/ui/image/display-image.md)
+
+
         
 5. From the **Image** property drop-down, select or import an image.
 

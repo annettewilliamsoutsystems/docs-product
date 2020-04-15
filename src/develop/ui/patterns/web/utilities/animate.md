@@ -18,8 +18,8 @@ You can use the Animate UI Pattern to create animations within your app. This UI
     ![](<images/animate-image-11.png>)
 
 1. From the Toolbox, drag the Animate widget into the Main Content area of your application's screen.
-    
-    [](<images/animate-image-1.png>)
+
+    ![](<images/animate-image-1.png>)
 
 1. On the **Properties** tab, set the relevant properties, for example, where you want the animation to enter and leave the screen.
 
