@@ -68,7 +68,7 @@ The following example demonstrates how you can create a four step Wizard with na
 
 1. In the expression editor, enter the following expression:
 
-    ` If(CurrentStep = 1, Entities.Step.Active,If(CurrentStep > 1, Entities.Step.Past, Entities.Step.Next)) `
+    `If(CurrentStep = 1, Entities.Step.Active,If(CurrentStep > 1, Entities.Step.Past, Entities.Step.Next))`
 
     ![](images/wizard-image-16.png)
 

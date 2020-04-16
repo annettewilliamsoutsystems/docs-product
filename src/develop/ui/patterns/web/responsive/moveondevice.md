@@ -11,23 +11,36 @@ You can use the Move on Device UI Pattern to define the placement of information
 
 **How to use the Move on Device UI Pattern**  
 
-**Prerequisite**: You have added containers to your application. 
+1. In Service Studio, in the Toolbox, search for `Container`. 
 
-1. In Service Studio, in the Toolbox, search for `Move on Device`. 
-
-    The Move on Device widget is displayed.
+    The Container widget is displayed.
     
-    ![](<images/moveondevice-image-4.png>)
+    ![](<images/moveondevice-image-6.png>)
 
-1. From the Toolbox, drag the Move on Device widget into the Container area of your application's screen.
+1. From the Toolbox, drag the Container widget into the Main Content area of your application's screen.
+    
+    ![](<images/moveondevice-image-7.png>)
+
+1. On the **Properties** tab, enter the container name.
+
+    ![](<images/moveondevice-image-9.png>)
+
+1. Repeat steps 2 and 3 for as many containers as you need in your app. 
+
+1. From the Toolbox, drag the Move on Device widget into the Main Content area of your application's screen.
 
     ![](<images/moveondevice-image-5.png>)
 
-1. Add the required content to the Move on Device placeholder, for example, menu items or images. 
+1. Add the required content to the Move on Device placeholder. 
 
-1. On the **Properties** tab, set the target container IDs you want to move the content to.
+    In this example, we add an image by dragging the Image widget into Move on Device widget and selecting an image from the sample OutSystems UI images.
+
+    ![](<images/moveondevice-image-8.png>)
+
+1. To define where the image appears depending on the device, select the Move on Device widget, and on the **Properties** tab, set the PhoneWidgetId and TabletWidgetId properties.
 
     ![](<images/moveondevice-image-2.png>)
+
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -35,8 +48,8 @@ After following these steps and publishing the module, you can test the pattern 
 
 | **Properties** |  **Description** |
 |---|---|
-| PhoneWidgetId (Text): Optional  | Target container that displays this widget on phones. <p>Examples <ul><li>_Blank_ - </li><li>_Phone.Id_ - </li></ul></p>|
-| TabletWidgetId (Text): Optional | Target container that displays this widget on tablets.<p>Examples <p>Examples <ul><li>_Blank_ - </li><li>_Tablet.Id_ - </li></ul></p>||
+| PhoneWidgetId (Text): Optional  | Target container that displays this widget on phones. <p>Examples <ul><li>_Container1.Id_ - The content appears in this container when viewed on a phone</li></ul></p>|
+| TabletWidgetId (Text): Optional | Target container that displays this widget on tablets.<p>Examples  <ul><li>_Container2.Id_ - The content appears in this container when viewed on a tablet</li></ul></p>||
 
 
 
