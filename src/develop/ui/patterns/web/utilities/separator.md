@@ -17,9 +17,14 @@ You can use the Separator UI Pattern to separate content clearly and ease visual
 
     ![](<images/separator-image-5.png>)
 
-  1. From the Toolbox, drag the Separator widget into the Main Content area of your application's screen.
+1. From the Toolbox, drag the Separator widget into the Main Content area of your application's screen, where you want to separate content. In this example, we drag the widget in between an image and some text.
 
-      ![](<images/separator-image-6.png>)
+    ![](<images/separator-image-7.png>)
+
+1. On the **Properties** tab, set the relevant (optional) properties, for example, the colour and the amount of space separating the content.
+
+
+    ![](<images/separator-image-8.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
