@@ -31,9 +31,9 @@ You can use the Move on Device UI Pattern to define the placement of information
 
     ![](<images/moveondevice-image-5.png>)
 
-1. Add the required content to the Move on Device placeholder. 
+1. Add the required content to the Move on Device widget. 
 
-    In this example, we add an image by dragging the Image widget into Move on Device widget and selecting an image from the sample OutSystems UI images.
+    In this example, we add an image by dragging the Image widget into the Move on Device widget and selecting an image from the sample OutSystems UI images.
 
     ![](<images/moveondevice-image-8.png>)
 

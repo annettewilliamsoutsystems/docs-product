@@ -49,6 +49,8 @@ Line Separator for ListRecords should be **None**.
 
 ![](<images/gallery-image-4.png>)
 
+<!---## See also
+
 ## See also
 
 * OutSystems UI Live Style Guide: [Gallery](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Gallery.aspx)
