@@ -10,7 +10,7 @@ You can use the Master Detail Pattern to display a master list and the details f
 ![](images/masterdetail-preview.png)
 
 
-## How to use the Master Detail Pattern
+## How to use the Master Detail UI Pattern
 
 
 1. In Service Studio, in the Toolbox, search for `Master Detail`. 
@@ -19,8 +19,9 @@ You can use the Master Detail Pattern to display a master list and the details f
     
     ![](images/masterdetail-widget.png)
 
+1. From the Toolbox, drag the Master Detail widget into the Main Content area of your application's screen.
 
-1. From the Toolbox, drag the Master Detail widget onto your application's screen.
+     ![](images/masterdetail-image-1.png)
 
 1. Bind a List to the **ItemList** parameter and leverage the block events to change the content placeholder.
 

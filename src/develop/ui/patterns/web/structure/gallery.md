@@ -23,11 +23,11 @@ The Gallery UI Pattern usually displays dynamic information. In most cases, prio
 
     ![](<images/gallery-image-9.png>)
 
-1. Drag a list or static content into the Gallery widget.
+1. Drag a [List Record](<../../../../../ref/lang/auto/Class.List Records Widget.md>) or static content into the Gallery widget.
     
     ![](<images/gallery-image-1.png>)
 
-1. On the **Properties** tab, set the number of items for the desktop, tablet, and phone.
+1. On the **Properties** tab, you can set the number of items to display on each row for different device types.
     
     ![](<images/gallery-image-6.png>)
 
