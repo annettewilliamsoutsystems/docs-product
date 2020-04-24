@@ -21,7 +21,7 @@ You can use the Stacked Icon Pattern to stack two icons on top of each other.
 
     ![](<images/stackedicon-image-10.png>)
 
-1. On the **Properties** tab, set any of the optional properties for the icons, for example, the size and color. 
+1. On the **Properties** tab, set any of the optional properties for the icons, for example, the front and back icons as well as the size and color of the icon. 
 
     ![](<images/stackedicon-image-7.png>)
 
