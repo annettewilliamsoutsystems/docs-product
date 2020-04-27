@@ -27,7 +27,7 @@ You can use the Animate UI Pattern to create animations within your app. This UI
 
     ![](<images/animate-image-12.png>)
 
-1. Select the Animate widget, and on the **Properties** tab, set the relevant properties, for example, where you want the animation to enter and leave the screen and at what speed.
+1. Select the Animate widget, and on the **Properties** tab, set the relevant properties, for example, where you want the animation to enter and leave the screen and at what speed. 
 
     ![](<images/animate-image-2.png>)
 

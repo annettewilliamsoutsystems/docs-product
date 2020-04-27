@@ -71,6 +71,8 @@ See how the [Product Dashboard sample](https://silkui.outsystems.com/Samples_Mob
 
 ![](images/Sample_Product_Dashboard.png)
 
+<!--Added to yml file
+
 ## See also
 * OutSystems UI Live Style Guide: [Carousel](https://outsystemsui.outsystems.com/WebStyleGuidePreview/Carousel.aspx)
 * OutSystems UI Pattern Page: [Carousel](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=17)

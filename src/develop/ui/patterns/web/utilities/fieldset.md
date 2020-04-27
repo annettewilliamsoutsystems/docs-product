@@ -17,7 +17,7 @@ You can use the Fieldset UI Pattern to group and label related information, such
 
    ![](<images/fieldset-image-6.png>)
 
-1. From the Toolbox, drag the Fieldset widget widget into the Main Content area of your application's screen.
+1. From the Toolbox, drag the Fieldset widget into the Main Content area of your application's screen.
 
    ![](<images/fieldset-image-7.png>)
 

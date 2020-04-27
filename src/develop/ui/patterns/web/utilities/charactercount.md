@@ -30,7 +30,7 @@ You can use the Character Count UI Pattern to display the number of characters a
 
     ![](<images/charactercount-image-4.png>) -->
 
-**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Password Widget.final.md>) called MyInput and created a Local Variable called MyInputVariable with its Data Type set to Text.
+**Prerequisites:** You have created an [Input widget](<../../../../../ref/lang/auto/Class.Input Widget.md>) called MyInput and created a Local Variable called MyInputVariable with its Data Type set to Text.
 
 1. In Service Studio, in the Toolbox, search for `Character Count`. 
 
