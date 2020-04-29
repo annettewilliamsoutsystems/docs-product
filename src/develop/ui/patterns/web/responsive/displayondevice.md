@@ -20,12 +20,12 @@ You can use the Display on Device UI pattern to select what elements are display
 1. From the Toolbox, drag the Display on Device widget into the Main Content area of your application's screen.
 
     ![](<images/displayondevice-image-6.png>)
+    
+1. Add the relevant content to the placeholders inside the Display on Device widget, for example, images or counters. These are displayed on the device types you specified, and not shown for any other devices.
 
 1. On the **Properties** tab, from the **Behavior** drop-down list, choose the device types you want to display this widget on.
 
     ![](<images/displayondevice-image-2.png>)
-
-5. Add the relevant content to the placeholders inside the Display on Device widget, for example, images or counters. These are displayed on the device types you specified, and not shown for any other devices.
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
@@ -34,10 +34,4 @@ After following these steps and publishing the module, you can test the pattern 
 | **Property** |  **Description** |
 |---|---|
 | Behavior (DeviceResponsive Identifier): Mandatory | Select the device types upon which the content is displayed. The following are the predefined options available: <p><ul><li>DesktopOnly</li><li>DesktopAndTablet</li><li>TabletOnly</li><li>TabletAndPhone</li><li>PhoneOnly</li><li>AllDevices</li><p>Examples<ul><li>Entities.DeviceResponsive.DesktopOnly - content is only displayed on Desktop browsers only</li><li>Entities.DeviceResponsive.TabletAndPhone - content is displayed on Tablet and Phone browsers only</li></ul></p>|
-
-
-<!---  Added to yml file
-## See also
-* OutSystems UI Live Style Guide : [Display on Device](https://outsystemsui.outsystems.com/WebStyleGuidePreview/DisplayOnDevice.aspx)
-* OutSystems UI Pattern Page: [Display on Device](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=32)
 
