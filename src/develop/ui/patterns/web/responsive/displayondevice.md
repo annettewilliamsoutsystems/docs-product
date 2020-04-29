@@ -21,9 +21,15 @@ You can use the Display on Device UI pattern to select what elements are display
 
     ![](<images/displayondevice-image-6.png>)
     
-1. Add the relevant content to the placeholders inside the Display on Device widget, for example, images or counters. These are displayed on the device types you specified, and not shown for any other devices.
+1. Add the required content to the placeholders inside the Display on Device widget. 
+
+    In this example, we add images by dragging the Image widget into the Display on Device widget and selecting an image from the sample OutSystems UI images. 
+
+    ![](<images/displayondevice-image.png>)
 
 1. On the **Properties** tab, from the **Behavior** drop-down list, choose the device types you want to display this widget on.
+
+    These images are displayed on the device types you specify, and not shown for any other devices.
 
     ![](<images/displayondevice-image-2.png>)
 
