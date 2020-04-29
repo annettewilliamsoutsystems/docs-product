@@ -21,13 +21,13 @@ summary: FlipContent prioritizes information display, keeping the interface uncl
 
     ![](<images/flipcontent-image-14.png>)
 
-1. Add the required content for the front and back placeholders. 
+1. Add the required content for the front and back placeholders inside the Flip Content widget. 
 
-    In this example, we add images by dragging the Image widget into the front and back placeholders 
+    In this example, we add images by dragging the Image widget into the front and back placeholders in the Flip Content widget and selecting an image from the sample OutSystems UI images.
 
     ![](<images/flipcontent-image-15.png>)
 
-1. On the **Properties** tab, you can customize when the Flip Content widget is triggered, for example, when it is clicked.  
+1. On the **Properties** tab, from the **Trigger** drop-down, you can customize when the Flip Content widget is triggered, for example, when it is clicked.  
 
     ![](<images/flipcontent-image-11.png>)
 
