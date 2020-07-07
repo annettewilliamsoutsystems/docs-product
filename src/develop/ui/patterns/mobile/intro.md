@@ -9,7 +9,7 @@ Components and UI patterns specially designed to address common application use 
 
 ![](images/UI_Mobile_Patterns_1.png)
 
-OutSystems UI Mobile Framework offers you different patterns that you can drag and drop to the screen for a great mobile experience.
+The OutSystems UI Mobile Framework offers you different patterns that you can drag and drop to the app screen for a great mobile experience.
 
 * [Date Picker](<datepicker.md>)
 * [Carousel](<carousel.md>)
