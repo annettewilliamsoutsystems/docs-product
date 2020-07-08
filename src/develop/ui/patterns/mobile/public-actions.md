@@ -1,6 +1,6 @@
 ---
 tags: runtime-mobileandreactiveweb;  
-summary: 
+summary: Carousel Actions
 ---
 
 # Public Actions
@@ -9,7 +9,7 @@ summary:
 
 You can use the [Carousel](<carousel.md>) actions described below anywhere in OutSystems.
 
-![](images/Carousel_Actions.png)
+![](images/publicactions-1-ss.png)
 
 ### CarouselGoTo Action
 
@@ -25,7 +25,7 @@ Use this action to move to the previous element in the DOM.
 
 ### UpdateCarousel Action
 
-Use this action on the ListRemove action. The action destroys all the dots and recreated them in the DOM based on the number of elements on the Carousel.
+Use this action on the ListRemove action. The action deletes all of the dots and recreates them in the DOM based on the number of elements in the Carousel.
 
 ### ListRemove
 
@@ -35,26 +35,27 @@ To remove elements from the Carousel, create an action with the ListRemove and U
 
 You can use the [Stacked Cards](<stackedcards.md>) actions described below anywhere in OutSystems.
 
-![](images/StackedCards_Actions.png)
+
+![](images/publicactions-2-ss.png)
 
 ### SwipeLeft Action
 
-Calling this public action in relation to a button triggers the SwipeRight action and moves the card. You need to set the Stacked Cards ID (Widget ID).
+Calling this public action in relation to a button triggers the SwipeRight action and moves the card. You must set the Stacked Cards ID (Widget ID).
 
 ### SwipeRight Action
 
-Calling this public action in relation to a button triggers the SwipeRight action and moves the card. You need to set the Stacked Cards ID (Widget ID).
+Calling this public action in relation to a button triggers the SwipeRight action and moves the card. You must set the Stacked Cards ID (Widget ID).
 
 ### SwipeTop Action
 
-Calling this public action in relation to a button triggers the SwipeTop action and moves the card. You need to set the Stacked Cards ID (Widget ID).
+Calling this public action in relation to a button triggers the SwipeTop action and moves the card. You must set the Stacked Cards ID (Widget ID).
 
 ### UpdateStackedCards Action
 
-You must use this action on the ListRemove action. The action updates all cards and rearranges the order, scale, and opacity of each one of them.
+You must use this action on the ListRemove action. The action updates all cards and rearranges the order, scale, and opacity of each card.
 
 ### ListRemove
 
 To remove elements from the Stacked Cards, create an action with the ListRemove and UpdateCarousel actions (see the example below).
 
-![](images/ListRemove.png)
+![](images/publicactions-3-ss.png)
