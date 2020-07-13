@@ -186,7 +186,9 @@ There are more plugins coming soon, and you can contribute with your own on the 
 
 ## Debugging
 
-The Debugger is currently not available for PWAs. We advise you to use the debugging capabilities of your browser to troubleshoot any runtime issues with your PWA.
+To debug a PWA, emulate the app in Google Chrome. Go to the **Debugger** tab, and then in the **Debug Setup** select **Emulate using Chrome**.
+
+![Activating the PWA debugger](images/pwa-debug.png?width=750)
 
 ## Troubleshooting
 
@@ -197,6 +199,14 @@ Here are some notes that can help you in troubleshooting the PWA feature.
 Note that you need to republish your apps after the Platform Server upgrade for the new features to work correctly, as instructed in the Platform Server upgrade list. If you haven't done it already, republish the apps in the factory and then turn on the toggle **Distribute as PWA**.
 
 There is a potential workaround for the PWA toggle button to work without the republishing step, which is to republish the current module once and then try turning on the toggle **Distribute as PWA**. However, keep in mind that republishing the apps after the upgrade is a mandatory step, and skipping it can cause unintended effects.
+
+### I'm getting an invalid home URL for PWA
+
+If the PWA can't load because you're getting the URL that matches the URL of the environment, for example ` https://example.com/`, check if your set a home module for your app.
+
+Open the app details screen. If the **Test in browser button** is deactivated, the app doesn't have a module defined. Click the curly arrow icon on the right side of the module name to set that module as the home module.
+
+![Set a home module](images/set-home-module.png?width=600)
 
 ### There are runtime errors
 
@@ -234,3 +244,9 @@ Here are some suggestions to fix the issue:
 
 * Connect to Service Studio by entering your environment URL that begins with "https". For example, instead of connecting to `http://myenvironment.example.com`, connect to `https://myenvironment.example.com`. After that, retry enabling the PWA. You can change the environment you're signed in by clicking the URL in the lower right corner of Service Studio.
 * Check if you have a valid and properly configured SSL certificate. When you distribute a Mobile App, by a native build or as a PWA, you need the certificate for secure communication with the server. For more information see notes in [Enforce HTTPS Security](../../managing-the-applications-lifecycle/secure-the-applications/enforce-https-security.md).
+
+### The PWA debugging doesn't start
+
+The window **Waiting for application** stays open and nothing happens when you start the debugging of your PWA.
+
+To fix this issue, set the debugger to **Emulate using Chrome** before you click **Start debugging**. Note that the options **Android device** and **iOS device** of the debugger work only when you distribute your app as a native build, and can't work with an app you distribute as PWA.  
