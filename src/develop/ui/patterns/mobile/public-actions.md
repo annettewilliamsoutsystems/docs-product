@@ -7,7 +7,7 @@ summary: Carousel Actions
 
 ## Carousel
 
-You can use the [Carousel](<carousel.md>) actions described below anywhere in OutSystems.
+You can use the [Carousel](<interaction/carousel.md>) actions described below anywhere in OutSystems.
 
 ![](images/publicactions-1-ss.png)
 
@@ -33,7 +33,7 @@ To remove elements from the Carousel, create an action with the ListRemove and U
 
 ## Stacked Cards
 
-You can use the [Stacked Cards](<stackedcards.md>) actions described below anywhere in OutSystems.
+You can use the [Stacked Cards](<interaction/stackedcards.md>) actions described below anywhere in OutSystems.
 
 
 ![](images/publicactions-2-ss.png)
