@@ -25,7 +25,7 @@ This example shows you how to center align a user's name and initials.
    
 1. From the Toolbox, drag the User Initials pattern into the Align Center placeholder.
 
-1. On the **Properties** tab, in the Name property, enter a name. In this example, we enter **Scott Ritchie**.
+1. On the **Properties** tab, in the Name property, enter a name. In this example, we enter **Scott Richie**.
 
     ![](<images/aligncenter-4-ss.png>)
 
