@@ -9,6 +9,8 @@ summary: Inline SVG changes fill and stroke properties or animates the SVG paths
 
 You can use the Inline SVG UI Pattern to change fill and stroke properties or animate the SVG paths.
 
+![](<images/inlinesvg-4-ss.png>)
+
 **How to use the Inline SVG UI Pattern**
 
 1. In Service Studio, in the Toolbox, search for `Inline SVG`.

@@ -1537,6 +1537,10 @@
     - external:
         - "OutSystems UI Pattern": 
             https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=18
+- develop/ui/patterns/mobile/utilities/inlinesvg.md:
+    - external:
+        - "OutSystems UI Pattern": 
+            https://outsystemsui.outsystems.com/OutSystemsUIWebsite/PatternDetail?PatternId=132
 - develop/ui/patterns/mobile/utilities/margincontainer.md:
     - external:
         - "OutSystems UI Pattern": 
