@@ -2,14 +2,11 @@
 tags: runtime-mobileandreactiveweb;  
 summary: Inline SVG changes fill and stroke properties or animates the SVG paths.
 
-
 ---
 
 # Inline SVG
 
 You can use the Inline SVG UI Pattern to change fill and stroke properties or animate the SVG paths.
-
-![](<images/inlinesvg-4-ss.png>)
 
 **How to use the Inline SVG UI Pattern**
 
@@ -33,7 +30,11 @@ You can use the Inline SVG UI Pattern to change fill and stroke properties or an
     Sorry, your browser does not support inline SVG.  
     </svg>"``
 
+    ![](<images/inlinesvg-4-ss.png>)
+
 After following these steps and publishing the module, you can test the pattern in your app.
+
+
 
 Using the example above, the results are as follows:
 
@@ -46,10 +47,3 @@ Using the example above, the results are as follows:
 |---|---|
 | SVGCode (Text): Optional | SVG markup code that is appended onto the HTML.|
 | ExtendedClass (Text): Optional  | <p>Add custom style classes to the Inline SVG wrapper. You define your [custom style classes](../../../look-feel/css.md) in your application using CSS.</p> <p>Examples <ul><li>_Blank_ - No custom styles are added (default value).</li><li>_"myclass"_ - Adds the _myclass_ style to the Inline SVG UI styles being applied.</li><li>_"myclass1" "myclass2"_ - Adds the _myclass1_ and _myclass2_ styles to the Inline SVG UI styles being applied.</li></ul></p> |
-
-<!-- ## Hidden Properties
-| Property | Description |
-|---|---|
-| DesignMode | If True, content is displayed horizontally. This is the default. If False, the content is displayed vertically. |
-| CustomName | If True, content is displayed horizontally. This is the default. If False, the content is displayed vertically. |
-| CustomNameIsSuffix | If True, content is displayed horizontally. This is the default. If False, the content is displayed vertically. | -->
