@@ -17,19 +17,21 @@ You can use the Section UI Pattern to organize on-screen content into different 
 
     ![](<images/section-1-ss.png>) 
 
-1. To From the Toolbox, drag the Section widget into the Main Content area of your application's screen.
+1. To From the Toolbox, drag the **Section** widget into the **Main Content** area of your application's screen.
 
-    ![](<images/section-2-ss.png?width=800>)
+     ![](<images/section-2-ss.png?width=800>)
 
     By default, the Section widget contains Title and Content placeholders.
 
 1. Add your content to the placeholders.
 
-    In this example, we add a title to the Title placeholder as well as  text and a button to the Content placeholder. We also set the button to redirect the user to a new page when clicked.
+    In this example, we add a title to the Title placeholder and text and a button to the Content placeholder. We also set the button to redirect the user to a new page when clicked.
 
     ![](<images/section-3-ss.png?width=800>)
 
 1. On the **Properties** tab, you can customize the Section's look and feel by setting any of the (optional) properties.
+    
+    ![](<images/section-6-ss.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
