@@ -5,31 +5,45 @@ summary: Timeline Item indicates related events in chronological order.
 
 # Timeline Item
 
-You can use the Timeline Item UI Pattern to show related events in a chronological order, such as a user's upcoming, current, and past activities.
-
-![](<images/timelineitem-1-ss.png>)
+You can use the Timeline Item UI Pattern to show related events in a chronological order.
 
 **How to use the Timeline Item UI Pattern**
 
-1. In Service Studio, in the Toolbox, search for `Timeline Item`.
+In this example, we display movie information (from an existing excel) in chronological order.
 
-    The Timeline Item widget is displayed.
+1. In Service Studio, from the Toolbox, drag the **List** widget into the Main Content area of your application's screen.
+
+    ![](<images/timelineitem-1-ss.png>)
+
+1. From the Toolbox, drag the **Timeline Item** widget into the **List** widget.
 
     ![](<images/timelineitem-2-ss.png>)
 
-1. From the Toolbox, drag the Timeline widget onto your application's screen.
+    By default, the Timeline Item widget contains Left, Icon, Title, Content, and Right placeholders.  
 
-    ![](<images/timelineitem-3-ss.png?width=800>)
+1. Right-click your screen name and select **Fetch Data from Database**.
 
-    By default, the Timeline Item widget contains Left, Icon, Title, Content, and Right placeholders. You can add as many Timeline Item widgets as required.
+1. To add a database entity, click the screen, and from the **Select Source** pop-up, select the relevant database. In this example, we select **Excel_Movies**.  
 
-    In this example we add two more Timeline Item widgets.
+    ![](<images/timelineitem-3-ss.png>)
+
+    The **GetMovies** aggregate is automatically created.
+
+    ![](<images/timelineitem-4-ss.png>)
+
+1. Select the **List** widget, and on the **Properties** tab, set the **Source** property. In this example, we set it to **GetMovies.List**.
+
+    ![](<images/timelineitem-5-ss.png>)
 
 1. Set the required content in each of the placeholders.
 
-    In this example we add some icons and text.
+    In this example add an expression to each of the placeholders.
+    - Left: ``GetMovies.List.Current.Year``
+    - Title: ``GetMovies.List.Current.Title``
+    - Right: 
+    ``GetMovies.List.Current.PlotSummary``
 
-    ![](<images/timelineitem-4-ss.png>)
+    ![](<images/timelineitem-6-ss.png>)
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
