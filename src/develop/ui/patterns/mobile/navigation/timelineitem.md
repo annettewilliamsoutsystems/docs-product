@@ -9,7 +9,7 @@ You can use the Timeline Item UI Pattern to show related events in a chronologic
 
 **How to use the Timeline Item UI Pattern**
 
-In this example, we display movie information (from an existing excel) in chronological order.
+This example displays movie information (from an existing excel) in chronological order.
 
 1. In Service Studio, from the Toolbox, drag the **List** widget into the Main Content area of your application's screen.
 
@@ -37,11 +37,11 @@ In this example, we display movie information (from an existing excel) in chrono
 
 1. Set the required content in each of the placeholders.
 
-    In this example add an expression to each of the placeholders.
+    In this example, we add an expression to each of the placeholders to display the movie year, title, and plot summary.
+
     - Left: ``GetMovies.List.Current.Year``
     - Title: ``GetMovies.List.Current.Title``
-    - Right: 
-    ``GetMovies.List.Current.PlotSummary``
+    - Right: ``GetMovies.List.Current.PlotSummary``
 
     ![](<images/timelineitem-6-ss.png>)
 
