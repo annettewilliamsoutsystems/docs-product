@@ -25,9 +25,19 @@ You can use the Pagination UI pattern to help users find a specific item on long
 
     By default, the Pagination widget contains Previous and Next placeholders with icons.
 
-1. On the **Properties** tab, set the (mandatory) **StartIndex**, **MaxRecords**, **TotalCount**, and **Handler** properties.
+1. Create 2 new local variables to hold the start index and the maximum records per page. In this example we create the **StartIndex** and **MaxRecords** variables.
 
-    ![](<images/pagination-4-ss.png>)
+    ![](<images/pagination-6-ss.png>)
+
+1. Select the Pagination  widget, and on the **Properties** tab, set the  **StartIndex** and **MaxRecords** properties to the newly created variables.
+
+    ![](<images/pagination-7-ss.png>)
+
+1. Staying on the Properties tab, set the **TotalCount** property. In this example we set it to the total number of records fetched in the **GetApplications** aggregate that is the source of the table. 
+
+    ![](<images/pagination-8-ss.png>)
+
+6. 
 
 After following these steps and publishing the module, you can test the pattern in your app.
 
